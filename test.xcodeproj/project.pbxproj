@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2617E8CD1DCFF2F50063C161 /* sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CC1DCFF2F50063C161 /* sort.m */; };
 		26FC30061DC021B8006688E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30051DC021B8006688E5 /* main.m */; };
 		26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30081DC021BC006688E5 /* AppDelegate.m */; };
 		26FC300C1DC021BC006688E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC300B1DC021BC006688E5 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		26FC30141DC021BC006688E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FC30121DC021BC006688E5 /* LaunchScreen.storyboard */; };
 		26FC301F1DC021BC006688E5 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC301E1DC021BC006688E5 /* testTests.m */; };
 		26FC302A1DC021BC006688E5 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30291DC021BC006688E5 /* testUITests.m */; };
+		26FC303A1DC02398006688E5 /* SVProtocalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30391DC02398006688E5 /* SVProtocalView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2617E8CB1DCFF2F50063C161 /* sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
+		2617E8CC1DCFF2F50063C161 /* sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sort.m; sourceTree = "<group>"; };
 		26FC30011DC021B8006688E5 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FC30051DC021B8006688E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26FC30071DC021BC006688E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		26FC30251DC021BC006688E5 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FC30291DC021BC006688E5 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		26FC302B1DC021BC006688E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FC30371DC021D4006688E5 /* NSObject_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_test.h; sourceTree = "<group>"; };
+		26FC30381DC02398006688E5 /* SVProtocalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProtocalView.h; sourceTree = "<group>"; };
+		26FC30391DC02398006688E5 /* SVProtocalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProtocalView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,11 @@
 				26FC30081DC021BC006688E5 /* AppDelegate.m */,
 				26FC300A1DC021BC006688E5 /* ViewController.h */,
 				26FC300B1DC021BC006688E5 /* ViewController.m */,
+				26FC30381DC02398006688E5 /* SVProtocalView.h */,
+				26FC30391DC02398006688E5 /* SVProtocalView.m */,
+				2617E8CB1DCFF2F50063C161 /* sort.h */,
+				2617E8CC1DCFF2F50063C161 /* sort.m */,
+				26FC30371DC021D4006688E5 /* NSObject_test.h */,
 				26FC300D1DC021BC006688E5 /* Main.storyboard */,
 				26FC30101DC021BC006688E5 /* Assets.xcassets */,
 				26FC30121DC021BC006688E5 /* LaunchScreen.storyboard */,
@@ -270,9 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2617E8CD1DCFF2F50063C161 /* sort.m in Sources */,
 				26FC300C1DC021BC006688E5 /* ViewController.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
 				26FC30061DC021B8006688E5 /* main.m in Sources */,
+				26FC303A1DC02398006688E5 /* SVProtocalView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +512,7 @@
 				26FC30301DC021BC006688E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26FC30311DC021BC006688E5 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				26FC30331DC021BC006688E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26FC30341DC021BC006688E5 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				26FC30361DC021BC006688E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

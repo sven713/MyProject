@@ -17,7 +17,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
     return YES;
+}
+
+- (void)noonSort:(NSMutableArray *)arr left:(NSInteger)left right:(NSInteger)right {
+    if (left >= right) {
+        return;
+    }
+    NSInteger i = left;
+    NSInteger j = right;
+    NSInteger point = [arr[left] integerValue];
+    while (i != j) {
+        while (i < j && point <= [arr[j] integerValue]) {
+            j --;
+        }
+        while (i < j && point >= [arr[i] integerValue]) {
+            i ++;
+        }
+        if (i < j) {
+            [arr exchangeObjectAtIndex:i withObjectAtIndex:j];
+        }
+    }
+    [arr exchangeObjectAtIndex:i withObjectAtIndex:left];
+    [self noonSort:arr left:left right:i - 1];
+    [self noonSort:arr left:i + 1 right:right];
+    NSLog(@"noonSort--%@",arr);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
