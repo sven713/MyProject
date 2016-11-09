@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SVFirstViewController.h"
+#import "SVSecondViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,35 +18,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
+    SVFirstViewController *vc1 = [[SVFirstViewController alloc]init];
+    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:vc1];
+    
+    SVSecondViewController *vc2 = [[SVSecondViewController alloc]init];
+    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:vc2];
+    
+    UITabBarController *tab = [[UITabBarController alloc]init];
+    self.window.rootViewController = tab;
+    tab.viewControllers = @[nav1, nav2];
+    
+    [self.window makeKeyAndVisible];
     
     return YES;
-}
-
-- (void)noonSort:(NSMutableArray *)arr left:(NSInteger)left right:(NSInteger)right {
-    if (left >= right) {
-        return;
-    }
-    NSInteger i = left;
-    NSInteger j = right;
-    NSInteger point = [arr[left] integerValue];
-    while (i != j) {
-        while (i < j && point <= [arr[j] integerValue]) {
-            j --;
-        }
-        while (i < j && point >= [arr[i] integerValue]) {
-            i ++;
-        }
-        if (i < j) {
-            [arr exchangeObjectAtIndex:i withObjectAtIndex:j];
-        }
-    }
-    [arr exchangeObjectAtIndex:i withObjectAtIndex:left];
-    [self noonSort:arr left:left right:i - 1];
-    [self noonSort:arr left:i + 1 right:right];
-    NSLog(@"noonSort--%@",arr);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

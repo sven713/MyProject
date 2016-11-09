@@ -1,0 +1,16 @@
+
+//
+//  SVWorldProject.pch
+//  test
+//
+//  Created by sven on 16/11/9.
+//  Copyright © 2016年 sven. All rights reserved.
+//
+
+#ifndef SVWorldProject_pch
+#define SVWorldProject_pch
+#import <objc/runtime.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SVWorldProject_pch */

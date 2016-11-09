@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */; };
+		260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AA71DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m */; };
 		2617E8CD1DCFF2F50063C161 /* sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CC1DCFF2F50063C161 /* sort.m */; };
+		2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */; };
+		2617E8D31DD2E4A90063C161 /* SVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8D21DD2E4A90063C161 /* SVFirstViewController.m */; };
 		26FC30061DC021B8006688E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30051DC021B8006688E5 /* main.m */; };
 		26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30081DC021BC006688E5 /* AppDelegate.m */; };
 		26FC300C1DC021BC006688E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC300B1DC021BC006688E5 /* ViewController.m */; };
@@ -37,8 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		260D4A9D1DD31FB600841DEC /* SVSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSecondViewController.h; sourceTree = "<group>"; };
+		260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSecondViewController.m; sourceTree = "<group>"; };
+		260D4AA51DD326EE00841DEC /* SVWorldProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWorldProject.pch; sourceTree = "<group>"; };
+		260D4AA61DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+UIControl_SVTouchEventInterval.h"; sourceTree = "<group>"; };
+		260D4AA71DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+UIControl_SVTouchEventInterval.m"; sourceTree = "<group>"; };
 		2617E8CB1DCFF2F50063C161 /* sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
 		2617E8CC1DCFF2F50063C161 /* sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sort.m; sourceTree = "<group>"; };
+		2617E8CE1DD2E4740063C161 /* SVBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVBaseViewController.h; sourceTree = "<group>"; };
+		2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVBaseViewController.m; sourceTree = "<group>"; };
+		2617E8D11DD2E4A90063C161 /* SVFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVFirstViewController.h; sourceTree = "<group>"; };
+		2617E8D21DD2E4A90063C161 /* SVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVFirstViewController.m; sourceTree = "<group>"; };
 		26FC30011DC021B8006688E5 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FC30051DC021B8006688E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26FC30071DC021BC006688E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260D4AA41DD3229900841DEC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				260D4AA61DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.h */,
+				260D4AA71DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		26FC2FF81DC021B8006688E5 = {
 			isa = PBXGroup;
 			children = (
@@ -108,10 +130,17 @@
 		26FC30031DC021B8006688E5 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				260D4AA41DD3229900841DEC /* Category */,
 				26FC30071DC021BC006688E5 /* AppDelegate.h */,
 				26FC30081DC021BC006688E5 /* AppDelegate.m */,
 				26FC300A1DC021BC006688E5 /* ViewController.h */,
 				26FC300B1DC021BC006688E5 /* ViewController.m */,
+				2617E8CE1DD2E4740063C161 /* SVBaseViewController.h */,
+				2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */,
+				2617E8D11DD2E4A90063C161 /* SVFirstViewController.h */,
+				2617E8D21DD2E4A90063C161 /* SVFirstViewController.m */,
+				260D4A9D1DD31FB600841DEC /* SVSecondViewController.h */,
+				260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */,
 				26FC30381DC02398006688E5 /* SVProtocalView.h */,
 				26FC30391DC02398006688E5 /* SVProtocalView.m */,
 				2617E8CB1DCFF2F50063C161 /* sort.h */,
@@ -130,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				26FC30051DC021B8006688E5 /* main.m */,
+				260D4AA51DD326EE00841DEC /* SVWorldProject.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -286,7 +316,11 @@
 				26FC300C1DC021BC006688E5 /* ViewController.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
 				26FC30061DC021B8006688E5 /* main.m in Sources */,
+				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
+				2617E8D31DD2E4A90063C161 /* SVFirstViewController.m in Sources */,
 				26FC303A1DC02398006688E5 /* SVProtocalView.m in Sources */,
+				260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */,
+				260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = test.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -442,6 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = test.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
