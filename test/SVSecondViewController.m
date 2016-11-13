@@ -8,6 +8,7 @@
 
 #import "SVSecondViewController.h"
 #import "UIControl+UIControl_SVTouchEventInterval.h"
+#import "SVThirdViewController.h"
 
 @interface SVSecondViewController ()
 
@@ -17,7 +18,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"第二个控制器";
     [self initUI];
 }
 
@@ -32,11 +32,12 @@
 }
 
 - (void)nextVC {
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        UIViewController *vc = [UIViewController new];
-        vc.view.backgroundColor = [UIColor whiteColor];
-        [self.navigationController pushViewController:[UIViewController new] animated:YES];
-    });
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        SVThirdViewController *vc = [SVThirdViewController new];
+    
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+//    });
 }
 
 @end

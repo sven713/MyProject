@@ -24,8 +24,20 @@
     SVFirstViewController *vc1 = [[SVFirstViewController alloc]init];
     UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:vc1];
     
+    UITabBarItem *item1 = [[UITabBarItem alloc]init];
+    item1.title = @"tab1";
+    item1.image = [UIImage imageNamed:@"iPhone_患者端首页_医院_未选中"];
+    
+    nav1.tabBarItem = item1;
+    
     SVSecondViewController *vc2 = [[SVSecondViewController alloc]init];
     UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:vc2];
+    
+    UITabBarItem *item2 = [[UITabBarItem alloc]init];
+    item2.title = @"tab2";
+    item2.image = [UIImage imageNamed:@"iPhone_患者端首页_医院_未选中"];
+    
+    nav2.tabBarItem = item2;
     
     UITabBarController *tab = [[UITabBarController alloc]init];
     self.window.rootViewController = tab;

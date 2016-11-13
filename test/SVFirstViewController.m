@@ -16,8 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor greenColor];
-    self.title = @"第一个控制器";
+    self.view.backgroundColor = [UIColor darkGrayColor];
 }
 
 
