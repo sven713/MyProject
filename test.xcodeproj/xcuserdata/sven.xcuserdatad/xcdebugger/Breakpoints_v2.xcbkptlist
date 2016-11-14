@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "test/PopVC/SVPopViewController.m"
-            timestampString = "500726131.507507"
+            timestampString = "500809526.015194"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "-dismiss"
             landmarkType = "5">
          </BreakpointContent>

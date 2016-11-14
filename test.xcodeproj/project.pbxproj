@@ -14,6 +14,8 @@
 		2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */; };
 		2617E8D31DD2E4A90063C161 /* SVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8D21DD2E4A90063C161 /* SVFirstViewController.m */; };
 		26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC11DD86C9F006C9C3A /* SVPopViewController.m */; };
+		26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC41DD88C2E006C9C3A /* SVPopView.m */; };
+		26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BD11DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m */; };
 		26FC30061DC021B8006688E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30051DC021B8006688E5 /* main.m */; };
 		26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30081DC021BC006688E5 /* AppDelegate.m */; };
 		26FC300C1DC021BC006688E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC300B1DC021BC006688E5 /* ViewController.m */; };
@@ -58,6 +60,10 @@
 		2617E8D21DD2E4A90063C161 /* SVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVFirstViewController.m; sourceTree = "<group>"; };
 		26AA4BC01DD86C9F006C9C3A /* SVPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPopViewController.h; sourceTree = "<group>"; };
 		26AA4BC11DD86C9F006C9C3A /* SVPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPopViewController.m; sourceTree = "<group>"; };
+		26AA4BC31DD88C2E006C9C3A /* SVPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPopView.h; sourceTree = "<group>"; };
+		26AA4BC41DD88C2E006C9C3A /* SVPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPopView.m; sourceTree = "<group>"; };
+		26AA4BD01DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+SVBlockAlertView.h"; sourceTree = "<group>"; };
+		26AA4BD11DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+SVBlockAlertView.m"; sourceTree = "<group>"; };
 		26FC30011DC021B8006688E5 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FC30051DC021B8006688E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26FC30071DC021BC006688E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +115,8 @@
 			children = (
 				260D4AA61DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.h */,
 				260D4AA71DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m */,
+				26AA4BD01DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.h */,
+				26AA4BD11DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -118,6 +126,8 @@
 			children = (
 				26AA4BC01DD86C9F006C9C3A /* SVPopViewController.h */,
 				26AA4BC11DD86C9F006C9C3A /* SVPopViewController.m */,
+				26AA4BC31DD88C2E006C9C3A /* SVPopView.h */,
+				26AA4BC41DD88C2E006C9C3A /* SVPopView.m */,
 			);
 			path = PopVC;
 			sourceTree = "<group>";
@@ -331,7 +341,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2617E8CD1DCFF2F50063C161 /* sort.m in Sources */,
+				26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */,
 				26FC300C1DC021BC006688E5 /* ViewController.m in Sources */,
+				26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
 				26FC30061DC021B8006688E5 /* main.m in Sources */,
