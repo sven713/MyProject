@@ -12,7 +12,10 @@
 		260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AAA1DD3464200841DEC /* SVThirdViewController.m */; };
 		2617E8CD1DCFF2F50063C161 /* sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CC1DCFF2F50063C161 /* sort.m */; };
 		2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */; };
-		2617E8D31DD2E4A90063C161 /* SVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8D21DD2E4A90063C161 /* SVFirstViewController.m */; };
+		26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */; };
+		26A4F7DF1DDAFB710025EBC5 /* SVFirstNavTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7DE1DDAFB710025EBC5 /* SVFirstNavTestVC.m */; };
+		26A4F7E21DDAFF720025EBC5 /* SVSecondNavTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7E11DDAFF720025EBC5 /* SVSecondNavTestVC.m */; };
+		26A4F7E51DDB00FC0025EBC5 /* SVThirdNavTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7E41DDB00FC0025EBC5 /* SVThirdNavTestVC.m */; };
 		26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC11DD86C9F006C9C3A /* SVPopViewController.m */; };
 		26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC41DD88C2E006C9C3A /* SVPopView.m */; };
 		26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BD11DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m */; };
@@ -56,8 +59,14 @@
 		2617E8CC1DCFF2F50063C161 /* sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sort.m; sourceTree = "<group>"; };
 		2617E8CE1DD2E4740063C161 /* SVBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVBaseViewController.h; sourceTree = "<group>"; };
 		2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVBaseViewController.m; sourceTree = "<group>"; };
-		2617E8D11DD2E4A90063C161 /* SVFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVFirstViewController.h; sourceTree = "<group>"; };
-		2617E8D21DD2E4A90063C161 /* SVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVFirstViewController.m; sourceTree = "<group>"; };
+		26A4F7D31DDAFA770025EBC5 /* SVFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVFirstViewController.h; sourceTree = "<group>"; };
+		26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVFirstViewController.m; sourceTree = "<group>"; };
+		26A4F7DD1DDAFB710025EBC5 /* SVFirstNavTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVFirstNavTestVC.h; sourceTree = "<group>"; };
+		26A4F7DE1DDAFB710025EBC5 /* SVFirstNavTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVFirstNavTestVC.m; sourceTree = "<group>"; };
+		26A4F7E01DDAFF720025EBC5 /* SVSecondNavTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSecondNavTestVC.h; sourceTree = "<group>"; };
+		26A4F7E11DDAFF720025EBC5 /* SVSecondNavTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSecondNavTestVC.m; sourceTree = "<group>"; };
+		26A4F7E31DDB00FC0025EBC5 /* SVThirdNavTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVThirdNavTestVC.h; sourceTree = "<group>"; };
+		26A4F7E41DDB00FC0025EBC5 /* SVThirdNavTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVThirdNavTestVC.m; sourceTree = "<group>"; };
 		26AA4BC01DD86C9F006C9C3A /* SVPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPopViewController.h; sourceTree = "<group>"; };
 		26AA4BC11DD86C9F006C9C3A /* SVPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPopViewController.m; sourceTree = "<group>"; };
 		26AA4BC31DD88C2E006C9C3A /* SVPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPopView.h; sourceTree = "<group>"; };
@@ -121,6 +130,28 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		26A4F7D21DDAFA3D0025EBC5 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				26A4F7D31DDAFA770025EBC5 /* SVFirstViewController.h */,
+				26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		26A4F7D61DDAFAAF0025EBC5 /* NavTest */ = {
+			isa = PBXGroup;
+			children = (
+				26A4F7DD1DDAFB710025EBC5 /* SVFirstNavTestVC.h */,
+				26A4F7DE1DDAFB710025EBC5 /* SVFirstNavTestVC.m */,
+				26A4F7E01DDAFF720025EBC5 /* SVSecondNavTestVC.h */,
+				26A4F7E11DDAFF720025EBC5 /* SVSecondNavTestVC.m */,
+				26A4F7E31DDB00FC0025EBC5 /* SVThirdNavTestVC.h */,
+				26A4F7E41DDB00FC0025EBC5 /* SVThirdNavTestVC.m */,
+			);
+			path = NavTest;
+			sourceTree = "<group>";
+		};
 		26AA4BBF1DD86C8F006C9C3A /* PopVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +186,8 @@
 		26FC30031DC021B8006688E5 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				26A4F7D61DDAFAAF0025EBC5 /* NavTest */,
+				26A4F7D21DDAFA3D0025EBC5 /* HomePage */,
 				26AA4BBF1DD86C8F006C9C3A /* PopVC */,
 				260D4AA41DD3229900841DEC /* Category */,
 				26FC30071DC021BC006688E5 /* AppDelegate.h */,
@@ -163,8 +196,6 @@
 				26FC300B1DC021BC006688E5 /* ViewController.m */,
 				2617E8CE1DD2E4740063C161 /* SVBaseViewController.h */,
 				2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */,
-				2617E8D11DD2E4A90063C161 /* SVFirstViewController.h */,
-				2617E8D21DD2E4A90063C161 /* SVFirstViewController.m */,
 				260D4A9D1DD31FB600841DEC /* SVSecondViewController.h */,
 				260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */,
 				260D4AA91DD3464200841DEC /* SVThirdViewController.h */,
@@ -341,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A4F7E21DDAFF720025EBC5 /* SVSecondNavTestVC.m in Sources */,
 				2617E8CD1DCFF2F50063C161 /* sort.m in Sources */,
 				26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */,
 				26FC300C1DC021BC006688E5 /* ViewController.m in Sources */,
@@ -349,11 +381,13 @@
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
 				26FC30061DC021B8006688E5 /* main.m in Sources */,
 				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
-				2617E8D31DD2E4A90063C161 /* SVFirstViewController.m in Sources */,
 				26FC303A1DC02398006688E5 /* SVProtocalView.m in Sources */,
 				260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */,
 				260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */,
 				26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */,
+				26A4F7DF1DDAFB710025EBC5 /* SVFirstNavTestVC.m in Sources */,
+				26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */,
+				26A4F7E51DDB00FC0025EBC5 /* SVThirdNavTestVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

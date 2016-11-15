@@ -7,6 +7,7 @@
 //
 
 #import "SVFirstViewController.h"
+#import "SVFirstNavTestVC.h"
 
 @interface SVFirstViewController ()
 @property (nonatomic, strong) UIImageView *imageView;
@@ -35,6 +36,18 @@
     self.imageView.backgroundColor = [UIColor greenColor];
     [self.view addSubview:self.imageView];
     [self downloadImage:@"https://img4.imgtn.bdimg.com/it/u=1249439673,470705047&fm=21&gp=0.jpg"];
+    
+    UIButton *navBtn = [[UIButton alloc]initWithFrame:CGRectMake(100, 500, 100, 100)];
+    navBtn.backgroundColor = [UIColor orangeColor];
+    [navBtn setTitle:@"导航栏测试" forState:UIControlStateNormal];
+    [self.view addSubview:navBtn];
+    [navBtn addTarget:self action:@selector(showNavTestVC) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)showNavTestVC {
+    SVFirstNavTestVC *vc = [SVFirstNavTestVC new];
+    vc.hidesBottomBarWhenPushed = YES; // 这个写push后面不能隐藏
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)NSOperationTest {
