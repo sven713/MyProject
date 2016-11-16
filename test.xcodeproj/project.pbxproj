@@ -25,6 +25,14 @@
 		267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47A01DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		267A47AD1DDC4ECD00C95939 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47A21DDC4ECD00C95939 /* View+MASAdditions.m */; };
 		267A47B01DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47AF1DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m */; };
+		267A47BF1DDC854900C95939 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47B41DDC854900C95939 /* FMDatabase.m */; };
+		267A47C01DDC854900C95939 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47B61DDC854900C95939 /* FMDatabaseAdditions.m */; };
+		267A47C11DDC854900C95939 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47B81DDC854900C95939 /* FMDatabasePool.m */; };
+		267A47C21DDC854900C95939 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47BA1DDC854900C95939 /* FMDatabaseQueue.m */; };
+		267A47C31DDC854900C95939 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47BD1DDC854900C95939 /* FMResultSet.m */; };
+		267A47C41DDC854900C95939 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 267A47BE1DDC854900C95939 /* Info.plist */; };
+		267A47C71DDC860300C95939 /* FMDBTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47C61DDC860300C95939 /* FMDBTestViewController.m */; };
+		267A47C91DDC888B00C95939 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 267A47C81DDC888B00C95939 /* libsqlite3.tbd */; };
 		26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */; };
 		26A4F7DF1DDAFB710025EBC5 /* SVFirstNavTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7DE1DDAFB710025EBC5 /* SVFirstNavTestVC.m */; };
 		26A4F7E21DDAFF720025EBC5 /* SVSecondNavTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7E11DDAFF720025EBC5 /* SVSecondNavTestVC.m */; };
@@ -102,6 +110,21 @@
 		267A47A31DDC4ECD00C95939 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		267A47AE1DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SVAutoCalcuCellHeight.h"; sourceTree = "<group>"; };
 		267A47AF1DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SVAutoCalcuCellHeight.m"; sourceTree = "<group>"; };
+		267A47B31DDC854900C95939 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		267A47B41DDC854900C95939 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		267A47B51DDC854900C95939 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		267A47B61DDC854900C95939 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		267A47B71DDC854900C95939 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		267A47B81DDC854900C95939 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		267A47B91DDC854900C95939 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		267A47BA1DDC854900C95939 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		267A47BB1DDC854900C95939 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		267A47BC1DDC854900C95939 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		267A47BD1DDC854900C95939 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		267A47BE1DDC854900C95939 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267A47C51DDC860300C95939 /* FMDBTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBTestViewController.h; sourceTree = "<group>"; };
+		267A47C61DDC860300C95939 /* FMDBTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBTestViewController.m; sourceTree = "<group>"; };
+		267A47C81DDC888B00C95939 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		26A4F7D31DDAFA770025EBC5 /* SVFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVFirstViewController.h; sourceTree = "<group>"; };
 		26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVFirstViewController.m; sourceTree = "<group>"; };
 		26A4F7DD1DDAFB710025EBC5 /* SVFirstNavTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVFirstNavTestVC.h; sourceTree = "<group>"; };
@@ -142,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267A47C91DDC888B00C95939 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +221,7 @@
 		267A47641DDC4CE400C95939 /* 3rdFramework */ = {
 			isa = PBXGroup;
 			children = (
+				267A47B21DDC854900C95939 /* fmdb */,
 				267A478B1DDC4ECD00C95939 /* Masonry */,
 			);
 			path = 3rdFramework;
@@ -231,6 +256,34 @@
 				267A47A31DDC4ECD00C95939 /* View+MASShorthandAdditions.h */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		267A47B11DDC851700C95939 /* FMDBTest */ = {
+			isa = PBXGroup;
+			children = (
+				267A47C51DDC860300C95939 /* FMDBTestViewController.h */,
+				267A47C61DDC860300C95939 /* FMDBTestViewController.m */,
+			);
+			path = FMDBTest;
+			sourceTree = "<group>";
+		};
+		267A47B21DDC854900C95939 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				267A47B31DDC854900C95939 /* FMDatabase.h */,
+				267A47B41DDC854900C95939 /* FMDatabase.m */,
+				267A47B51DDC854900C95939 /* FMDatabaseAdditions.h */,
+				267A47B61DDC854900C95939 /* FMDatabaseAdditions.m */,
+				267A47B71DDC854900C95939 /* FMDatabasePool.h */,
+				267A47B81DDC854900C95939 /* FMDatabasePool.m */,
+				267A47B91DDC854900C95939 /* FMDatabaseQueue.h */,
+				267A47BA1DDC854900C95939 /* FMDatabaseQueue.m */,
+				267A47BB1DDC854900C95939 /* FMDB.h */,
+				267A47BC1DDC854900C95939 /* FMResultSet.h */,
+				267A47BD1DDC854900C95939 /* FMResultSet.m */,
+				267A47BE1DDC854900C95939 /* Info.plist */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 		26A4F7D21DDAFA3D0025EBC5 /* HomePage */ = {
@@ -269,6 +322,7 @@
 		26FC2FF81DC021B8006688E5 = {
 			isa = PBXGroup;
 			children = (
+				267A47C81DDC888B00C95939 /* libsqlite3.tbd */,
 				26FC30031DC021B8006688E5 /* test */,
 				26FC301D1DC021BC006688E5 /* testTests */,
 				26FC30281DC021BC006688E5 /* testUITests */,
@@ -289,6 +343,7 @@
 		26FC30031DC021B8006688E5 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				267A47B11DDC851700C95939 /* FMDBTest */,
 				267A47641DDC4CE400C95939 /* 3rdFramework */,
 				267A475C1DDC487600C95939 /* TableViewCellHeightTest */,
 				26A4F7D61DDAFAAF0025EBC5 /* NavTest */,
@@ -453,6 +508,7 @@
 				267A47A41DDC4ECD00C95939 /* Info.plist in Resources */,
 				26FC30141DC021BC006688E5 /* LaunchScreen.storyboard in Resources */,
 				26FC30111DC021BC006688E5 /* Assets.xcassets in Resources */,
+				267A47C41DDC854900C95939 /* Info.plist in Resources */,
 				26FC300F1DC021BC006688E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,11 +542,14 @@
 				26FC300C1DC021BC006688E5 /* ViewController.m in Sources */,
 				267A47A51DDC4ECD00C95939 /* MASCompositeConstraint.m in Sources */,
 				267A47A91DDC4ECD00C95939 /* MASViewAttribute.m in Sources */,
+				267A47BF1DDC854900C95939 /* FMDatabase.m in Sources */,
+				267A47C71DDC860300C95939 /* FMDBTestViewController.m in Sources */,
 				267A47A61DDC4ECD00C95939 /* MASConstraint.m in Sources */,
 				26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
 				267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				267A47C11DDC854900C95939 /* FMDatabasePool.m in Sources */,
 				267A47A71DDC4ECD00C95939 /* MASConstraintMaker.m in Sources */,
 				26FC30061DC021B8006688E5 /* main.m in Sources */,
 				267A47A81DDC4ECD00C95939 /* MASLayoutConstraint.m in Sources */,
@@ -501,11 +560,14 @@
 				267A47AD1DDC4ECD00C95939 /* View+MASAdditions.m in Sources */,
 				267A47631DDC4ABB00C95939 /* SVAutoHeightCell.m in Sources */,
 				260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */,
+				267A47C21DDC854900C95939 /* FMDatabaseQueue.m in Sources */,
 				260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */,
 				26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */,
 				26A4F7DF1DDAFB710025EBC5 /* SVFirstNavTestVC.m in Sources */,
 				26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */,
+				267A47C31DDC854900C95939 /* FMResultSet.m in Sources */,
 				26A4F7E51DDB00FC0025EBC5 /* SVThirdNavTestVC.m in Sources */,
+				267A47C01DDC854900C95939 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

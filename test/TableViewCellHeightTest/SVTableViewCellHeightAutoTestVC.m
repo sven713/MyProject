@@ -8,8 +8,8 @@
 
 #import "SVTableViewCellHeightAutoTestVC.h"
 #import "SVAutoHeightCell.h"
-//#import "UITableViewCell+HDFTableViewCell.h"
 #import "UITableViewCell+SVAutoCalcuCellHeight.h"
+#import "FMDBTestViewController.h"
 
 @interface SVTableViewCellHeightAutoTestVC ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -50,6 +50,13 @@
     return self.dataSource.count;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 2) {
+        FMDBTestViewController *vc = [FMDBTestViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+}
+
 #pragma mark - Getter
 - (UITableView *)tableView {
     if (!_tableView) {
@@ -65,7 +72,7 @@
 
 -(NSArray *)dataSource {
     if (!_dataSource) {
-        _dataSource = @[@"一行",@"两行\n二行",@"三行\nss\n三行\n大师傅\ndasf\ndasf"];
+        _dataSource = @[@"一行",@"两行\n二行",@"三行\nss\n三行\n大师傅\ndasf\n push FMDB测试页面"];
     }
     return _dataSource;
 }

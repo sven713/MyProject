@@ -8,13 +8,13 @@
 
 #import "UITableViewCell+SVAutoCalcuCellHeight.h"
 #import <objc/runtime.h>
-static const void *hdf_cellLastViewkey = "hdf_cellLastView";
 
 @interface UITableViewCell ()
 @property (nonatomic, strong) UIView *hdf_cellLastView;
 @property (nonatomic, assign) CGFloat hdf_bottomOffsetToCellLastView;
 @end
 
+static const void *hdf_cellLastViewkey = "hdf_cellLastView";
 static const void *hdf_bottomOffsetToCellLastViewKey = "hdf_bottomOffsetToCellLastViewKey";
 
 @implementation UITableViewCell (SVAutoCalcuCellHeight)
