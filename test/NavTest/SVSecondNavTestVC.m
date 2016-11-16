@@ -43,13 +43,13 @@
 
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.navigationController.interactivePopGestureRecognizer.enabled = NO; // 在这设置禁用滑动返回会,从下一个页面返回会卡死 因为从下一页面返回到这个页面的时候,这个页面还没展现出来也会先调用willAppear,这里设置成不能滑动返回,然而从第三个页面回到这个页面的动画还没做完,所以就停住了,卡死了, 写在viewDidAppear就没问题,因为这个返回动画做完了才把这个可滑动返回置为no的
+//    self.navigationController.interactivePopGestureRecognizer.enabled = NO; // 在这设置禁用滑动返回会,从下一个页面返回会卡死 因为从下一页面返回到这个页面的时候,这个页面还没展现出来也会先调用willAppear,这里设置成不能滑动返回,然而从第三个页面回到这个页面的动画还没做完,所以就停住了,卡死了, 写在viewDidAppear就没问题,因为这个返回动画做完了才把这个可滑动返回置为no的
 //    [self.navigationController setNavigationBarHidden:YES animated:YES];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-//    self.navigationController.interactivePopGestureRecognizer.enabled = NO;
+    self.navigationController.interactivePopGestureRecognizer.enabled = NO;
 }
 
 - (void)viewWillDisappear:(BOOL)animated {

@@ -17,13 +17,13 @@ static NSString *str = @"哈哈哈";
     [self.delegate SVProtocalView:self logMSG:(@"sss")];
     }
     
-    int (^aBlock)(int) = ^(int a){
-        return 3;
-    };
-    
-    void (^bBlock)(int) = ^(int a){
-    
-    };
+//    int (^aBlock)(int) = ^(int a){
+//        return 3;
+//    };
+//    
+//    void (^bBlock)(int) = ^(int a){
+//    
+//    };
     
 }
 

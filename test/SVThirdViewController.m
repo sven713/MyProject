@@ -45,7 +45,7 @@
     UIAlertView *alert = [UIAlertView sv_showOKWithTitle:@"svAlert" message:@"svAlert" buttonTitles:@"title" block:^{
       NSLog(@"点击了按钮");
     }];
-    
+    [alert show];
 }
 
 

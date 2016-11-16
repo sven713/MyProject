@@ -12,6 +12,19 @@
 		260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AAA1DD3464200841DEC /* SVThirdViewController.m */; };
 		2617E8CD1DCFF2F50063C161 /* sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CC1DCFF2F50063C161 /* sort.m */; };
 		2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */; };
+		267A475F1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A475E1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m */; };
+		267A47631DDC4ABB00C95939 /* SVAutoHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47621DDC4ABB00C95939 /* SVAutoHeightCell.m */; };
+		267A47A41DDC4ECD00C95939 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 267A478C1DDC4ECD00C95939 /* Info.plist */; };
+		267A47A51DDC4ECD00C95939 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A478E1DDC4ECD00C95939 /* MASCompositeConstraint.m */; };
+		267A47A61DDC4ECD00C95939 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47911DDC4ECD00C95939 /* MASConstraint.m */; };
+		267A47A71DDC4ECD00C95939 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47931DDC4ECD00C95939 /* MASConstraintMaker.m */; };
+		267A47A81DDC4ECD00C95939 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47951DDC4ECD00C95939 /* MASLayoutConstraint.m */; };
+		267A47A91DDC4ECD00C95939 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47991DDC4ECD00C95939 /* MASViewAttribute.m */; };
+		267A47AA1DDC4ECD00C95939 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A479B1DDC4ECD00C95939 /* MASViewConstraint.m */; };
+		267A47AB1DDC4ECD00C95939 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A479D1DDC4ECD00C95939 /* NSArray+MASAdditions.m */; };
+		267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47A01DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		267A47AD1DDC4ECD00C95939 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47A21DDC4ECD00C95939 /* View+MASAdditions.m */; };
+		267A47B01DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47AF1DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m */; };
 		26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */; };
 		26A4F7DF1DDAFB710025EBC5 /* SVFirstNavTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7DE1DDAFB710025EBC5 /* SVFirstNavTestVC.m */; };
 		26A4F7E21DDAFF720025EBC5 /* SVSecondNavTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7E11DDAFF720025EBC5 /* SVSecondNavTestVC.m */; };
@@ -59,6 +72,36 @@
 		2617E8CC1DCFF2F50063C161 /* sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sort.m; sourceTree = "<group>"; };
 		2617E8CE1DD2E4740063C161 /* SVBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVBaseViewController.h; sourceTree = "<group>"; };
 		2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVBaseViewController.m; sourceTree = "<group>"; };
+		267A475D1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVTableViewCellHeightAutoTestVC.h; sourceTree = "<group>"; };
+		267A475E1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVTableViewCellHeightAutoTestVC.m; sourceTree = "<group>"; };
+		267A47611DDC4ABB00C95939 /* SVAutoHeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVAutoHeightCell.h; sourceTree = "<group>"; };
+		267A47621DDC4ABB00C95939 /* SVAutoHeightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAutoHeightCell.m; sourceTree = "<group>"; };
+		267A478C1DDC4ECD00C95939 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267A478D1DDC4ECD00C95939 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		267A478E1DDC4ECD00C95939 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		267A478F1DDC4ECD00C95939 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		267A47901DDC4ECD00C95939 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		267A47911DDC4ECD00C95939 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		267A47921DDC4ECD00C95939 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		267A47931DDC4ECD00C95939 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		267A47941DDC4ECD00C95939 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		267A47951DDC4ECD00C95939 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		267A47961DDC4ECD00C95939 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		267A47971DDC4ECD00C95939 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		267A47981DDC4ECD00C95939 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		267A47991DDC4ECD00C95939 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		267A479A1DDC4ECD00C95939 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		267A479B1DDC4ECD00C95939 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		267A479C1DDC4ECD00C95939 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		267A479D1DDC4ECD00C95939 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		267A479E1DDC4ECD00C95939 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		267A479F1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		267A47A01DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		267A47A11DDC4ECD00C95939 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		267A47A21DDC4ECD00C95939 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		267A47A31DDC4ECD00C95939 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		267A47AE1DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SVAutoCalcuCellHeight.h"; sourceTree = "<group>"; };
+		267A47AF1DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SVAutoCalcuCellHeight.m"; sourceTree = "<group>"; };
 		26A4F7D31DDAFA770025EBC5 /* SVFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVFirstViewController.h; sourceTree = "<group>"; };
 		26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVFirstViewController.m; sourceTree = "<group>"; };
 		26A4F7DD1DDAFB710025EBC5 /* SVFirstNavTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVFirstNavTestVC.h; sourceTree = "<group>"; };
@@ -126,8 +169,68 @@
 				260D4AA71DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m */,
 				26AA4BD01DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.h */,
 				26AA4BD11DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m */,
+				267A47AE1DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.h */,
+				267A47AF1DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		267A475C1DDC487600C95939 /* TableViewCellHeightTest */ = {
+			isa = PBXGroup;
+			children = (
+				267A47601DDC4A9100C95939 /* View */,
+				267A475D1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.h */,
+				267A475E1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m */,
+			);
+			path = TableViewCellHeightTest;
+			sourceTree = "<group>";
+		};
+		267A47601DDC4A9100C95939 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				267A47611DDC4ABB00C95939 /* SVAutoHeightCell.h */,
+				267A47621DDC4ABB00C95939 /* SVAutoHeightCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		267A47641DDC4CE400C95939 /* 3rdFramework */ = {
+			isa = PBXGroup;
+			children = (
+				267A478B1DDC4ECD00C95939 /* Masonry */,
+			);
+			path = 3rdFramework;
+			sourceTree = "<group>";
+		};
+		267A478B1DDC4ECD00C95939 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				267A478C1DDC4ECD00C95939 /* Info.plist */,
+				267A478D1DDC4ECD00C95939 /* MASCompositeConstraint.h */,
+				267A478E1DDC4ECD00C95939 /* MASCompositeConstraint.m */,
+				267A478F1DDC4ECD00C95939 /* MASConstraint+Private.h */,
+				267A47901DDC4ECD00C95939 /* MASConstraint.h */,
+				267A47911DDC4ECD00C95939 /* MASConstraint.m */,
+				267A47921DDC4ECD00C95939 /* MASConstraintMaker.h */,
+				267A47931DDC4ECD00C95939 /* MASConstraintMaker.m */,
+				267A47941DDC4ECD00C95939 /* MASLayoutConstraint.h */,
+				267A47951DDC4ECD00C95939 /* MASLayoutConstraint.m */,
+				267A47961DDC4ECD00C95939 /* Masonry.h */,
+				267A47971DDC4ECD00C95939 /* MASUtilities.h */,
+				267A47981DDC4ECD00C95939 /* MASViewAttribute.h */,
+				267A47991DDC4ECD00C95939 /* MASViewAttribute.m */,
+				267A479A1DDC4ECD00C95939 /* MASViewConstraint.h */,
+				267A479B1DDC4ECD00C95939 /* MASViewConstraint.m */,
+				267A479C1DDC4ECD00C95939 /* NSArray+MASAdditions.h */,
+				267A479D1DDC4ECD00C95939 /* NSArray+MASAdditions.m */,
+				267A479E1DDC4ECD00C95939 /* NSArray+MASShorthandAdditions.h */,
+				267A479F1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				267A47A01DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				267A47A11DDC4ECD00C95939 /* View+MASAdditions.h */,
+				267A47A21DDC4ECD00C95939 /* View+MASAdditions.m */,
+				267A47A31DDC4ECD00C95939 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 		26A4F7D21DDAFA3D0025EBC5 /* HomePage */ = {
@@ -186,6 +289,8 @@
 		26FC30031DC021B8006688E5 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				267A47641DDC4CE400C95939 /* 3rdFramework */,
+				267A475C1DDC487600C95939 /* TableViewCellHeightTest */,
 				26A4F7D61DDAFAAF0025EBC5 /* NavTest */,
 				26A4F7D21DDAFA3D0025EBC5 /* HomePage */,
 				26AA4BBF1DD86C8F006C9C3A /* PopVC */,
@@ -345,6 +450,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267A47A41DDC4ECD00C95939 /* Info.plist in Resources */,
 				26FC30141DC021BC006688E5 /* LaunchScreen.storyboard in Resources */,
 				26FC30111DC021BC006688E5 /* Assets.xcassets in Resources */,
 				26FC300F1DC021BC006688E5 /* Main.storyboard in Resources */,
@@ -373,15 +479,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A4F7E21DDAFF720025EBC5 /* SVSecondNavTestVC.m in Sources */,
+				267A47B01DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m in Sources */,
 				2617E8CD1DCFF2F50063C161 /* sort.m in Sources */,
+				267A47AB1DDC4ECD00C95939 /* NSArray+MASAdditions.m in Sources */,
 				26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */,
 				26FC300C1DC021BC006688E5 /* ViewController.m in Sources */,
+				267A47A51DDC4ECD00C95939 /* MASCompositeConstraint.m in Sources */,
+				267A47A91DDC4ECD00C95939 /* MASViewAttribute.m in Sources */,
+				267A47A61DDC4ECD00C95939 /* MASConstraint.m in Sources */,
 				26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
+				267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				267A47A71DDC4ECD00C95939 /* MASConstraintMaker.m in Sources */,
 				26FC30061DC021B8006688E5 /* main.m in Sources */,
+				267A47A81DDC4ECD00C95939 /* MASLayoutConstraint.m in Sources */,
+				267A475F1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m in Sources */,
+				267A47AA1DDC4ECD00C95939 /* MASViewConstraint.m in Sources */,
 				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
 				26FC303A1DC02398006688E5 /* SVProtocalView.m in Sources */,
+				267A47AD1DDC4ECD00C95939 /* View+MASAdditions.m in Sources */,
+				267A47631DDC4ABB00C95939 /* SVAutoHeightCell.m in Sources */,
 				260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */,
 				260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */,
 				26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */,

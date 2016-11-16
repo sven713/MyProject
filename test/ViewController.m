@@ -94,7 +94,7 @@ static NSString *str = @"哈哈哈";
     
     [self GCD2];
     
-    int (^aBlock)(BOOL a) = ^(BOOL a){return 3;};
+//    int (^aBlock)(BOOL a) = ^(BOOL a){return 3;};
     
     NSMutableArray *array = [NSMutableArray array];
     
