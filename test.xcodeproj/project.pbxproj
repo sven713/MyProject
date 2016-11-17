@@ -40,6 +40,7 @@
 		26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC11DD86C9F006C9C3A /* SVPopViewController.m */; };
 		26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC41DD88C2E006C9C3A /* SVPopView.m */; };
 		26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BD11DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m */; };
+		26E45F861DDDC5F9005A4092 /* TouchEventTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E45F851DDDC5F9005A4092 /* TouchEventTestViewController.m */; };
 		26FC30061DC021B8006688E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30051DC021B8006688E5 /* main.m */; };
 		26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30081DC021BC006688E5 /* AppDelegate.m */; };
 		26FC300C1DC021BC006688E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC300B1DC021BC006688E5 /* ViewController.m */; };
@@ -139,6 +140,8 @@
 		26AA4BC41DD88C2E006C9C3A /* SVPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPopView.m; sourceTree = "<group>"; };
 		26AA4BD01DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+SVBlockAlertView.h"; sourceTree = "<group>"; };
 		26AA4BD11DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+SVBlockAlertView.m"; sourceTree = "<group>"; };
+		26E45F841DDDC5F9005A4092 /* TouchEventTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchEventTestViewController.h; sourceTree = "<group>"; };
+		26E45F851DDDC5F9005A4092 /* TouchEventTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchEventTestViewController.m; sourceTree = "<group>"; };
 		26FC30011DC021B8006688E5 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FC30051DC021B8006688E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26FC30071DC021BC006688E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -319,6 +322,15 @@
 			path = PopVC;
 			sourceTree = "<group>";
 		};
+		26E45F831DDDC5E9005A4092 /* TouchEventTest */ = {
+			isa = PBXGroup;
+			children = (
+				26E45F841DDDC5F9005A4092 /* TouchEventTestViewController.h */,
+				26E45F851DDDC5F9005A4092 /* TouchEventTestViewController.m */,
+			);
+			path = TouchEventTest;
+			sourceTree = "<group>";
+		};
 		26FC2FF81DC021B8006688E5 = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +355,7 @@
 		26FC30031DC021B8006688E5 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				26E45F831DDDC5E9005A4092 /* TouchEventTest */,
 				267A47B11DDC851700C95939 /* FMDBTest */,
 				267A47641DDC4CE400C95939 /* 3rdFramework */,
 				267A475C1DDC487600C95939 /* TableViewCellHeightTest */,
@@ -566,6 +579,7 @@
 				26A4F7DF1DDAFB710025EBC5 /* SVFirstNavTestVC.m in Sources */,
 				26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */,
 				267A47C31DDC854900C95939 /* FMResultSet.m in Sources */,
+				26E45F861DDDC5F9005A4092 /* TouchEventTestViewController.m in Sources */,
 				26A4F7E51DDB00FC0025EBC5 /* SVThirdNavTestVC.m in Sources */,
 				267A47C01DDC854900C95939 /* FMDatabaseAdditions.m in Sources */,
 			);
