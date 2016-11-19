@@ -11,6 +11,7 @@
 #import "UITableViewCell+SVAutoCalcuCellHeight.h"
 #import "FMDBTestViewController.h"
 #import "TouchEventTestViewController.h"
+#import "KVOTestViewController.h"
 
 @interface SVTableViewCellHeightAutoTestVC ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -58,6 +59,9 @@
     }else if (indexPath.row == 0) {
         TouchEventTestViewController *vc = [TouchEventTestViewController new];
         [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 1) {
+        KVOTestViewController *vc = [KVOTestViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
@@ -76,7 +80,7 @@
 
 -(NSArray *)dataSource {
     if (!_dataSource) {
-        _dataSource = @[@"一行,响应事件test",@"两行\n二行",@"三行\nss\n三行\n大师傅\ndasf\n push FMDB测试页面"];
+        _dataSource = @[@"一行,响应事件test",@"kvoTest",@"三行\nss\n三行\n大师傅\ndasf\n push FMDB测试页面"];
     }
     return _dataSource;
 }

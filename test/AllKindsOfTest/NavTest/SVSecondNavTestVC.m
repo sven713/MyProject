@@ -30,6 +30,7 @@
     popBtn.backgroundColor = [UIColor orangeColor];
     [popBtn addTarget:self action:@selector(popAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:popBtn];
+    [popBtn setTitle:@"pop" forState:UIControlStateNormal];
 }
 
 - (void)popAction {
