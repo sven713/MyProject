@@ -38,6 +38,8 @@
 		268A73E61DDFE527002DE53E /* SVThirdNavTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A73E31DDFE527002DE53E /* SVThirdNavTestVC.m */; };
 		268A73EA1DDFE5C1002DE53E /* KVOTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A73E91DDFE5C1002DE53E /* KVOTestViewController.m */; };
 		268A73EE1DDFEF21002DE53E /* KVOCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A73ED1DDFEF21002DE53E /* KVOCat.m */; };
+		268A73F21DE02BB2002DE53E /* CoreGraphicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A73F11DE02BB2002DE53E /* CoreGraphicTestViewController.m */; };
+		268A73F61DE1562C002DE53E /* CoreGraphicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A73F51DE1562C002DE53E /* CoreGraphicView.m */; };
 		26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */; };
 		26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC11DD86C9F006C9C3A /* SVPopViewController.m */; };
 		26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC41DD88C2E006C9C3A /* SVPopView.m */; };
@@ -138,6 +140,10 @@
 		268A73E91DDFE5C1002DE53E /* KVOTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOTestViewController.m; sourceTree = "<group>"; };
 		268A73EC1DDFEF21002DE53E /* KVOCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOCat.h; sourceTree = "<group>"; };
 		268A73ED1DDFEF21002DE53E /* KVOCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOCat.m; sourceTree = "<group>"; };
+		268A73F01DE02BB2002DE53E /* CoreGraphicTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicTestViewController.h; sourceTree = "<group>"; };
+		268A73F11DE02BB2002DE53E /* CoreGraphicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicTestViewController.m; sourceTree = "<group>"; };
+		268A73F41DE1562C002DE53E /* CoreGraphicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicView.h; sourceTree = "<group>"; };
+		268A73F51DE1562C002DE53E /* CoreGraphicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicView.m; sourceTree = "<group>"; };
 		26A4F7D31DDAFA770025EBC5 /* SVFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVFirstViewController.h; sourceTree = "<group>"; };
 		26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVFirstViewController.m; sourceTree = "<group>"; };
 		26AA4BC01DD86C9F006C9C3A /* SVPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPopViewController.h; sourceTree = "<group>"; };
@@ -298,6 +304,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				268A73EF1DE02BA1002DE53E /* CoreGraphicTest */,
 				268A73E71DDFE5B1002DE53E /* KVOTest */,
 				268A73DD1DDFE526002DE53E /* NavTest */,
 			);
@@ -334,6 +341,25 @@
 				268A73ED1DDFEF21002DE53E /* KVOCat.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		268A73EF1DE02BA1002DE53E /* CoreGraphicTest */ = {
+			isa = PBXGroup;
+			children = (
+				268A73F31DE15618002DE53E /* View */,
+				268A73F01DE02BB2002DE53E /* CoreGraphicTestViewController.h */,
+				268A73F11DE02BB2002DE53E /* CoreGraphicTestViewController.m */,
+			);
+			path = CoreGraphicTest;
+			sourceTree = "<group>";
+		};
+		268A73F31DE15618002DE53E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				268A73F41DE1562C002DE53E /* CoreGraphicView.h */,
+				268A73F51DE1562C002DE53E /* CoreGraphicView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		26A4F7D21DDAFA3D0025EBC5 /* HomePage */ = {
@@ -590,6 +616,7 @@
 				267A47A91DDC4ECD00C95939 /* MASViewAttribute.m in Sources */,
 				267A47BF1DDC854900C95939 /* FMDatabase.m in Sources */,
 				267A47C71DDC860300C95939 /* FMDBTestViewController.m in Sources */,
+				268A73F61DE1562C002DE53E /* CoreGraphicView.m in Sources */,
 				268A73E51DDFE527002DE53E /* SVSecondNavTestVC.m in Sources */,
 				267A47A61DDC4ECD00C95939 /* MASConstraint.m in Sources */,
 				26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */,
@@ -617,6 +644,7 @@
 				26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */,
 				267A47C31DDC854900C95939 /* FMResultSet.m in Sources */,
 				26E45F861DDDC5F9005A4092 /* TouchEventTestViewController.m in Sources */,
+				268A73F21DE02BB2002DE53E /* CoreGraphicTestViewController.m in Sources */,
 				267A47C01DDC854900C95939 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
