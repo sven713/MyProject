@@ -8,6 +8,7 @@
 
 #import "SVFirstViewController.h"
 #import "SVFirstNavTestVC.h"
+#import "Person.h"
 
 @interface SVFirstViewController ()
 @property (nonatomic, strong) UIImageView *imageView;
@@ -19,6 +20,11 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor darkGrayColor];
     [self initUI];
+    
+    
+//    Person * person = [[Person alloc] init];
+//    [person retain];
+//    [person release];
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

@@ -33,7 +33,7 @@
     [self.view addSubview:btn];
     
     
-    UIButton *aleterBtn = [[UIButton alloc]initWithFrame:CGRectMake(100, 300, 100, 100)];
+    UIButton *aleterBtn = [[UIButton alloc]initWithFrame:CGRectMake(100, 300, 200, 100)];
     aleterBtn.backgroundColor = [UIColor orangeColor];
     [aleterBtn setTitle:@"带block的alertView" forState:UIControlStateNormal];
     [aleterBtn addTarget:self action:@selector(showBlockAlert) forControlEvents:UIControlEventTouchUpInside];
@@ -45,6 +45,9 @@
     UIAlertView *alert = [UIAlertView sv_showOKWithTitle:@"svAlert" message:@"svAlert" buttonTitles:@"title" block:^{
       NSLog(@"点击了按钮");
     }];
+    
+    UIAlertView *a = [[UIAlertView alloc]initWithTitle:@"hhh" message:@"hhh" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
+    
     [alert show];
 }
 

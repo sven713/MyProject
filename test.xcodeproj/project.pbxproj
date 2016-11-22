@@ -12,6 +12,8 @@
 		260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AAA1DD3464200841DEC /* SVThirdViewController.m */; };
 		2617E8CD1DCFF2F50063C161 /* sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CC1DCFF2F50063C161 /* sort.m */; };
 		2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */; };
+		2672854F1DE1BBC10040163D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672854E1DE1BBC10040163D /* Person.m */; };
+		267285551DE1C6440040163D /* OXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267285541DE1C6440040163D /* OXView.m */; };
 		267A475F1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A475E1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m */; };
 		267A47631DDC4ABB00C95939 /* SVAutoHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47621DDC4ABB00C95939 /* SVAutoHeightCell.m */; };
 		267A47A41DDC4ECD00C95939 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 267A478C1DDC4ECD00C95939 /* Info.plist */; };
@@ -40,6 +42,7 @@
 		268A73EE1DDFEF21002DE53E /* KVOCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A73ED1DDFEF21002DE53E /* KVOCat.m */; };
 		268A73F21DE02BB2002DE53E /* CoreGraphicTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A73F11DE02BB2002DE53E /* CoreGraphicTestViewController.m */; };
 		268A73F61DE1562C002DE53E /* CoreGraphicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A73F51DE1562C002DE53E /* CoreGraphicView.m */; };
+		268A73FA1DE18D09002DE53E /* NSOperationDownloadImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A73F91DE18D09002DE53E /* NSOperationDownloadImgViewController.m */; };
 		26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */; };
 		26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC11DD86C9F006C9C3A /* SVPopViewController.m */; };
 		26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC41DD88C2E006C9C3A /* SVPopView.m */; };
@@ -85,6 +88,10 @@
 		2617E8CC1DCFF2F50063C161 /* sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sort.m; sourceTree = "<group>"; };
 		2617E8CE1DD2E4740063C161 /* SVBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVBaseViewController.h; sourceTree = "<group>"; };
 		2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVBaseViewController.m; sourceTree = "<group>"; };
+		2672854D1DE1BBC10040163D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2672854E1DE1BBC10040163D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		267285531DE1C6440040163D /* OXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXView.h; sourceTree = "<group>"; };
+		267285541DE1C6440040163D /* OXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXView.m; sourceTree = "<group>"; };
 		267A475D1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVTableViewCellHeightAutoTestVC.h; sourceTree = "<group>"; };
 		267A475E1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVTableViewCellHeightAutoTestVC.m; sourceTree = "<group>"; };
 		267A47611DDC4ABB00C95939 /* SVAutoHeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVAutoHeightCell.h; sourceTree = "<group>"; };
@@ -144,6 +151,8 @@
 		268A73F11DE02BB2002DE53E /* CoreGraphicTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicTestViewController.m; sourceTree = "<group>"; };
 		268A73F41DE1562C002DE53E /* CoreGraphicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicView.h; sourceTree = "<group>"; };
 		268A73F51DE1562C002DE53E /* CoreGraphicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicView.m; sourceTree = "<group>"; };
+		268A73F81DE18D09002DE53E /* NSOperationDownloadImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationDownloadImgViewController.h; sourceTree = "<group>"; };
+		268A73F91DE18D09002DE53E /* NSOperationDownloadImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationDownloadImgViewController.m; sourceTree = "<group>"; };
 		26A4F7D31DDAFA770025EBC5 /* SVFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVFirstViewController.h; sourceTree = "<group>"; };
 		26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVFirstViewController.m; sourceTree = "<group>"; };
 		26AA4BC01DD86C9F006C9C3A /* SVPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPopViewController.h; sourceTree = "<group>"; };
@@ -304,6 +313,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				268A73F71DE18CDE002DE53E /* NSOperationDownLoadImage */,
 				268A73EF1DE02BA1002DE53E /* CoreGraphicTest */,
 				268A73E71DDFE5B1002DE53E /* KVOTest */,
 				268A73DD1DDFE526002DE53E /* NavTest */,
@@ -362,11 +372,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		268A73F71DE18CDE002DE53E /* NSOperationDownLoadImage */ = {
+			isa = PBXGroup;
+			children = (
+				268A73F81DE18D09002DE53E /* NSOperationDownloadImgViewController.h */,
+				268A73F91DE18D09002DE53E /* NSOperationDownloadImgViewController.m */,
+			);
+			path = NSOperationDownLoadImage;
+			sourceTree = "<group>";
+		};
 		26A4F7D21DDAFA3D0025EBC5 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
 				26A4F7D31DDAFA770025EBC5 /* SVFirstViewController.h */,
 				26A4F7D41DDAFA770025EBC5 /* SVFirstViewController.m */,
+				267285531DE1C6440040163D /* OXView.h */,
+				267285541DE1C6440040163D /* OXView.m */,
+				2672854D1DE1BBC10040163D /* Person.h */,
+				2672854E1DE1BBC10040163D /* Person.m */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -607,6 +630,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2672854F1DE1BBC10040163D /* Person.m in Sources */,
 				267A47B01DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m in Sources */,
 				2617E8CD1DCFF2F50063C161 /* sort.m in Sources */,
 				267A47AB1DDC4ECD00C95939 /* NSArray+MASAdditions.m in Sources */,
@@ -629,7 +653,9 @@
 				268A73EA1DDFE5C1002DE53E /* KVOTestViewController.m in Sources */,
 				26FC30061DC021B8006688E5 /* main.m in Sources */,
 				267A47A81DDC4ECD00C95939 /* MASLayoutConstraint.m in Sources */,
+				267285551DE1C6440040163D /* OXView.m in Sources */,
 				267A475F1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m in Sources */,
+				268A73FA1DE18D09002DE53E /* NSOperationDownloadImgViewController.m in Sources */,
 				267A47AA1DDC4ECD00C95939 /* MASViewConstraint.m in Sources */,
 				268A73E41DDFE527002DE53E /* SVFirstNavTestVC.m in Sources */,
 				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
