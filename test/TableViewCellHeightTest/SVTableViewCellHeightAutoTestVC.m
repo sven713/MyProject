@@ -14,6 +14,7 @@
 #import "KVOTestViewController.h"
 #import "CoreGraphicTestViewController.h"
 #import "NSOperationDownloadImgViewController.h"
+#import "NSNotificatinoTestViewController.h"
 
 @interface SVTableViewCellHeightAutoTestVC ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -68,6 +69,8 @@
         [self.navigationController pushViewController:[CoreGraphicTestViewController new] animated:YES];
     }else if (indexPath.row == 4) {
         [self.navigationController pushViewController:[NSOperationDownloadImgViewController new] animated:YES];
+    }else if (indexPath.row == 5) {
+        [self.navigationController pushViewController:[NSNotificatinoTestViewController new] animated:YES];
     }
 }
 
@@ -86,7 +89,7 @@
 
 -(NSArray *)dataSource {
     if (!_dataSource) {
-        _dataSource = @[@"一行,响应事件test",@"kvoTest",@"三行\nss\n三行\n大师傅\ndasf\n push FMDB测试页面",@"Core Graphic",@"NSOperation 下载图片"];
+        _dataSource = @[@"一行,响应事件test",@"kvoTest",@"三行\nss\n三行\n大师傅\ndasf\n push FMDB测试页面",@"Core Graphic",@"NSOperation 下载图片",@"NSNotification test"];
     }
     return _dataSource;
 }
