@@ -1,18 +1,18 @@
 //
-//  ObjRemoveObserveTestViewController.m
+//  MRCNotificationTestViewController.m
 //  test
 //
 //  Created by song ximing on 2016/11/27.
 //  Copyright © 2016年 sven. All rights reserved.
 //
 
-#import "ObjRemoveObserveTestViewController.h"
+#import "MRCNotificationTestViewController.h"
 #import <objc/runtime.h>
 
-@interface MRCObject : NSObject
+@interface MRCNewObject : NSObject
 
 @end
-@implementation MRCObject
+@implementation MRCNewObject
 
 - (id)init
 {
@@ -29,6 +29,7 @@
 
 - (void)dealloc
 {
+    [super dealloc];
     NSLog(@"MRCObject被释放了");
     
 //    Method a = class_getInstanceMethod([self class], @selector(removeObserver:));
@@ -43,11 +44,11 @@
 @end
 
 
-@interface ObjRemoveObserveTestViewController ()
+@interface MRCNotificationTestViewController ()
 
 @end
 
-@implementation ObjRemoveObserveTestViewController
+@implementation MRCNotificationTestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -57,9 +58,16 @@
 - (void)configUI {
     self.title = @"自定义类,不写remove observe";
     
-    MRCObject *obj = [[MRCObject alloc] init];
+    MRCNewObject *obj = [[MRCNewObject alloc] init];
+    [obj release];
     
     NSLog(@"发广播啦---");
     [[NSNotificationCenter defaultCenter]postNotificationName:@"removeTest" object:nil];
 }
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"发广播啦---");
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"removeTest" object:nil];
+}
+
 @end

@@ -16,6 +16,7 @@
 #import "NSOperationDownloadImgViewController.h"
 #import "NSNotificatinoTestViewController.h"
 #import "ObjRemoveObserveTestViewController.h"
+#import "MRCNotificationTestViewController.h"
 
 @interface SVTableViewCellHeightAutoTestVC ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -80,6 +81,8 @@
         [self.navigationController pushViewController:[NSNotificatinoTestViewController new] animated:YES];
     }else if (indexPath.row == 6) {
         [self.navigationController pushViewController:[ObjRemoveObserveTestViewController new] animated:YES];
+    }else if (indexPath.row == 7) {
+        [self.navigationController pushViewController:[MRCNotificationTestViewController new] animated:YES];
     }
 }
 
@@ -98,7 +101,7 @@
 
 -(NSArray *)dataSource {
     if (!_dataSource) {
-        _dataSource = @[@"一行,响应事件test",@"kvoTest",@"三行\nss\n三行\n大师傅\ndasf\n push FMDB测试页面",@"Core Graphic",@"NSOperation 下载图片",@"NSNotification test",@"不remove广播Test"];
+        _dataSource = @[@"一行,响应事件test",@"kvoTest",@"三行\n大师傅\ndasf\n push FMDB测试页面",@"Core Graphic",@"NSOperation 下载图片",@"NSNotification test",@"不remove广播Test",@"MRC 广播不remove test"];
     }
     return _dataSource;
 }
