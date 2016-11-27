@@ -15,6 +15,7 @@
 #import "CoreGraphicTestViewController.h"
 #import "NSOperationDownloadImgViewController.h"
 #import "NSNotificatinoTestViewController.h"
+#import "ObjRemoveObserveTestViewController.h"
 
 @interface SVTableViewCellHeightAutoTestVC ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -34,6 +35,11 @@
     self.title = @"自动计算cell行高";
     self.view.backgroundColor = [UIColor whiteColor];
     self.tableView.hidden = NO;
+}
+
+-(void)postNotification {
+    NSLog(@"发广播啦---");
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"removeTest" object:nil];
 }
 
 #pragma mark - TableView delegate datasource
@@ -70,7 +76,10 @@
     }else if (indexPath.row == 4) {
         [self.navigationController pushViewController:[NSOperationDownloadImgViewController new] animated:YES];
     }else if (indexPath.row == 5) {
+//        [self postNotification];
         [self.navigationController pushViewController:[NSNotificatinoTestViewController new] animated:YES];
+    }else if (indexPath.row == 6) {
+        [self.navigationController pushViewController:[ObjRemoveObserveTestViewController new] animated:YES];
     }
 }
 
@@ -89,7 +98,7 @@
 
 -(NSArray *)dataSource {
     if (!_dataSource) {
-        _dataSource = @[@"一行,响应事件test",@"kvoTest",@"三行\nss\n三行\n大师傅\ndasf\n push FMDB测试页面",@"Core Graphic",@"NSOperation 下载图片",@"NSNotification test"];
+        _dataSource = @[@"一行,响应事件test",@"kvoTest",@"三行\nss\n三行\n大师傅\ndasf\n push FMDB测试页面",@"Core Graphic",@"NSOperation 下载图片",@"NSNotification test",@"不remove广播Test"];
     }
     return _dataSource;
 }

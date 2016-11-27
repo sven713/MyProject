@@ -9,7 +9,7 @@
 #import "NSNotificationCenter+remove.h"
 
 @implementation NSNotificationCenter (remove)
--(void)removeObserver:(id)observer {
-    NSLog(@"----广播-移除了---%@",[observer class]);
-}
+//-(void)removeObserver:(id)observer {
+////    NSLog(@"----广播-移除了---%@",[observer class]);
+//}
 @end
