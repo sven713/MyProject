@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B727C7D1DE988B6006CE15E /* NSNotificatinoTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C7C1DE988B6006CE15E /* NSNotificatinoTestViewController.m */; };
+		0B727C801DEAB6D8006CE15E /* NSNotificationCenter+remove.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C7F1DEAB6D8006CE15E /* NSNotificationCenter+remove.m */; };
 		260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */; };
 		260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AA71DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m */; };
 		260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AAA1DD3464200841DEC /* SVThirdViewController.m */; };
@@ -80,6 +81,8 @@
 /* Begin PBXFileReference section */
 		0B727C7B1DE988B6006CE15E /* NSNotificatinoTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificatinoTestViewController.h; sourceTree = "<group>"; };
 		0B727C7C1DE988B6006CE15E /* NSNotificatinoTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificatinoTestViewController.m; sourceTree = "<group>"; };
+		0B727C7E1DEAB6D8006CE15E /* NSNotificationCenter+remove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+remove.h"; sourceTree = "<group>"; };
+		0B727C7F1DEAB6D8006CE15E /* NSNotificationCenter+remove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+remove.m"; sourceTree = "<group>"; };
 		260D4A9D1DD31FB600841DEC /* SVSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSecondViewController.h; sourceTree = "<group>"; };
 		260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSecondViewController.m; sourceTree = "<group>"; };
 		260D4AA51DD326EE00841DEC /* SVWorldProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWorldProject.pch; sourceTree = "<group>"; };
@@ -218,6 +221,8 @@
 			children = (
 				0B727C7B1DE988B6006CE15E /* NSNotificatinoTestViewController.h */,
 				0B727C7C1DE988B6006CE15E /* NSNotificatinoTestViewController.m */,
+				0B727C7E1DEAB6D8006CE15E /* NSNotificationCenter+remove.h */,
+				0B727C7F1DEAB6D8006CE15E /* NSNotificationCenter+remove.m */,
 			);
 			path = NSNotificationTest;
 			sourceTree = "<group>";
@@ -661,6 +666,7 @@
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
 				267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				268A73EE1DDFEF21002DE53E /* KVOCat.m in Sources */,
+				0B727C801DEAB6D8006CE15E /* NSNotificationCenter+remove.m in Sources */,
 				267A47C11DDC854900C95939 /* FMDatabasePool.m in Sources */,
 				267A47A71DDC4ECD00C95939 /* MASConstraintMaker.m in Sources */,
 				268A73EA1DDFE5C1002DE53E /* KVOTestViewController.m in Sources */,
