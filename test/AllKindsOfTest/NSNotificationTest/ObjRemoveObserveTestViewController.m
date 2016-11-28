@@ -7,7 +7,7 @@
 //
 
 #import "ObjRemoveObserveTestViewController.h"
-#import <objc/runtime.h>
+#import "NotificationTest.h"
 
 @interface MRCObject : NSObject
 
@@ -30,14 +30,7 @@
 - (void)dealloc
 {
     NSLog(@"MRCObject被释放了");
-    
-//    Method a = class_getInstanceMethod([self class], @selector(removeObserver:));
-//    Method b = class_getInstanceMethod([self class], @selector(removeCall:));
-//    method_exchangeImplementations(a, b);
-}
 
-- (void)removeCall:(id)observe {
-    NSLog(@"调用了removeObserve方法--%@",[observe class]);
 }
 
 @end
@@ -57,8 +50,14 @@
 - (void)configUI {
     self.title = @"自定义类,不写remove observe";
     
-    MRCObject *obj = [[MRCObject alloc] init];
+//    MRCObject *obj = [[MRCObject alloc] init];
+    NotificationTest *testObj = [[NotificationTest alloc]init];
     
+    NSLog(@"发广播啦---");
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"removeTest" object:nil];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSLog(@"发广播啦---");
     [[NSNotificationCenter defaultCenter]postNotificationName:@"removeTest" object:nil];
 }

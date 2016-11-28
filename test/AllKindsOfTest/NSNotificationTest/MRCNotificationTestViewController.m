@@ -56,7 +56,7 @@
 }
 
 - (void)configUI {
-    self.title = @"自定义类,不写remove observe";
+    self.title = @"MRC自定义类,不写remove observe";
     
     MRCNewObject *obj = [[MRCNewObject alloc] init];
     [obj release];
