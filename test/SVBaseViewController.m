@@ -22,7 +22,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    NSLog(@"当前控制器的类:%@",[[self class] description]);
+    NSLog(@"当前进入的控制器:%@",[[self class] description]);
 }
 
 - (void)dealloc {

@@ -42,7 +42,7 @@
                   moduleName = "test"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/sven/Desktop/test/test/AllKindsOfTest/NSOperationDownLoadImage/NSOperationDownloadImgViewController.m"
-                  timestampString = "501909519.434162"
+                  timestampString = "502530193.229335"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "52"
@@ -57,7 +57,7 @@
                   moduleName = "test"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/sven/Desktop/test/test/AllKindsOfTest/NSOperationDownLoadImage/NSOperationDownloadImgViewController.m"
-                  timestampString = "501909519.437977"
+                  timestampString = "502530193.230176"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "52"
@@ -80,6 +80,22 @@
             startingLineNumber = "35"
             endingLineNumber = "35"
             landmarkName = "-touchesBegan:withEvent:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "test/AllKindsOfTest/NSNotificationTest/ObjRemoveObserveTestViewController.m"
+            timestampString = "502531015.389344"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-rotateImage"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

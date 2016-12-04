@@ -101,7 +101,7 @@
 
 -(NSArray *)dataSource {
     if (!_dataSource) {
-        _dataSource = @[@"一行,响应事件test",@"kvoTest",@"三行\n大师傅\ndasf\n push FMDB测试页面",@"Core Graphic",@"NSOperation 下载图片",@"NSNotification test",@"不remove广播Test",@"MRC 广播不remove test"];
+        _dataSource = @[@"一行,响应事件test",@"kvoTest",@"三行\n大师傅\ndasf\n push FMDB测试页面",@"Core Graphic",@"NSOperation 下载图片",@"NSNotification test",@"不remove广播Test-无限转圈",@"MRC 广播不remove test"];
     }
     return _dataSource;
 }
