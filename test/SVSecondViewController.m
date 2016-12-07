@@ -10,9 +10,12 @@
 #import "UIControl+UIControl_SVTouchEventInterval.h"
 #import "SVThirdViewController.h"
 #import "SVTableViewCellHeightAutoTestVC.h"
+#import "Masonry.h"
+#import "GCDGroupTestViewController.h"
 
-@interface SVSecondViewController ()
+@interface SVSecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UIButton *showTableVeiw;
+@property (nonatomic, strong) UITableView *tableView; //!<入口tableView
 @end
 
 @implementation SVSecondViewController
@@ -37,6 +40,17 @@
     [self.showTableVeiw setTitle:@"自动计算cell高度" forState:UIControlStateNormal];
     self.showTableVeiw.titleLabel.font = [UIFont systemFontOfSize:14];
     [self.showTableVeiw addTarget:self action:@selector(showTableView) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
+    [self.view addSubview:self.tableView];
+    self.tableView.dataSource = self;
+    self.tableView.delegate = self;
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(self.showTableVeiw.mas_bottom);
+        make.left.right.mas_equalTo(0);
+        make.bottom.mas_equalTo(0);
+    }];
+    self.tableView.backgroundColor = [UIColor yellowColor];
 }
 
 - (void)nextVC {
@@ -52,6 +66,24 @@
     SVTableViewCellHeightAutoTestVC *vc = [[SVTableViewCellHeightAutoTestVC alloc]init];
     vc.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *ID = @"SVSecondViewControllerCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    [self.navigationController pushViewController:[GCDGroupTestViewController new] animated:YES];
 }
 
 @end

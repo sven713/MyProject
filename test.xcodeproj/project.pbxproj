@@ -17,6 +17,7 @@
 		260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AAA1DD3464200841DEC /* SVThirdViewController.m */; };
 		2617E8CD1DCFF2F50063C161 /* sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CC1DCFF2F50063C161 /* sort.m */; };
 		2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */; };
+		264D91AA1DF86B5C00FCA172 /* GCDGroupTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264D91A91DF86B5C00FCA172 /* GCDGroupTestViewController.m */; };
 		2672854F1DE1BBC10040163D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2672854E1DE1BBC10040163D /* Person.m */; };
 		267285551DE1C6440040163D /* OXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267285541DE1C6440040163D /* OXView.m */; };
 		267A475F1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A475E1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m */; };
@@ -103,6 +104,8 @@
 		2617E8CC1DCFF2F50063C161 /* sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sort.m; sourceTree = "<group>"; };
 		2617E8CE1DD2E4740063C161 /* SVBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVBaseViewController.h; sourceTree = "<group>"; };
 		2617E8CF1DD2E4740063C161 /* SVBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVBaseViewController.m; sourceTree = "<group>"; };
+		264D91A81DF86B5C00FCA172 /* GCDGroupTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroupTestViewController.h; sourceTree = "<group>"; };
+		264D91A91DF86B5C00FCA172 /* GCDGroupTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroupTestViewController.m; sourceTree = "<group>"; };
 		2672854D1DE1BBC10040163D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		2672854E1DE1BBC10040163D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		267285531DE1C6440040163D /* OXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXView.h; sourceTree = "<group>"; };
@@ -255,6 +258,15 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		264D91A71DF86B4500FCA172 /* GCDgroupTest */ = {
+			isa = PBXGroup;
+			children = (
+				264D91A81DF86B5C00FCA172 /* GCDGroupTestViewController.h */,
+				264D91A91DF86B5C00FCA172 /* GCDGroupTestViewController.m */,
+			);
+			path = GCDgroupTest;
+			sourceTree = "<group>";
+		};
 		267A475C1DDC487600C95939 /* TableViewCellHeightTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +357,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				264D91A71DF86B4500FCA172 /* GCDgroupTest */,
 				0B727C7A1DE98899006CE15E /* NSNotificationTest */,
 				268A73F71DE18CDE002DE53E /* NSOperationDownLoadImage */,
 				268A73EF1DE02BA1002DE53E /* CoreGraphicTest */,
@@ -664,6 +677,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2672854F1DE1BBC10040163D /* Person.m in Sources */,
+				264D91AA1DF86B5C00FCA172 /* GCDGroupTestViewController.m in Sources */,
 				267A47B01DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m in Sources */,
 				0B727C861DEAFA43006CE15E /* MRCNotificationTestViewController.m in Sources */,
 				2617E8CD1DCFF2F50063C161 /* sort.m in Sources */,

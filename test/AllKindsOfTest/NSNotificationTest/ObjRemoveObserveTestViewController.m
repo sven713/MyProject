@@ -39,6 +39,7 @@
 @interface ObjRemoveObserveTestViewController ()
 @property (nonatomic, strong) UIImageView *imageView; //!<一直旋转的图片
 @property (nonatomic, assign) CGFloat angle;
+@property (nonatomic, strong) UIImageView *iamgeViewTwo;
 @end
 
 @implementation ObjRemoveObserveTestViewController
@@ -60,22 +61,37 @@
     
     self.imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     [self.view addSubview:self.imageView];
+    
+    self.iamgeViewTwo = [[UIImageView alloc]initWithFrame:CGRectMake(100, 300, 100, 100)];
+    [self.view addSubview:self.iamgeViewTwo];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSLog(@"发广播啦---");
     [[NSNotificationCenter defaultCenter]postNotificationName:@"removeTest" object:nil];
     [self rotateImage];
+    [self rotate2];
 }
 
 - (void)rotateImage {
     self.imageView.image = [UIImage imageNamed:@"iPhone_患者端首页_医院_未选中"];
     CGAffineTransform transform = CGAffineTransformMakeRotation(self.angle *(M_PI / 180));
-    [UIView animateWithDuration:0.1 animations:^{
+    [UIView animateWithDuration:0.01 animations:^{
         self.imageView.transform = transform;
     } completion:^(BOOL finished) {
-        self.angle += 10;
+        self.angle += 10; // 关键是这个变量
         [self rotateImage];
+    }];
+}
+
+- (void)rotate2 {
+    self.iamgeViewTwo.image = [UIImage imageNamed:@"iPhone_患者端首页_医院_未选中"];
+    CGAffineTransform transform = CGAffineTransformMakeRotation(self.angle *(M_PI / 180));
+    [UIView animateWithDuration:1 animations:^{
+        self.iamgeViewTwo.transform = transform;
+    } completion:^(BOOL finished) {
+        self.angle += 10; // 关键是这个变量
+        [self rotate2];
     }];
 }
 
