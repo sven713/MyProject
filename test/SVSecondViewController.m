@@ -12,6 +12,7 @@
 #import "SVTableViewCellHeightAutoTestVC.h"
 #import "Masonry.h"
 #import "GCDGroupTestViewController.h"
+#import "OCMemoryStructTestViewController.h"
 
 @interface SVSecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UIButton *showTableVeiw;
@@ -78,12 +79,31 @@
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
     }
+    if (indexPath.row == 0) {
+        cell.textLabel.text = @"GCD调度组";
+    }else if(indexPath.row == 1){
+        cell.textLabel.text = @"OC对象的内存结构";
+    }
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    [self.navigationController pushViewController:[GCDGroupTestViewController new] animated:YES];
+    switch (indexPath.row) {
+        case 0:
+            [self.navigationController pushViewController:[GCDGroupTestViewController new] animated:YES];
+            break;
+        case 1:{
+            OCMemoryStructTestViewController *vc = [OCMemoryStructTestViewController new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 2:
+            
+            break;
+        default:
+            break;
+    }
 }
 
 @end

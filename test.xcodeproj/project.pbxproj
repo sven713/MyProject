@@ -12,6 +12,9 @@
 		0B727C801DEAB6D8006CE15E /* NSNotificationCenter+remove.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C7F1DEAB6D8006CE15E /* NSNotificationCenter+remove.m */; };
 		0B727C831DEAE0F7006CE15E /* ObjRemoveObserveTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C821DEAE0F7006CE15E /* ObjRemoveObserveTestViewController.m */; };
 		0B727C861DEAFA43006CE15E /* MRCNotificationTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C851DEAFA43006CE15E /* MRCNotificationTestViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0B795E851E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E841E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m */; };
+		0B795E881E2F15940011FA32 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E871E2F15940011FA32 /* Child.m */; };
+		0B795E8B1E2F16DD0011FA32 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E8A1E2F16DD0011FA32 /* Father.m */; };
 		260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */; };
 		260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AA71DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m */; };
 		260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AAA1DD3464200841DEC /* SVThirdViewController.m */; };
@@ -93,6 +96,12 @@
 		0B727C821DEAE0F7006CE15E /* ObjRemoveObserveTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjRemoveObserveTestViewController.m; sourceTree = "<group>"; };
 		0B727C841DEAFA43006CE15E /* MRCNotificationTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCNotificationTestViewController.h; sourceTree = "<group>"; };
 		0B727C851DEAFA43006CE15E /* MRCNotificationTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCNotificationTestViewController.m; sourceTree = "<group>"; };
+		0B795E831E2F0AEB0011FA32 /* OCMemoryStructTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMemoryStructTestViewController.h; sourceTree = "<group>"; };
+		0B795E841E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMemoryStructTestViewController.m; sourceTree = "<group>"; };
+		0B795E861E2F15940011FA32 /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		0B795E871E2F15940011FA32 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		0B795E891E2F16DD0011FA32 /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		0B795E8A1E2F16DD0011FA32 /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
 		260D4A9D1DD31FB600841DEC /* SVSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSecondViewController.h; sourceTree = "<group>"; };
 		260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSecondViewController.m; sourceTree = "<group>"; };
 		260D4AA51DD326EE00841DEC /* SVWorldProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWorldProject.pch; sourceTree = "<group>"; };
@@ -245,6 +254,19 @@
 			path = NSNotificationTest;
 			sourceTree = "<group>";
 		};
+		0B795E821E2F0AB90011FA32 /* ObjMemoryStruct */ = {
+			isa = PBXGroup;
+			children = (
+				0B795E831E2F0AEB0011FA32 /* OCMemoryStructTestViewController.h */,
+				0B795E841E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m */,
+				0B795E861E2F15940011FA32 /* Child.h */,
+				0B795E871E2F15940011FA32 /* Child.m */,
+				0B795E891E2F16DD0011FA32 /* Father.h */,
+				0B795E8A1E2F16DD0011FA32 /* Father.m */,
+			);
+			path = ObjMemoryStruct;
+			sourceTree = "<group>";
+		};
 		260D4AA41DD3229900841DEC /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -357,6 +379,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B795E821E2F0AB90011FA32 /* ObjMemoryStruct */,
 				264D91A71DF86B4500FCA172 /* GCDgroupTest */,
 				0B727C7A1DE98899006CE15E /* NSNotificationTest */,
 				268A73F71DE18CDE002DE53E /* NSOperationDownLoadImage */,
@@ -610,7 +633,7 @@
 				TargetAttributes = {
 					26FC30001DC021B8006688E5 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = DA474TN8Q8;
+						DevelopmentTeam = 4BE72KJ222;
 					};
 					26FC30191DC021BC006688E5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -692,6 +715,7 @@
 				268A73F61DE1562C002DE53E /* CoreGraphicView.m in Sources */,
 				268A73E51DDFE527002DE53E /* SVSecondNavTestVC.m in Sources */,
 				267A47A61DDC4ECD00C95939 /* MASConstraint.m in Sources */,
+				0B795E8B1E2F16DD0011FA32 /* Father.m in Sources */,
 				26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
@@ -705,10 +729,12 @@
 				267A47A81DDC4ECD00C95939 /* MASLayoutConstraint.m in Sources */,
 				267285551DE1C6440040163D /* OXView.m in Sources */,
 				0B727C7D1DE988B6006CE15E /* NSNotificatinoTestViewController.m in Sources */,
+				0B795E851E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m in Sources */,
 				267A475F1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m in Sources */,
 				268A73FA1DE18D09002DE53E /* NSOperationDownloadImgViewController.m in Sources */,
 				267A47AA1DDC4ECD00C95939 /* MASViewConstraint.m in Sources */,
 				268A73E41DDFE527002DE53E /* SVFirstNavTestVC.m in Sources */,
+				0B795E881E2F15940011FA32 /* Child.m in Sources */,
 				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
 				268A73E61DDFE527002DE53E /* SVThirdNavTestVC.m in Sources */,
 				26FC303A1DC02398006688E5 /* SVProtocalView.m in Sources */,
@@ -868,6 +894,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4BE72KJ222;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
@@ -883,6 +910,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4BE72KJ222;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
