@@ -15,6 +15,13 @@
 		0B795E851E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E841E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m */; };
 		0B795E881E2F15940011FA32 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E871E2F15940011FA32 /* Child.m */; };
 		0B795E8B1E2F16DD0011FA32 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E8A1E2F16DD0011FA32 /* Father.m */; };
+		0BAFBD9E1EB32206000E8014 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */; };
+		0BAFBD9F1EB32206000E8014 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD951EB32206000E8014 /* AFNetworkReachabilityManager.m */; };
+		0BAFBDA01EB32206000E8014 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD971EB32206000E8014 /* AFSecurityPolicy.m */; };
+		0BAFBDA11EB32206000E8014 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD991EB32206000E8014 /* AFURLRequestSerialization.m */; };
+		0BAFBDA21EB32206000E8014 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD9B1EB32206000E8014 /* AFURLResponseSerialization.m */; };
+		0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD9D1EB32206000E8014 /* AFURLSessionManager.m */; };
+		0BAFBDA81EB32E66000E8014 /* SVAFNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */; };
 		260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */; };
 		260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AA71DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m */; };
 		260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AAA1DD3464200841DEC /* SVThirdViewController.m */; };
@@ -102,6 +109,22 @@
 		0B795E871E2F15940011FA32 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
 		0B795E891E2F16DD0011FA32 /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
 		0B795E8A1E2F16DD0011FA32 /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		0BAFBD911EB32206000E8014 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		0BAFBD931EB32206000E8014 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		0BAFBD941EB32206000E8014 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		0BAFBD951EB32206000E8014 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		0BAFBD961EB32206000E8014 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		0BAFBD971EB32206000E8014 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		0BAFBD981EB32206000E8014 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		0BAFBD991EB32206000E8014 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		0BAFBD9A1EB32206000E8014 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		0BAFBD9B1EB32206000E8014 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		0BAFBD9C1EB32206000E8014 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		0BAFBD9D1EB32206000E8014 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		0BAFBDA41EB3270C000E8014 /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
+		0BAFBDA61EB32E66000E8014 /* SVAFNTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVAFNTestViewController.h; sourceTree = "<group>"; };
+		0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAFNTestViewController.m; sourceTree = "<group>"; };
 		260D4A9D1DD31FB600841DEC /* SVSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSecondViewController.h; sourceTree = "<group>"; };
 		260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSecondViewController.m; sourceTree = "<group>"; };
 		260D4AA51DD326EE00841DEC /* SVWorldProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWorldProject.pch; sourceTree = "<group>"; };
@@ -267,6 +290,35 @@
 			path = ObjMemoryStruct;
 			sourceTree = "<group>";
 		};
+		0BAFBD901EB32206000E8014 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0BAFBD911EB32206000E8014 /* AFHTTPSessionManager.h */,
+				0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */,
+				0BAFBD931EB32206000E8014 /* AFNetworking.h */,
+				0BAFBD941EB32206000E8014 /* AFNetworkReachabilityManager.h */,
+				0BAFBD951EB32206000E8014 /* AFNetworkReachabilityManager.m */,
+				0BAFBD961EB32206000E8014 /* AFSecurityPolicy.h */,
+				0BAFBD971EB32206000E8014 /* AFSecurityPolicy.m */,
+				0BAFBD981EB32206000E8014 /* AFURLRequestSerialization.h */,
+				0BAFBD991EB32206000E8014 /* AFURLRequestSerialization.m */,
+				0BAFBD9A1EB32206000E8014 /* AFURLResponseSerialization.h */,
+				0BAFBD9B1EB32206000E8014 /* AFURLResponseSerialization.m */,
+				0BAFBD9C1EB32206000E8014 /* AFURLSessionManager.h */,
+				0BAFBD9D1EB32206000E8014 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		0BAFBDA51EB32E39000E8014 /* AFNTest */ = {
+			isa = PBXGroup;
+			children = (
+				0BAFBDA61EB32E66000E8014 /* SVAFNTestViewController.h */,
+				0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */,
+			);
+			path = AFNTest;
+			sourceTree = "<group>";
+		};
 		260D4AA41DD3229900841DEC /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +363,7 @@
 		267A47641DDC4CE400C95939 /* 3rdFramework */ = {
 			isa = PBXGroup;
 			children = (
+				0BAFBD901EB32206000E8014 /* AFNetworking */,
 				267A47B21DDC854900C95939 /* fmdb */,
 				267A478B1DDC4ECD00C95939 /* Masonry */,
 			);
@@ -379,6 +432,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0BAFBDA51EB32E39000E8014 /* AFNTest */,
 				0B795E821E2F0AB90011FA32 /* ObjMemoryStruct */,
 				264D91A71DF86B4500FCA172 /* GCDgroupTest */,
 				0B727C7A1DE98899006CE15E /* NSNotificationTest */,
@@ -544,6 +598,7 @@
 			children = (
 				26FC30051DC021B8006688E5 /* main.m */,
 				260D4AA51DD326EE00841DEC /* SVWorldProject.pch */,
+				0BAFBDA41EB3270C000E8014 /* AppDefine.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -706,10 +761,13 @@
 				2617E8CD1DCFF2F50063C161 /* sort.m in Sources */,
 				267A47AB1DDC4ECD00C95939 /* NSArray+MASAdditions.m in Sources */,
 				26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */,
+				0BAFBDA11EB32206000E8014 /* AFURLRequestSerialization.m in Sources */,
 				26FC300C1DC021BC006688E5 /* ViewController.m in Sources */,
 				0B6421F61DEBB4E5008AC788 /* NotificationTest.m in Sources */,
 				267A47A51DDC4ECD00C95939 /* MASCompositeConstraint.m in Sources */,
+				0BAFBDA01EB32206000E8014 /* AFSecurityPolicy.m in Sources */,
 				267A47A91DDC4ECD00C95939 /* MASViewAttribute.m in Sources */,
+				0BAFBD9F1EB32206000E8014 /* AFNetworkReachabilityManager.m in Sources */,
 				267A47BF1DDC854900C95939 /* FMDatabase.m in Sources */,
 				267A47C71DDC860300C95939 /* FMDBTestViewController.m in Sources */,
 				268A73F61DE1562C002DE53E /* CoreGraphicView.m in Sources */,
@@ -737,6 +795,7 @@
 				0B795E881E2F15940011FA32 /* Child.m in Sources */,
 				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
 				268A73E61DDFE527002DE53E /* SVThirdNavTestVC.m in Sources */,
+				0BAFBDA81EB32E66000E8014 /* SVAFNTestViewController.m in Sources */,
 				26FC303A1DC02398006688E5 /* SVProtocalView.m in Sources */,
 				267A47AD1DDC4ECD00C95939 /* View+MASAdditions.m in Sources */,
 				267A47631DDC4ABB00C95939 /* SVAutoHeightCell.m in Sources */,
@@ -744,12 +803,15 @@
 				267A47C21DDC854900C95939 /* FMDatabaseQueue.m in Sources */,
 				260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */,
 				26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */,
+				0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */,
 				26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */,
 				0B727C831DEAE0F7006CE15E /* ObjRemoveObserveTestViewController.m in Sources */,
 				267A47C31DDC854900C95939 /* FMResultSet.m in Sources */,
 				26E45F861DDDC5F9005A4092 /* TouchEventTestViewController.m in Sources */,
 				268A73F21DE02BB2002DE53E /* CoreGraphicTestViewController.m in Sources */,
 				267A47C01DDC854900C95939 /* FMDatabaseAdditions.m in Sources */,
+				0BAFBDA21EB32206000E8014 /* AFURLResponseSerialization.m in Sources */,
+				0BAFBD9E1EB32206000E8014 /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -895,6 +957,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4BE72KJ222;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/test/SVWorldProject.pch";
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
@@ -911,6 +975,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4BE72KJ222;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/test/SVWorldProject.pch";
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";

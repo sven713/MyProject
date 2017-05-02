@@ -9,7 +9,15 @@
 
 #ifndef SVWorldProject_pch
 #define SVWorldProject_pch
+
+
+#ifdef __OBJC__
 #import <objc/runtime.h>
+#import "AppDefine.h"
+#import "AFNetworking.h"
+#import "Masonry.h"
+#endif
+
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

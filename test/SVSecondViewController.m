@@ -13,6 +13,7 @@
 #import "Masonry.h"
 #import "GCDGroupTestViewController.h"
 #import "OCMemoryStructTestViewController.h"
+#import "SVAFNTestViewController.h"
 
 @interface SVSecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UIButton *showTableVeiw;
@@ -83,6 +84,8 @@
         cell.textLabel.text = @"GCD调度组";
     }else if(indexPath.row == 1){
         cell.textLabel.text = @"OC对象的内存结构";
+    }else if (indexPath.row == 2){
+        cell.textLabel.text = @"AFN测试";
     }
     return cell;
 }
@@ -98,9 +101,13 @@
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
-        case 2:
-            
+        case 2:{
+//            [NSString] // string from class??
+            SVAFNTestViewController *vc = [SVAFNTestViewController new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
             break;
+        }
         default:
             break;
     }
