@@ -24,6 +24,21 @@
     [self requestData];
 }
 
+-(void)dealloc {
+    NSLog(@"下载图片的控制器释放了");
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+//    [self.imageDict removeAllObjects];
+//    [self.opertionDict removeAllObjects];
+//    [self.queue cancelAllOperations];
+//    self.queue = nil;
+//    self.imageDict = nil;
+//    self.opertionDict = nil;
+    
+}
+
 - (void)requestData {
     NSString *path = [[NSBundle mainBundle]pathForResource:@"apps.plist" ofType:nil];
     NSArray *temp = [NSArray arrayWithContentsOfFile:path];
@@ -62,14 +77,10 @@
         cell.imageView.image = img;
     }else {
         // 从沙盒取出图片 没有 显示站位图片 开线程下载
-//        NSSearchPathForDirectoriesInDomains(<#NSSearchPathDirectory directory#>, <#NSSearchPathDomainMask domainMask#>, <#BOOL expandTilde#>)
-        
         cell.imageView.image = [UIImage imageNamed:@"iPhone_患者端首页_医院_未选中"];
         
         [self downLoadImg:model.icon indePath:indexPath];
-        
     }
-    
     return cell;
 }
 
@@ -86,6 +97,7 @@
             UIImage *image = [UIImage imageWithData:data];
             //                [self.imageDict setObject:image forKey:model.icon]; // 崩溃
             if (image) {
+                // 把下载好的图片缓存到 图片字典中
                 [weakSelf.imageDict setValue:image forKey:imgUrl]; // 不用weak会崩溃!! 控制器不会被释放
                 // 报错信息:nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace
             }
@@ -95,7 +107,7 @@
             [weakSelf.opertionDict removeObjectForKey:imgUrl]; // 无论成功与否,移除下载操作
             
             [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                //                    cell.imageView.image = image; // 图片错乱
+                // cell.imageView.image = image; // 图片错乱
                 [weakSelf.tableView reloadRowsAtIndexPaths:@[idx] withRowAnimation:UITableViewRowAnimationNone];
             }];
         }];
