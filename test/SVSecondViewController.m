@@ -14,6 +14,7 @@
 #import "GCDGroupTestViewController.h"
 #import "OCMemoryStructTestViewController.h"
 #import "SVAFNTestViewController.h"
+#import "DownloadWebImgTableViewController.h"
 
 @interface SVSecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UIButton *showTableVeiw;
@@ -86,6 +87,8 @@
         cell.textLabel.text = @"OC对象的内存结构";
     }else if (indexPath.row == 2){
         cell.textLabel.text = @"AFN测试";
+    }else if (indexPath.row == 3){
+        cell.textLabel.text = @"NSOperation下载Cell图片";
     }
     return cell;
 }
@@ -107,6 +110,11 @@
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
             break;
+        }
+        case 3:{
+            DownloadWebImgTableViewController *vc = [DownloadWebImgTableViewController new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
         }
         default:
             break;

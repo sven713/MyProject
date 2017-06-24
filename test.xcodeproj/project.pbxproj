@@ -63,6 +63,9 @@
 		26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC11DD86C9F006C9C3A /* SVPopViewController.m */; };
 		26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BC41DD88C2E006C9C3A /* SVPopView.m */; };
 		26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA4BD11DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m */; };
+		26C30C851EED319600F5AFC5 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26C30C841EED319600F5AFC5 /* apps.plist */; };
+		26C30C891EED328000F5AFC5 /* DownloadWebImgTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C30C881EED328000F5AFC5 /* DownloadWebImgTableViewController.m */; };
+		26C30C8D1EED33DF00F5AFC5 /* AppInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C30C8C1EED33DF00F5AFC5 /* AppInfoModel.m */; };
 		26E45F861DDDC5F9005A4092 /* TouchEventTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E45F851DDDC5F9005A4092 /* TouchEventTestViewController.m */; };
 		26FC30061DC021B8006688E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30051DC021B8006688E5 /* main.m */; };
 		26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC30081DC021BC006688E5 /* AppDelegate.m */; };
@@ -211,6 +214,11 @@
 		26AA4BC41DD88C2E006C9C3A /* SVPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPopView.m; sourceTree = "<group>"; };
 		26AA4BD01DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+SVBlockAlertView.h"; sourceTree = "<group>"; };
 		26AA4BD11DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+SVBlockAlertView.m"; sourceTree = "<group>"; };
+		26C30C841EED319600F5AFC5 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		26C30C871EED328000F5AFC5 /* DownloadWebImgTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadWebImgTableViewController.h; sourceTree = "<group>"; };
+		26C30C881EED328000F5AFC5 /* DownloadWebImgTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadWebImgTableViewController.m; sourceTree = "<group>"; };
+		26C30C8B1EED33DF00F5AFC5 /* AppInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoModel.h; sourceTree = "<group>"; };
+		26C30C8C1EED33DF00F5AFC5 /* AppInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfoModel.m; sourceTree = "<group>"; };
 		26E45F841DDDC5F9005A4092 /* TouchEventTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchEventTestViewController.h; sourceTree = "<group>"; };
 		26E45F851DDDC5F9005A4092 /* TouchEventTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchEventTestViewController.m; sourceTree = "<group>"; };
 		26FC30011DC021B8006688E5 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -432,6 +440,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				26C30C861EED325B00F5AFC5 /* NSOperationDownWebImg */,
 				0BAFBDA51EB32E39000E8014 /* AFNTest */,
 				0B795E821E2F0AB90011FA32 /* ObjMemoryStruct */,
 				264D91A71DF86B4500FCA172 /* GCDgroupTest */,
@@ -528,6 +537,25 @@
 			path = PopVC;
 			sourceTree = "<group>";
 		};
+		26C30C861EED325B00F5AFC5 /* NSOperationDownWebImg */ = {
+			isa = PBXGroup;
+			children = (
+				26C30C8A1EED33C800F5AFC5 /* Model */,
+				26C30C871EED328000F5AFC5 /* DownloadWebImgTableViewController.h */,
+				26C30C881EED328000F5AFC5 /* DownloadWebImgTableViewController.m */,
+			);
+			path = NSOperationDownWebImg;
+			sourceTree = "<group>";
+		};
+		26C30C8A1EED33C800F5AFC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26C30C8B1EED33DF00F5AFC5 /* AppInfoModel.h */,
+				26C30C8C1EED33DF00F5AFC5 /* AppInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		26E45F831DDDC5E9005A4092 /* TouchEventTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,6 +624,7 @@
 		26FC30041DC021B8006688E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				26C30C841EED319600F5AFC5 /* apps.plist */,
 				26FC30051DC021B8006688E5 /* main.m */,
 				260D4AA51DD326EE00841DEC /* SVWorldProject.pch */,
 				0BAFBDA41EB3270C000E8014 /* AppDefine.h */,
@@ -729,6 +758,7 @@
 				26FC30141DC021BC006688E5 /* LaunchScreen.storyboard in Resources */,
 				26FC30111DC021BC006688E5 /* Assets.xcassets in Resources */,
 				267A47C41DDC854900C95939 /* Info.plist in Resources */,
+				26C30C851EED319600F5AFC5 /* apps.plist in Resources */,
 				26FC300F1DC021BC006688E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -789,12 +819,14 @@
 				0B727C7D1DE988B6006CE15E /* NSNotificatinoTestViewController.m in Sources */,
 				0B795E851E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m in Sources */,
 				267A475F1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m in Sources */,
+				26C30C8D1EED33DF00F5AFC5 /* AppInfoModel.m in Sources */,
 				268A73FA1DE18D09002DE53E /* NSOperationDownloadImgViewController.m in Sources */,
 				267A47AA1DDC4ECD00C95939 /* MASViewConstraint.m in Sources */,
 				268A73E41DDFE527002DE53E /* SVFirstNavTestVC.m in Sources */,
 				0B795E881E2F15940011FA32 /* Child.m in Sources */,
 				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
 				268A73E61DDFE527002DE53E /* SVThirdNavTestVC.m in Sources */,
+				26C30C891EED328000F5AFC5 /* DownloadWebImgTableViewController.m in Sources */,
 				0BAFBDA81EB32E66000E8014 /* SVAFNTestViewController.m in Sources */,
 				26FC303A1DC02398006688E5 /* SVProtocalView.m in Sources */,
 				267A47AD1DDC4ECD00C95939 /* View+MASAdditions.m in Sources */,
