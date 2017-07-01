@@ -96,25 +96,24 @@
             
             UIImage *image = [UIImage imageWithData:data]; // 耗时操作放在子线程
             //                [self.imageDict setObject:image forKey:model.icon]; // 崩溃
-//            if (image) {
-//                // 把下载好的图片缓存到 图片字典中
-//                [weakSelf.imageDict setValue:image forKey:imgUrl]; // 不用weak会崩溃!! 控制器不会被释放
-//                // 报错信息:nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace
-//                // malloc: *** error for object 0x61000005c740: pointer being freed was not allocated
-//                // *** set a breakpoint in malloc_error_break to debug
-//            }
-//            
-//            //                [self.opertionDict setValue:op forKey:model.icon]; // 缓存下载操作
-//            
-//            [weakSelf.opertionDict removeObjectForKey:imgUrl]; // 无论成功与否,移除下载操作
+            if (image) {
+                // 把下载好的图片缓存到 图片字典中
+                @synchronized (self) {
+                    [weakSelf.imageDict setValue:image forKey:imgUrl];
+                }
+            }
+
+            @synchronized (self) {
+                [weakSelf.opertionDict removeObjectForKey:imgUrl]; // 无论成功与否,移除下载操作
+            }
             
             [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                if (image) {
-                    // 把下载好的图片缓存到 图片字典中
-                    [weakSelf.imageDict setValue:image forKey:imgUrl]; // 不用weak会崩溃!! 控制器不会被释放--不是Weak造成的崩溃,是上面注释掉的代码应该写到主线程里面,主线程除了刷新UI, UI对应的数据也要同时更新
-                }
-                
-                [weakSelf.opertionDict removeObjectForKey:imgUrl]; // 无论成功与否,移除下载操作
+//                if (image) {
+//                    // 把下载好的图片缓存到 图片字典中
+//                    [weakSelf.imageDict setValue:image forKey:imgUrl]; // 不用weak会崩溃!! 控制器不会被释放--不是Weak造成的崩溃,是上面注释掉的代码应该写到主线程里面,主线程除了刷新UI, UI对应的数据也要同时更新
+//                }
+//                
+//                [weakSelf.opertionDict removeObjectForKey:imgUrl]; // 无论成功与否,移除下载操作
                 // cell.imageView.image = image; // 图片错乱
                 [weakSelf.tableView reloadRowsAtIndexPaths:@[idx] withRowAnimation:UITableViewRowAnimationNone];
             }];
