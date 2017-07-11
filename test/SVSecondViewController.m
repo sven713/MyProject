@@ -30,14 +30,14 @@
 
 - (void)initUI {
     self.view.backgroundColor = [UIColor brownColor];
-    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 260, 100)];
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(10, 80, 260, 50)];
     btn.backgroundColor = [UIColor redColor];
     [btn setTitle:@"push带block的Alert, 关联对象控制器浮层" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(nextVC) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     btn.acceptEventInterval = 0.5;
 
-    self.showTableVeiw = [[UIButton alloc]initWithFrame:CGRectMake(100, 300, 200, 100)];
+    self.showTableVeiw = [[UIButton alloc]initWithFrame:CGRectMake(10, 150, 200, 50)];
     self.showTableVeiw.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:self.showTableVeiw];
     [self.showTableVeiw setTitle:@"自动计算cell高度" forState:UIControlStateNormal];

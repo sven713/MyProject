@@ -22,6 +22,7 @@
 		0BAFBDA21EB32206000E8014 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD9B1EB32206000E8014 /* AFURLResponseSerialization.m */; };
 		0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD9D1EB32206000E8014 /* AFURLSessionManager.m */; };
 		0BAFBDA81EB32E66000E8014 /* SVAFNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */; };
+		0BBF21EC1F14D448007D6FB2 /* DownloadImgOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF21EB1F14D448007D6FB2 /* DownloadImgOperation.m */; };
 		260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */; };
 		260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AA71DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m */; };
 		260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AAA1DD3464200841DEC /* SVThirdViewController.m */; };
@@ -128,6 +129,8 @@
 		0BAFBDA41EB3270C000E8014 /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
 		0BAFBDA61EB32E66000E8014 /* SVAFNTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVAFNTestViewController.h; sourceTree = "<group>"; };
 		0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAFNTestViewController.m; sourceTree = "<group>"; };
+		0BBF21EA1F14D448007D6FB2 /* DownloadImgOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImgOperation.h; sourceTree = "<group>"; };
+		0BBF21EB1F14D448007D6FB2 /* DownloadImgOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImgOperation.m; sourceTree = "<group>"; };
 		260D4A9D1DD31FB600841DEC /* SVSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSecondViewController.h; sourceTree = "<group>"; };
 		260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSecondViewController.m; sourceTree = "<group>"; };
 		260D4AA51DD326EE00841DEC /* SVWorldProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWorldProject.pch; sourceTree = "<group>"; };
@@ -552,6 +555,8 @@
 			children = (
 				26C30C8B1EED33DF00F5AFC5 /* AppInfoModel.h */,
 				26C30C8C1EED33DF00F5AFC5 /* AppInfoModel.m */,
+				0BBF21EA1F14D448007D6FB2 /* DownloadImgOperation.h */,
+				0BBF21EB1F14D448007D6FB2 /* DownloadImgOperation.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -834,6 +839,7 @@
 				260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */,
 				267A47C21DDC854900C95939 /* FMDatabaseQueue.m in Sources */,
 				260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */,
+				0BBF21EC1F14D448007D6FB2 /* DownloadImgOperation.m in Sources */,
 				26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */,
 				0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */,
 				26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */,
