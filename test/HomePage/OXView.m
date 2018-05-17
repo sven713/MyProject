@@ -10,13 +10,6 @@
 
 @implementation OXView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -26,14 +19,12 @@
     return self;
 }
 
-
-
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     //No.1
     //开始写代码,触摸操作开始时,获取当前触摸位置的字符所属的单词。并用UIAlertView显示出来(提示：触摸位置需向下调整10个点，以便与文本元素对齐)
     UITouch *touch = [[event allTouches] anyObject];
-    CGPoint touchPoint = [touch locationInView:[touch view]];
-               
+//    CGPoint touchPoint = [touch locationInView:[touch view]];
+    
 //                          UITextView *textView = (UITextView *)recognizer.view;
 //                          
 //                          // Location of the tap in text-container coordinates
@@ -71,22 +62,7 @@
 //                          }
     
                           
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
-                          
+    
                           //end_code
                           [super touchesBegan: touches withEvent: event];
                           }

@@ -46,7 +46,7 @@
       NSLog(@"点击了按钮");
     }];
     
-    UIAlertView *a = [[UIAlertView alloc]initWithTitle:@"hhh" message:@"hhh" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
+//    UIAlertView *a = [[UIAlertView alloc]initWithTitle:@"hhh" message:@"hhh" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
     
     [alert show];
 }

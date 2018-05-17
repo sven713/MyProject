@@ -717,12 +717,12 @@
 		26FC2FF91DC021B8006688E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = sven;
 				TargetAttributes = {
 					26FC30001DC021B8006688E5 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 4BE72KJ222;
+						DevelopmentTeam = 3656AHBA6N;
 					};
 					26FC30191DC021BC006688E5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -994,7 +994,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4BE72KJ222;
+				DEVELOPMENT_TEAM = 3656AHBA6N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/test/SVWorldProject.pch";
 				INFOPLIST_FILE = test/Info.plist;
@@ -1013,7 +1013,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 4BE72KJ222;
+				DEVELOPMENT_TEAM = 3656AHBA6N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/test/SVWorldProject.pch";
 				INFOPLIST_FILE = test/Info.plist;

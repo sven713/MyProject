@@ -53,7 +53,7 @@
     self.title = @"自定义类,不写remove observe";
     self.angle = 1;
 //    MRCObject *obj = [[MRCObject alloc] init];
-    NotificationTest *testObj = [[NotificationTest alloc]init];
+//    NotificationTest *testObj = [[NotificationTest alloc]init];
     
     NSLog(@"发广播啦---");
     [[NSNotificationCenter defaultCenter]postNotificationName:@"removeTest" object:nil];

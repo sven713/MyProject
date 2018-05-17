@@ -66,7 +66,7 @@
     
     [self mutipleThreadWithNotification];
     
-    Observer *observe = [[Observer alloc]init]; // 先创建观察者
+//    Observer *observe = [[Observer alloc]init]; // 先创建观察者
     [[NSNotificationCenter defaultCenter] postNotificationName:@"TEST_NOTIFICATION" object:nil]; // 测试block循环引用
 }
 

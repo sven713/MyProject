@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    Child *child = [[Child alloc]init];
+//    Child *child = [[Child alloc]init];
     
     [self configUI];
 }
