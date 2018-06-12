@@ -722,7 +722,7 @@
 				TargetAttributes = {
 					26FC30001DC021B8006688E5 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 3656AHBA6N;
+						DevelopmentTeam = 6TM5WT3Y8T;
 					};
 					26FC30191DC021BC006688E5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -994,7 +994,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 3656AHBA6N;
+				DEVELOPMENT_TEAM = 6TM5WT3Y8T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/test/SVWorldProject.pch";
 				INFOPLIST_FILE = test/Info.plist;
@@ -1013,7 +1013,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 3656AHBA6N;
+				DEVELOPMENT_TEAM = 6TM5WT3Y8T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/test/SVWorldProject.pch";
 				INFOPLIST_FILE = test/Info.plist;

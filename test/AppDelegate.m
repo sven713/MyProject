@@ -28,7 +28,7 @@
     item1.title = @"tab1";
     item1.image = [UIImage imageNamed:@"iPhone_患者端首页_医院_未选中"];
     
-    nav1.tabBarItem = item1;
+    nav1.tabBarItem = item1;//
     
     SVSecondViewController *vc2 = [[SVSecondViewController alloc]init];
     UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:vc2];
