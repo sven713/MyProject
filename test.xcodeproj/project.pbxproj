@@ -15,6 +15,7 @@
 		0B795E851E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E841E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m */; };
 		0B795E881E2F15940011FA32 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E871E2F15940011FA32 /* Child.m */; };
 		0B795E8B1E2F16DD0011FA32 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E8A1E2F16DD0011FA32 /* Father.m */; };
+		0B825B4822420BE8005FD9CE /* MoveTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B825B4722420BE8005FD9CE /* MoveTestViewController.m */; };
 		0BAFBD9E1EB32206000E8014 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */; };
 		0BAFBD9F1EB32206000E8014 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD951EB32206000E8014 /* AFNetworkReachabilityManager.m */; };
 		0BAFBDA01EB32206000E8014 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD971EB32206000E8014 /* AFSecurityPolicy.m */; };
@@ -33,7 +34,6 @@
 		267285551DE1C6440040163D /* OXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267285541DE1C6440040163D /* OXView.m */; };
 		267A475F1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A475E1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m */; };
 		267A47631DDC4ABB00C95939 /* SVAutoHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47621DDC4ABB00C95939 /* SVAutoHeightCell.m */; };
-		267A47A41DDC4ECD00C95939 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 267A478C1DDC4ECD00C95939 /* Info.plist */; };
 		267A47A51DDC4ECD00C95939 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A478E1DDC4ECD00C95939 /* MASCompositeConstraint.m */; };
 		267A47A61DDC4ECD00C95939 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47911DDC4ECD00C95939 /* MASConstraint.m */; };
 		267A47A71DDC4ECD00C95939 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47931DDC4ECD00C95939 /* MASConstraintMaker.m */; };
@@ -49,7 +49,6 @@
 		267A47C11DDC854900C95939 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47B81DDC854900C95939 /* FMDatabasePool.m */; };
 		267A47C21DDC854900C95939 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47BA1DDC854900C95939 /* FMDatabaseQueue.m */; };
 		267A47C31DDC854900C95939 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47BD1DDC854900C95939 /* FMResultSet.m */; };
-		267A47C41DDC854900C95939 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 267A47BE1DDC854900C95939 /* Info.plist */; };
 		267A47C71DDC860300C95939 /* FMDBTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267A47C61DDC860300C95939 /* FMDBTestViewController.m */; };
 		267A47C91DDC888B00C95939 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 267A47C81DDC888B00C95939 /* libsqlite3.tbd */; };
 		268A73E41DDFE527002DE53E /* SVFirstNavTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A73DF1DDFE527002DE53E /* SVFirstNavTestVC.m */; };
@@ -113,6 +112,8 @@
 		0B795E871E2F15940011FA32 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
 		0B795E891E2F16DD0011FA32 /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
 		0B795E8A1E2F16DD0011FA32 /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		0B825B4622420BE8005FD9CE /* MoveTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveTestViewController.h; sourceTree = "<group>"; };
+		0B825B4722420BE8005FD9CE /* MoveTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveTestViewController.m; sourceTree = "<group>"; };
 		0BAFBD911EB32206000E8014 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		0BAFBD931EB32206000E8014 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -152,7 +153,6 @@
 		267A475E1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVTableViewCellHeightAutoTestVC.m; sourceTree = "<group>"; };
 		267A47611DDC4ABB00C95939 /* SVAutoHeightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVAutoHeightCell.h; sourceTree = "<group>"; };
 		267A47621DDC4ABB00C95939 /* SVAutoHeightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAutoHeightCell.m; sourceTree = "<group>"; };
-		267A478C1DDC4ECD00C95939 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		267A478D1DDC4ECD00C95939 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		267A478E1DDC4ECD00C95939 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		267A478F1DDC4ECD00C95939 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -189,7 +189,6 @@
 		267A47BB1DDC854900C95939 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
 		267A47BC1DDC854900C95939 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		267A47BD1DDC854900C95939 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		267A47BE1DDC854900C95939 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		267A47C51DDC860300C95939 /* FMDBTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBTestViewController.h; sourceTree = "<group>"; };
 		267A47C61DDC860300C95939 /* FMDBTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBTestViewController.m; sourceTree = "<group>"; };
 		267A47C81DDC888B00C95939 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -301,6 +300,15 @@
 			path = ObjMemoryStruct;
 			sourceTree = "<group>";
 		};
+		0B825B4522420BD7005FD9CE /* MoveTest */ = {
+			isa = PBXGroup;
+			children = (
+				0B825B4622420BE8005FD9CE /* MoveTestViewController.h */,
+				0B825B4722420BE8005FD9CE /* MoveTestViewController.m */,
+			);
+			path = MoveTest;
+			sourceTree = "<group>";
+		};
 		0BAFBD901EB32206000E8014 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,7 +392,6 @@
 		267A478B1DDC4ECD00C95939 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				267A478C1DDC4ECD00C95939 /* Info.plist */,
 				267A478D1DDC4ECD00C95939 /* MASCompositeConstraint.h */,
 				267A478E1DDC4ECD00C95939 /* MASCompositeConstraint.m */,
 				267A478F1DDC4ECD00C95939 /* MASConstraint+Private.h */,
@@ -435,7 +442,6 @@
 				267A47BB1DDC854900C95939 /* FMDB.h */,
 				267A47BC1DDC854900C95939 /* FMResultSet.h */,
 				267A47BD1DDC854900C95939 /* FMResultSet.m */,
-				267A47BE1DDC854900C95939 /* Info.plist */,
 			);
 			path = fmdb;
 			sourceTree = "<group>";
@@ -443,6 +449,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B825B4522420BD7005FD9CE /* MoveTest */,
 				26C30C861EED325B00F5AFC5 /* NSOperationDownWebImg */,
 				0BAFBDA51EB32E39000E8014 /* AFNTest */,
 				0B795E821E2F0AB90011FA32 /* ObjMemoryStruct */,
@@ -722,7 +729,7 @@
 				TargetAttributes = {
 					26FC30001DC021B8006688E5 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 6TM5WT3Y8T;
+						DevelopmentTeam = 3656AHBA6N;
 					};
 					26FC30191DC021BC006688E5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -759,10 +766,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267A47A41DDC4ECD00C95939 /* Info.plist in Resources */,
 				26FC30141DC021BC006688E5 /* LaunchScreen.storyboard in Resources */,
 				26FC30111DC021BC006688E5 /* Assets.xcassets in Resources */,
-				267A47C41DDC854900C95939 /* Info.plist in Resources */,
 				26C30C851EED319600F5AFC5 /* apps.plist in Resources */,
 				26FC300F1DC021BC006688E5 /* Main.storyboard in Resources */,
 			);
@@ -810,6 +815,7 @@
 				267A47A61DDC4ECD00C95939 /* MASConstraint.m in Sources */,
 				0B795E8B1E2F16DD0011FA32 /* Father.m in Sources */,
 				26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */,
+				0B825B4822420BE8005FD9CE /* MoveTestViewController.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
 				267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -994,7 +1000,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6TM5WT3Y8T;
+				DEVELOPMENT_TEAM = 3656AHBA6N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/test/SVWorldProject.pch";
 				INFOPLIST_FILE = test/Info.plist;
@@ -1013,7 +1019,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6TM5WT3Y8T;
+				DEVELOPMENT_TEAM = 3656AHBA6N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/test/SVWorldProject.pch";
 				INFOPLIST_FILE = test/Info.plist;

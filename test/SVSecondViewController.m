@@ -89,6 +89,8 @@
         cell.textLabel.text = @"AFN测试";
     }else if (indexPath.row == 3){
         cell.textLabel.text = @"NSOperation下载Cell图片";
+    }else if (indexPath.row == 4){
+        cell.textLabel.text = @"位移动画";
     }
     return cell;
 }
@@ -116,6 +118,14 @@
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
+            break;
+        case 4:
+        {
+            UIViewController *vc = [NSClassFromString(@"MoveTestViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
         default:
             break;
     }
