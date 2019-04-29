@@ -15,6 +15,8 @@
 		0B795E851E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E841E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m */; };
 		0B795E881E2F15940011FA32 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E871E2F15940011FA32 /* Child.m */; };
 		0B795E8B1E2F16DD0011FA32 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E8A1E2F16DD0011FA32 /* Father.m */; };
+		0B79E893227696A40045E8D9 /* Transform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79E892227696A40045E8D9 /* Transform3DViewController.m */; };
+		0B79E895227698110045E8D9 /* fastGameRaceTrackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B79E894227698110045E8D9 /* fastGameRaceTrackBackground.png */; };
 		0B825B4822420BE8005FD9CE /* MoveTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B825B4722420BE8005FD9CE /* MoveTestViewController.m */; };
 		0BAFBD9E1EB32206000E8014 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */; };
 		0BAFBD9F1EB32206000E8014 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD951EB32206000E8014 /* AFNetworkReachabilityManager.m */; };
@@ -112,6 +114,9 @@
 		0B795E871E2F15940011FA32 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
 		0B795E891E2F16DD0011FA32 /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
 		0B795E8A1E2F16DD0011FA32 /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		0B79E891227696A40045E8D9 /* Transform3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transform3DViewController.h; sourceTree = "<group>"; };
+		0B79E892227696A40045E8D9 /* Transform3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transform3DViewController.m; sourceTree = "<group>"; };
+		0B79E894227698110045E8D9 /* fastGameRaceTrackBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fastGameRaceTrackBackground.png; sourceTree = "<group>"; };
 		0B825B4622420BE8005FD9CE /* MoveTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveTestViewController.h; sourceTree = "<group>"; };
 		0B825B4722420BE8005FD9CE /* MoveTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveTestViewController.m; sourceTree = "<group>"; };
 		0BAFBD911EB32206000E8014 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
@@ -300,6 +305,16 @@
 			path = ObjMemoryStruct;
 			sourceTree = "<group>";
 		};
+		0B79E88D2276965C0045E8D9 /* Transform3Dtest */ = {
+			isa = PBXGroup;
+			children = (
+				0B79E891227696A40045E8D9 /* Transform3DViewController.h */,
+				0B79E892227696A40045E8D9 /* Transform3DViewController.m */,
+				0B79E894227698110045E8D9 /* fastGameRaceTrackBackground.png */,
+			);
+			path = Transform3Dtest;
+			sourceTree = "<group>";
+		};
 		0B825B4522420BD7005FD9CE /* MoveTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +464,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B79E88D2276965C0045E8D9 /* Transform3Dtest */,
 				0B825B4522420BD7005FD9CE /* MoveTest */,
 				26C30C861EED325B00F5AFC5 /* NSOperationDownWebImg */,
 				0BAFBDA51EB32E39000E8014 /* AFNTest */,
@@ -769,6 +785,7 @@
 				26FC30141DC021BC006688E5 /* LaunchScreen.storyboard in Resources */,
 				26FC30111DC021BC006688E5 /* Assets.xcassets in Resources */,
 				26C30C851EED319600F5AFC5 /* apps.plist in Resources */,
+				0B79E895227698110045E8D9 /* fastGameRaceTrackBackground.png in Resources */,
 				26FC300F1DC021BC006688E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -800,6 +817,7 @@
 				0B727C861DEAFA43006CE15E /* MRCNotificationTestViewController.m in Sources */,
 				2617E8CD1DCFF2F50063C161 /* sort.m in Sources */,
 				267A47AB1DDC4ECD00C95939 /* NSArray+MASAdditions.m in Sources */,
+				0B79E893227696A40045E8D9 /* Transform3DViewController.m in Sources */,
 				26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */,
 				0BAFBDA11EB32206000E8014 /* AFURLRequestSerialization.m in Sources */,
 				26FC300C1DC021BC006688E5 /* ViewController.m in Sources */,

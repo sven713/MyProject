@@ -72,7 +72,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return 6;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -91,6 +91,8 @@
         cell.textLabel.text = @"NSOperation下载Cell图片";
     }else if (indexPath.row == 4){
         cell.textLabel.text = @"位移动画";
+    }else if (indexPath.row == 5){
+        cell.textLabel.text = @"关于3D旋转";
     }
     return cell;
 }
@@ -122,6 +124,13 @@
         case 4:
         {
             UIViewController *vc = [NSClassFromString(@"MoveTestViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 5:
+        {
+            UIViewController *vc = [NSClassFromString(@"Transform3DViewController") new];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
