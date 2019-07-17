@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0E5A1222DEC38800288056 /* DiGuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E5A1122DEC38800288056 /* DiGuiViewController.m */; };
 		0B6421F61DEBB4E5008AC788 /* NotificationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6421F51DEBB4E5008AC788 /* NotificationTest.m */; };
 		0B727C7D1DE988B6006CE15E /* NSNotificatinoTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C7C1DE988B6006CE15E /* NSNotificatinoTestViewController.m */; };
 		0B727C801DEAB6D8006CE15E /* NSNotificationCenter+remove.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C7F1DEAB6D8006CE15E /* NSNotificationCenter+remove.m */; };
@@ -105,6 +106,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0E5A1022DEC38800288056 /* DiGuiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiGuiViewController.h; sourceTree = "<group>"; };
+		0B0E5A1122DEC38800288056 /* DiGuiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiGuiViewController.m; sourceTree = "<group>"; };
 		0B6421F41DEBB4E5008AC788 /* NotificationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationTest.h; sourceTree = "<group>"; };
 		0B6421F51DEBB4E5008AC788 /* NotificationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationTest.m; sourceTree = "<group>"; };
 		0B727C7B1DE988B6006CE15E /* NSNotificatinoTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificatinoTestViewController.h; sourceTree = "<group>"; };
@@ -297,6 +300,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0E5A0F22DEC37000288056 /* DC */ = {
+			isa = PBXGroup;
+			children = (
+				0B0E5A1022DEC38800288056 /* DiGuiViewController.h */,
+				0B0E5A1122DEC38800288056 /* DiGuiViewController.m */,
+			);
+			path = DC;
+			sourceTree = "<group>";
+		};
 		0B727C7A1DE98899006CE15E /* NSNotificationTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -508,6 +520,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B0E5A0F22DEC37000288056 /* DC */,
 				0B79E88D2276965C0045E8D9 /* Transform3Dtest */,
 				0B825B4522420BD7005FD9CE /* MoveTest */,
 				26C30C861EED325B00F5AFC5 /* NSOperationDownWebImg */,
@@ -914,6 +927,7 @@
 				260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */,
 				0BBF21EC1F14D448007D6FB2 /* DownloadImgOperation.m in Sources */,
 				0BFD8B4B228A721D0038E8E1 /* NestTableViewController.m in Sources */,
+				0B0E5A1222DEC38800288056 /* DiGuiViewController.m in Sources */,
 				0BFD8B62228AA1D50038E8E1 /* UIColor+SVAdd.m in Sources */,
 				26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */,
 				0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */,

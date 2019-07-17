@@ -39,6 +39,7 @@
                         @"位移动画",
                         @"关于3D旋转",
                         @"tableView嵌套",
+                        @"递归算法"
                         ];
 }
 
@@ -157,6 +158,13 @@
         case 6:
         {
             UIViewController *vc = [NSClassFromString(@"NestTableViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 7:
+        {
+            UIViewController *vc = [NSClassFromString(@"DiGuiViewController") new];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
