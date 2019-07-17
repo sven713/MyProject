@@ -26,6 +26,13 @@
 		0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD9D1EB32206000E8014 /* AFURLSessionManager.m */; };
 		0BAFBDA81EB32E66000E8014 /* SVAFNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */; };
 		0BBF21EC1F14D448007D6FB2 /* DownloadImgOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF21EB1F14D448007D6FB2 /* DownloadImgOperation.m */; };
+		0BFD8B4B228A721D0038E8E1 /* NestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B4A228A721D0038E8E1 /* NestTableViewController.m */; };
+		0BFD8B51228A8EA60038E8E1 /* NContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B50228A8EA60038E8E1 /* NContentTableViewCell.m */; };
+		0BFD8B54228A90800038E8E1 /* UIView+SVAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B53228A90800038E8E1 /* UIView+SVAdd.m */; };
+		0BFD8B58228A94510038E8E1 /* NFirestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B57228A94510038E8E1 /* NFirestViewController.m */; };
+		0BFD8B5C228A9C990038E8E1 /* SVNestContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B5B228A9C990038E8E1 /* SVNestContentView.m */; };
+		0BFD8B5F228AA1020038E8E1 /* SVNContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B5E228AA1020038E8E1 /* SVNContentCollectionViewCell.m */; };
+		0BFD8B62228AA1D50038E8E1 /* UIColor+SVAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B60228AA1D40038E8E1 /* UIColor+SVAdd.m */; };
 		260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */; };
 		260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AA71DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m */; };
 		260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260D4AAA1DD3464200841DEC /* SVThirdViewController.m */; };
@@ -137,6 +144,21 @@
 		0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAFNTestViewController.m; sourceTree = "<group>"; };
 		0BBF21EA1F14D448007D6FB2 /* DownloadImgOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImgOperation.h; sourceTree = "<group>"; };
 		0BBF21EB1F14D448007D6FB2 /* DownloadImgOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImgOperation.m; sourceTree = "<group>"; };
+		0BFD8B49228A721D0038E8E1 /* NestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestTableViewController.h; sourceTree = "<group>"; };
+		0BFD8B4A228A721D0038E8E1 /* NestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestTableViewController.m; sourceTree = "<group>"; };
+		0BFD8B4F228A8EA60038E8E1 /* NContentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NContentTableViewCell.h; sourceTree = "<group>"; };
+		0BFD8B50228A8EA60038E8E1 /* NContentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NContentTableViewCell.m; sourceTree = "<group>"; };
+		0BFD8B52228A90800038E8E1 /* UIView+SVAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SVAdd.h"; sourceTree = "<group>"; };
+		0BFD8B53228A90800038E8E1 /* UIView+SVAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SVAdd.m"; sourceTree = "<group>"; };
+		0BFD8B55228A90F90038E8E1 /* SVImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVImport.h; sourceTree = "<group>"; };
+		0BFD8B56228A94510038E8E1 /* NFirestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFirestViewController.h; sourceTree = "<group>"; };
+		0BFD8B57228A94510038E8E1 /* NFirestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFirestViewController.m; sourceTree = "<group>"; };
+		0BFD8B5A228A9C990038E8E1 /* SVNestContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNestContentView.h; sourceTree = "<group>"; };
+		0BFD8B5B228A9C990038E8E1 /* SVNestContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVNestContentView.m; sourceTree = "<group>"; };
+		0BFD8B5D228AA1020038E8E1 /* SVNContentCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNContentCollectionViewCell.h; sourceTree = "<group>"; };
+		0BFD8B5E228AA1020038E8E1 /* SVNContentCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVNContentCollectionViewCell.m; sourceTree = "<group>"; };
+		0BFD8B60228AA1D40038E8E1 /* UIColor+SVAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SVAdd.m"; sourceTree = "<group>"; };
+		0BFD8B61228AA1D50038E8E1 /* UIColor+SVAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SVAdd.h"; sourceTree = "<group>"; };
 		260D4A9D1DD31FB600841DEC /* SVSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSecondViewController.h; sourceTree = "<group>"; };
 		260D4A9E1DD31FB600841DEC /* SVSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSecondViewController.m; sourceTree = "<group>"; };
 		260D4AA51DD326EE00841DEC /* SVWorldProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWorldProject.pch; sourceTree = "<group>"; };
@@ -311,6 +333,13 @@
 				0B79E891227696A40045E8D9 /* Transform3DViewController.h */,
 				0B79E892227696A40045E8D9 /* Transform3DViewController.m */,
 				0B79E894227698110045E8D9 /* fastGameRaceTrackBackground.png */,
+				0BFD8B49228A721D0038E8E1 /* NestTableViewController.h */,
+				0BFD8B4A228A721D0038E8E1 /* NestTableViewController.m */,
+				0BFD8B4F228A8EA60038E8E1 /* NContentTableViewCell.h */,
+				0BFD8B50228A8EA60038E8E1 /* NContentTableViewCell.m */,
+				0BFD8B56228A94510038E8E1 /* NFirestViewController.h */,
+				0BFD8B57228A94510038E8E1 /* NFirestViewController.m */,
+				0BFD8B59228A9C530038E8E1 /* SVNestLib */,
 			);
 			path = Transform3Dtest;
 			sourceTree = "<group>";
@@ -353,6 +382,17 @@
 			path = AFNTest;
 			sourceTree = "<group>";
 		};
+		0BFD8B59228A9C530038E8E1 /* SVNestLib */ = {
+			isa = PBXGroup;
+			children = (
+				0BFD8B5A228A9C990038E8E1 /* SVNestContentView.h */,
+				0BFD8B5B228A9C990038E8E1 /* SVNestContentView.m */,
+				0BFD8B5D228AA1020038E8E1 /* SVNContentCollectionViewCell.h */,
+				0BFD8B5E228AA1020038E8E1 /* SVNContentCollectionViewCell.m */,
+			);
+			path = SVNestLib;
+			sourceTree = "<group>";
+		};
 		260D4AA41DD3229900841DEC /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -362,6 +402,10 @@
 				26AA4BD11DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m */,
 				267A47AE1DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.h */,
 				267A47AF1DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m */,
+				0BFD8B52228A90800038E8E1 /* UIView+SVAdd.h */,
+				0BFD8B53228A90800038E8E1 /* UIView+SVAdd.m */,
+				0BFD8B61228AA1D50038E8E1 /* UIColor+SVAdd.h */,
+				0BFD8B60228AA1D40038E8E1 /* UIColor+SVAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -656,6 +700,7 @@
 				26FC30051DC021B8006688E5 /* main.m */,
 				260D4AA51DD326EE00841DEC /* SVWorldProject.pch */,
 				0BAFBDA41EB3270C000E8014 /* AppDefine.h */,
+				0BFD8B55228A90F90038E8E1 /* SVImport.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -826,17 +871,20 @@
 				0BAFBDA01EB32206000E8014 /* AFSecurityPolicy.m in Sources */,
 				267A47A91DDC4ECD00C95939 /* MASViewAttribute.m in Sources */,
 				0BAFBD9F1EB32206000E8014 /* AFNetworkReachabilityManager.m in Sources */,
+				0BFD8B5C228A9C990038E8E1 /* SVNestContentView.m in Sources */,
 				267A47BF1DDC854900C95939 /* FMDatabase.m in Sources */,
 				267A47C71DDC860300C95939 /* FMDBTestViewController.m in Sources */,
 				268A73F61DE1562C002DE53E /* CoreGraphicView.m in Sources */,
 				268A73E51DDFE527002DE53E /* SVSecondNavTestVC.m in Sources */,
 				267A47A61DDC4ECD00C95939 /* MASConstraint.m in Sources */,
 				0B795E8B1E2F16DD0011FA32 /* Father.m in Sources */,
+				0BFD8B5F228AA1020038E8E1 /* SVNContentCollectionViewCell.m in Sources */,
 				26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */,
 				0B825B4822420BE8005FD9CE /* MoveTestViewController.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
 				267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				0BFD8B51228A8EA60038E8E1 /* NContentTableViewCell.m in Sources */,
 				268A73EE1DDFEF21002DE53E /* KVOCat.m in Sources */,
 				0B727C801DEAB6D8006CE15E /* NSNotificationCenter+remove.m in Sources */,
 				267A47C11DDC854900C95939 /* FMDatabasePool.m in Sources */,
@@ -854,6 +902,7 @@
 				268A73E41DDFE527002DE53E /* SVFirstNavTestVC.m in Sources */,
 				0B795E881E2F15940011FA32 /* Child.m in Sources */,
 				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
+				0BFD8B58228A94510038E8E1 /* NFirestViewController.m in Sources */,
 				268A73E61DDFE527002DE53E /* SVThirdNavTestVC.m in Sources */,
 				26C30C891EED328000F5AFC5 /* DownloadWebImgTableViewController.m in Sources */,
 				0BAFBDA81EB32E66000E8014 /* SVAFNTestViewController.m in Sources */,
@@ -864,6 +913,8 @@
 				267A47C21DDC854900C95939 /* FMDatabaseQueue.m in Sources */,
 				260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */,
 				0BBF21EC1F14D448007D6FB2 /* DownloadImgOperation.m in Sources */,
+				0BFD8B4B228A721D0038E8E1 /* NestTableViewController.m in Sources */,
+				0BFD8B62228AA1D50038E8E1 /* UIColor+SVAdd.m in Sources */,
 				26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */,
 				0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */,
 				26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */,
@@ -874,6 +925,7 @@
 				267A47C01DDC854900C95939 /* FMDatabaseAdditions.m in Sources */,
 				0BAFBDA21EB32206000E8014 /* AFURLResponseSerialization.m in Sources */,
 				0BAFBD9E1EB32206000E8014 /* AFHTTPSessionManager.m in Sources */,
+				0BFD8B54228A90800038E8E1 /* UIView+SVAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

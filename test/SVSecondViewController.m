@@ -19,14 +19,29 @@
 @interface SVSecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UIButton *showTableVeiw;
 @property (nonatomic, strong) UITableView *tableView; //!<入口tableView
+@property (nonatomic, strong) NSArray *dataSource;
 @end
 
 @implementation SVSecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self data];
     [self initUI];
 }
+
+- (void)data {
+    self.dataSource = @[
+                        @"GCD调度组",
+                        @"OC对象的内存结构",
+                        @"AFN测试",
+                        @"NSOperation下载Cell图片",
+                        @"位移动画",
+                        @"关于3D旋转",
+                        @"tableView嵌套",
+                        ];
+}
+
 
 - (void)initUI {
     self.view.backgroundColor = [UIColor brownColor];
@@ -72,7 +87,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 6;
+    return self.dataSource.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -81,19 +96,23 @@
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
     }
-    if (indexPath.row == 0) {
-        cell.textLabel.text = @"GCD调度组";
-    }else if(indexPath.row == 1){
-        cell.textLabel.text = @"OC对象的内存结构";
-    }else if (indexPath.row == 2){
-        cell.textLabel.text = @"AFN测试";
-    }else if (indexPath.row == 3){
-        cell.textLabel.text = @"NSOperation下载Cell图片";
-    }else if (indexPath.row == 4){
-        cell.textLabel.text = @"位移动画";
-    }else if (indexPath.row == 5){
-        cell.textLabel.text = @"关于3D旋转";
-    }
+    NSString *title = self.dataSource[indexPath.row];
+    cell.textLabel.text = title;
+//    if (indexPath.row == 0) {
+//        cell.textLabel.text = @"GCD调度组";
+//    }else if(indexPath.row == 1){
+//        cell.textLabel.text = @"OC对象的内存结构";
+//    }else if (indexPath.row == 2){
+//        cell.textLabel.text = @"AFN测试";
+//    }else if (indexPath.row == 3){
+//        cell.textLabel.text = @"NSOperation下载Cell图片";
+//    }else if (indexPath.row == 4){
+//        cell.textLabel.text = @"位移动画";
+//    }else if (indexPath.row == 5){
+//        cell.textLabel.text = @"关于3D旋转";
+//    }else if (indexPath.row == 6){
+//        cell.textLabel.text = @"tableView嵌套";
+//    }
     return cell;
 }
 
@@ -131,6 +150,13 @@
         case 5:
         {
             UIViewController *vc = [NSClassFromString(@"Transform3DViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 6:
+        {
+            UIViewController *vc = [NSClassFromString(@"NestTableViewController") new];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
