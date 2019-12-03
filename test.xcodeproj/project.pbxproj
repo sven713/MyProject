@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B0E5A1222DEC38800288056 /* DiGuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E5A1122DEC38800288056 /* DiGuiViewController.m */; };
+		0B3203EC237CF2EF001B6B70 /* TextBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */; };
 		0B6421F61DEBB4E5008AC788 /* NotificationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6421F51DEBB4E5008AC788 /* NotificationTest.m */; };
 		0B727C7D1DE988B6006CE15E /* NSNotificatinoTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C7C1DE988B6006CE15E /* NSNotificatinoTestViewController.m */; };
 		0B727C801DEAB6D8006CE15E /* NSNotificationCenter+remove.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C7F1DEAB6D8006CE15E /* NSNotificationCenter+remove.m */; };
@@ -108,6 +109,8 @@
 /* Begin PBXFileReference section */
 		0B0E5A1022DEC38800288056 /* DiGuiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiGuiViewController.h; sourceTree = "<group>"; };
 		0B0E5A1122DEC38800288056 /* DiGuiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiGuiViewController.m; sourceTree = "<group>"; };
+		0B3203EA237CF2EF001B6B70 /* TextBlurViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBlurViewController.h; sourceTree = "<group>"; };
+		0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextBlurViewController.m; sourceTree = "<group>"; };
 		0B6421F41DEBB4E5008AC788 /* NotificationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationTest.h; sourceTree = "<group>"; };
 		0B6421F51DEBB4E5008AC788 /* NotificationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationTest.m; sourceTree = "<group>"; };
 		0B727C7B1DE988B6006CE15E /* NSNotificatinoTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNotificatinoTestViewController.h; sourceTree = "<group>"; };
@@ -307,6 +310,15 @@
 				0B0E5A1122DEC38800288056 /* DiGuiViewController.m */,
 			);
 			path = DC;
+			sourceTree = "<group>";
+		};
+		0B3203E9237CF2D8001B6B70 /* TextBlur */ = {
+			isa = PBXGroup;
+			children = (
+				0B3203EA237CF2EF001B6B70 /* TextBlurViewController.h */,
+				0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */,
+			);
+			path = TextBlur;
 			sourceTree = "<group>";
 		};
 		0B727C7A1DE98899006CE15E /* NSNotificationTest */ = {
@@ -520,6 +532,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B3203E9237CF2D8001B6B70 /* TextBlur */,
 				0B0E5A0F22DEC37000288056 /* DC */,
 				0B79E88D2276965C0045E8D9 /* Transform3Dtest */,
 				0B825B4522420BD7005FD9CE /* MoveTest */,
@@ -873,6 +886,7 @@
 				264D91AA1DF86B5C00FCA172 /* GCDGroupTestViewController.m in Sources */,
 				267A47B01DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m in Sources */,
 				0B727C861DEAFA43006CE15E /* MRCNotificationTestViewController.m in Sources */,
+				0B3203EC237CF2EF001B6B70 /* TextBlurViewController.m in Sources */,
 				2617E8CD1DCFF2F50063C161 /* sort.m in Sources */,
 				267A47AB1DDC4ECD00C95939 /* NSArray+MASAdditions.m in Sources */,
 				0B79E893227696A40045E8D9 /* Transform3DViewController.m in Sources */,
