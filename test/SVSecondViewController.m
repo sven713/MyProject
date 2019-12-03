@@ -172,7 +172,7 @@
             break;
         case 8:
         {
-            UIViewController *vc = [NSClassFromString(@"DiGuiViewController") new];
+            UIViewController *vc = [NSClassFromString(@"TextBlurViewController") new];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }

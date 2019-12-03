@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (NSInteger)addNumber:(NSInteger)number1 number2:(NSInteger)number2 {
+    return number1 + number2;
+}
+
 /*
 #pragma mark - Navigation
 

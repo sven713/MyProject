@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TextBlurViewController : SVBaseViewController
-
+- (NSInteger)addNumber:(NSInteger)number1 number2:(NSInteger)number2;
 @end
 
 NS_ASSUME_NONNULL_END
