@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B0E5A1222DEC38800288056 /* DiGuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E5A1122DEC38800288056 /* DiGuiViewController.m */; };
+		0B2CFEBB239764AF004F098B /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CFEBA239764AF004F098B /* YYWeakProxy.m */; };
 		0B3203EC237CF2EF001B6B70 /* TextBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */; };
 		0B6421F61DEBB4E5008AC788 /* NotificationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6421F51DEBB4E5008AC788 /* NotificationTest.m */; };
 		0B727C7D1DE988B6006CE15E /* NSNotificatinoTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C7C1DE988B6006CE15E /* NSNotificatinoTestViewController.m */; };
@@ -20,6 +21,7 @@
 		0B79E893227696A40045E8D9 /* Transform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B79E892227696A40045E8D9 /* Transform3DViewController.m */; };
 		0B79E895227698110045E8D9 /* fastGameRaceTrackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B79E894227698110045E8D9 /* fastGameRaceTrackBackground.png */; };
 		0B825B4822420BE8005FD9CE /* MoveTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B825B4722420BE8005FD9CE /* MoveTestViewController.m */; };
+		0B8FA6772397BF2500C42F16 /* SVWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */; };
 		0BAFBD9E1EB32206000E8014 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */; };
 		0BAFBD9F1EB32206000E8014 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD951EB32206000E8014 /* AFNetworkReachabilityManager.m */; };
 		0BAFBDA01EB32206000E8014 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD971EB32206000E8014 /* AFSecurityPolicy.m */; };
@@ -109,6 +111,8 @@
 /* Begin PBXFileReference section */
 		0B0E5A1022DEC38800288056 /* DiGuiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiGuiViewController.h; sourceTree = "<group>"; };
 		0B0E5A1122DEC38800288056 /* DiGuiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiGuiViewController.m; sourceTree = "<group>"; };
+		0B2CFEB9239764AF004F098B /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		0B2CFEBA239764AF004F098B /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		0B3203EA237CF2EF001B6B70 /* TextBlurViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBlurViewController.h; sourceTree = "<group>"; };
 		0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextBlurViewController.m; sourceTree = "<group>"; };
 		0B6421F41DEBB4E5008AC788 /* NotificationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationTest.h; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 		0B79E894227698110045E8D9 /* fastGameRaceTrackBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fastGameRaceTrackBackground.png; sourceTree = "<group>"; };
 		0B825B4622420BE8005FD9CE /* MoveTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveTestViewController.h; sourceTree = "<group>"; };
 		0B825B4722420BE8005FD9CE /* MoveTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveTestViewController.m; sourceTree = "<group>"; };
+		0B8FA6752397BF2500C42F16 /* SVWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWeakProxy.h; sourceTree = "<group>"; };
+		0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWeakProxy.m; sourceTree = "<group>"; };
 		0BAFBD911EB32206000E8014 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		0BAFBD931EB32206000E8014 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -315,8 +321,12 @@
 		0B3203E9237CF2D8001B6B70 /* TextBlur */ = {
 			isa = PBXGroup;
 			children = (
+				0B2CFEB9239764AF004F098B /* YYWeakProxy.h */,
+				0B2CFEBA239764AF004F098B /* YYWeakProxy.m */,
 				0B3203EA237CF2EF001B6B70 /* TextBlurViewController.h */,
 				0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */,
+				0B8FA6752397BF2500C42F16 /* SVWeakProxy.h */,
+				0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */,
 			);
 			path = TextBlur;
 			sourceTree = "<group>";
@@ -833,6 +843,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -901,6 +912,7 @@
 				0BFD8B5C228A9C990038E8E1 /* SVNestContentView.m in Sources */,
 				267A47BF1DDC854900C95939 /* FMDatabase.m in Sources */,
 				267A47C71DDC860300C95939 /* FMDBTestViewController.m in Sources */,
+				0B8FA6772397BF2500C42F16 /* SVWeakProxy.m in Sources */,
 				268A73F61DE1562C002DE53E /* CoreGraphicView.m in Sources */,
 				268A73E51DDFE527002DE53E /* SVSecondNavTestVC.m in Sources */,
 				267A47A61DDC4ECD00C95939 /* MASConstraint.m in Sources */,
@@ -909,6 +921,7 @@
 				26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */,
 				0B825B4822420BE8005FD9CE /* MoveTestViewController.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
+				0B2CFEBB239764AF004F098B /* YYWeakProxy.m in Sources */,
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
 				267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				0BFD8B51228A8EA60038E8E1 /* NContentTableViewCell.m in Sources */,
