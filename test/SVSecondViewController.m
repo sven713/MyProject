@@ -40,7 +40,8 @@
                         @"关于3D旋转",
                         @"tableView嵌套",
                         @"递归算法",
-                        @"模糊文字"
+                        @"模糊文字",
+                        @"内存泄漏测试"
                         ];
 }
 
@@ -177,6 +178,13 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
+            case 9:
+            {
+                UIViewController *vc = [NSClassFromString(@"SVLeakTestViewController") new];
+                vc.hidesBottomBarWhenPushed = YES;
+                [self.navigationController pushViewController:vc animated:YES];
+            }
+                break;
         default:
             break;
     }

@@ -30,6 +30,10 @@
 		0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD9D1EB32206000E8014 /* AFURLSessionManager.m */; };
 		0BAFBDA81EB32E66000E8014 /* SVAFNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */; };
 		0BBF21EC1F14D448007D6FB2 /* DownloadImgOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF21EB1F14D448007D6FB2 /* DownloadImgOperation.m */; };
+		0BD1B4BC2399020E00A608FE /* SVLeakTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B4BB2399020E00A608FE /* SVLeakTestViewController.m */; };
+		0BD1B4BF239908BE00A608FE /* NSObject+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B4BE239908BE00A608FE /* NSObject+Leaks.m */; };
+		0BFACECD2399F82700C7B859 /* UIViewController+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFACECC2399F82700C7B859 /* UIViewController+Leaks.m */; };
+		0BFACED0239A2B3900C7B859 /* UINavigationController+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFACECF239A2B3900C7B859 /* UINavigationController+Leaks.m */; };
 		0BFD8B4B228A721D0038E8E1 /* NestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B4A228A721D0038E8E1 /* NestTableViewController.m */; };
 		0BFD8B51228A8EA60038E8E1 /* NContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B50228A8EA60038E8E1 /* NContentTableViewCell.m */; };
 		0BFD8B54228A90800038E8E1 /* UIView+SVAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B53228A90800038E8E1 /* UIView+SVAdd.m */; };
@@ -156,6 +160,14 @@
 		0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAFNTestViewController.m; sourceTree = "<group>"; };
 		0BBF21EA1F14D448007D6FB2 /* DownloadImgOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImgOperation.h; sourceTree = "<group>"; };
 		0BBF21EB1F14D448007D6FB2 /* DownloadImgOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImgOperation.m; sourceTree = "<group>"; };
+		0BD1B4BA2399020E00A608FE /* SVLeakTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVLeakTestViewController.h; sourceTree = "<group>"; };
+		0BD1B4BB2399020E00A608FE /* SVLeakTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVLeakTestViewController.m; sourceTree = "<group>"; };
+		0BD1B4BD239908BE00A608FE /* NSObject+Leaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Leaks.h"; sourceTree = "<group>"; };
+		0BD1B4BE239908BE00A608FE /* NSObject+Leaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Leaks.m"; sourceTree = "<group>"; };
+		0BFACECB2399F82700C7B859 /* UIViewController+Leaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Leaks.h"; sourceTree = "<group>"; };
+		0BFACECC2399F82700C7B859 /* UIViewController+Leaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Leaks.m"; sourceTree = "<group>"; };
+		0BFACECE239A2B3900C7B859 /* UINavigationController+Leaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Leaks.h"; sourceTree = "<group>"; };
+		0BFACECF239A2B3900C7B859 /* UINavigationController+Leaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Leaks.m"; sourceTree = "<group>"; };
 		0BFD8B49228A721D0038E8E1 /* NestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestTableViewController.h; sourceTree = "<group>"; };
 		0BFD8B4A228A721D0038E8E1 /* NestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestTableViewController.m; sourceTree = "<group>"; };
 		0BFD8B4F228A8EA60038E8E1 /* NContentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NContentTableViewCell.h; sourceTree = "<group>"; };
@@ -416,6 +428,21 @@
 			path = AFNTest;
 			sourceTree = "<group>";
 		};
+		0BD1B4B92399017200A608FE /* LeakTest */ = {
+			isa = PBXGroup;
+			children = (
+				0BD1B4BA2399020E00A608FE /* SVLeakTestViewController.h */,
+				0BD1B4BB2399020E00A608FE /* SVLeakTestViewController.m */,
+				0BD1B4BD239908BE00A608FE /* NSObject+Leaks.h */,
+				0BD1B4BE239908BE00A608FE /* NSObject+Leaks.m */,
+				0BFACECB2399F82700C7B859 /* UIViewController+Leaks.h */,
+				0BFACECC2399F82700C7B859 /* UIViewController+Leaks.m */,
+				0BFACECE239A2B3900C7B859 /* UINavigationController+Leaks.h */,
+				0BFACECF239A2B3900C7B859 /* UINavigationController+Leaks.m */,
+			);
+			path = LeakTest;
+			sourceTree = "<group>";
+		};
 		0BFD8B59228A9C530038E8E1 /* SVNestLib */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +569,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0BD1B4B92399017200A608FE /* LeakTest */,
 				0B3203E9237CF2D8001B6B70 /* TextBlur */,
 				0B0E5A0F22DEC37000288056 /* DC */,
 				0B79E88D2276965C0045E8D9 /* Transform3Dtest */,
@@ -921,6 +949,7 @@
 				26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */,
 				0B825B4822420BE8005FD9CE /* MoveTestViewController.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
+				0BFACED0239A2B3900C7B859 /* UINavigationController+Leaks.m in Sources */,
 				0B2CFEBB239764AF004F098B /* YYWeakProxy.m in Sources */,
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
 				267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -940,12 +969,15 @@
 				268A73FA1DE18D09002DE53E /* NSOperationDownloadImgViewController.m in Sources */,
 				267A47AA1DDC4ECD00C95939 /* MASViewConstraint.m in Sources */,
 				268A73E41DDFE527002DE53E /* SVFirstNavTestVC.m in Sources */,
+				0BD1B4BC2399020E00A608FE /* SVLeakTestViewController.m in Sources */,
 				0B795E881E2F15940011FA32 /* Child.m in Sources */,
 				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
 				0BFD8B58228A94510038E8E1 /* NFirestViewController.m in Sources */,
+				0BFACECD2399F82700C7B859 /* UIViewController+Leaks.m in Sources */,
 				268A73E61DDFE527002DE53E /* SVThirdNavTestVC.m in Sources */,
 				26C30C891EED328000F5AFC5 /* DownloadWebImgTableViewController.m in Sources */,
 				0BAFBDA81EB32E66000E8014 /* SVAFNTestViewController.m in Sources */,
+				0BD1B4BF239908BE00A608FE /* NSObject+Leaks.m in Sources */,
 				26FC303A1DC02398006688E5 /* SVProtocalView.m in Sources */,
 				267A47AD1DDC4ECD00C95939 /* View+MASAdditions.m in Sources */,
 				267A47631DDC4ABB00C95939 /* SVAutoHeightCell.m in Sources */,
