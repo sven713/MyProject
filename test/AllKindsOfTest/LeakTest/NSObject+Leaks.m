@@ -19,9 +19,13 @@
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         //1秒后还能调用,说明没释放,内存泄漏了,如果对象还存在,弹窗
-//        __strong typeof(self)strongSelf = weakSelf;
         __strong id strongSelf = weakSelf;
-        NSLog(@"泄漏了:%@",NSStringFromClass([strongSelf class]));
+        if (strongSelf) {
+            NSLog(@"泄漏了:%@",NSStringFromClass([strongSelf class]));
+        }else {
+            NSLog(@"没有内存泄漏");
+        }
+        
     });
     //TODO:判断是否还存在
 }
