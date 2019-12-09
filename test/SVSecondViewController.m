@@ -41,7 +41,8 @@
                         @"tableView嵌套",
                         @"递归算法",
                         @"模糊文字",
-                        @"内存泄漏测试"
+                        @"内存泄漏测试",
+                        @"cocoaPods测试"
                         ];
 }
 
@@ -185,6 +186,13 @@
                 [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
+            case 10:
+                       {
+                           UIViewController *vc = [NSClassFromString(@"CocoaPodsTestViewController") new];
+                           vc.hidesBottomBarWhenPushed = YES;
+                           [self.navigationController pushViewController:vc animated:YES];
+                       }
+                           break;
         default:
             break;
     }

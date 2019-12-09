@@ -33,6 +33,7 @@
 		0BBF21EC1F14D448007D6FB2 /* DownloadImgOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF21EB1F14D448007D6FB2 /* DownloadImgOperation.m */; };
 		0BD1B4BC2399020E00A608FE /* SVLeakTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B4BB2399020E00A608FE /* SVLeakTestViewController.m */; };
 		0BD1B4BF239908BE00A608FE /* NSObject+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B4BE239908BE00A608FE /* NSObject+Leaks.m */; };
+		0BD7DA9A239E3DD4009F884E /* CocoaPodsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7DA99239E3DD4009F884E /* CocoaPodsTestViewController.m */; };
 		0BFACECD2399F82700C7B859 /* UIViewController+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFACECC2399F82700C7B859 /* UIViewController+Leaks.m */; };
 		0BFACED0239A2B3900C7B859 /* UINavigationController+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFACECF239A2B3900C7B859 /* UINavigationController+Leaks.m */; };
 		0BFD8B4B228A721D0038E8E1 /* NestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD8B4A228A721D0038E8E1 /* NestTableViewController.m */; };
@@ -165,6 +166,8 @@
 		0BD1B4BB2399020E00A608FE /* SVLeakTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVLeakTestViewController.m; sourceTree = "<group>"; };
 		0BD1B4BD239908BE00A608FE /* NSObject+Leaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Leaks.h"; sourceTree = "<group>"; };
 		0BD1B4BE239908BE00A608FE /* NSObject+Leaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Leaks.m"; sourceTree = "<group>"; };
+		0BD7DA98239E3DD4009F884E /* CocoaPodsTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaPodsTestViewController.h; sourceTree = "<group>"; };
+		0BD7DA99239E3DD4009F884E /* CocoaPodsTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodsTestViewController.m; sourceTree = "<group>"; };
 		0BFACECB2399F82700C7B859 /* UIViewController+Leaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Leaks.h"; sourceTree = "<group>"; };
 		0BFACECC2399F82700C7B859 /* UIViewController+Leaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Leaks.m"; sourceTree = "<group>"; };
 		0BFACECE239A2B3900C7B859 /* UINavigationController+Leaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Leaks.h"; sourceTree = "<group>"; };
@@ -448,6 +451,15 @@
 			path = LeakTest;
 			sourceTree = "<group>";
 		};
+		0BD7DA97239E3DBC009F884E /* CocoaPodsTest */ = {
+			isa = PBXGroup;
+			children = (
+				0BD7DA98239E3DD4009F884E /* CocoaPodsTestViewController.h */,
+				0BD7DA99239E3DD4009F884E /* CocoaPodsTestViewController.m */,
+			);
+			path = CocoaPodsTest;
+			sourceTree = "<group>";
+		};
 		0BFD8B59228A9C530038E8E1 /* SVNestLib */ = {
 			isa = PBXGroup;
 			children = (
@@ -574,6 +586,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0BD7DA97239E3DBC009F884E /* CocoaPodsTest */,
 				0BD1B4B92399017200A608FE /* LeakTest */,
 				0B3203E9237CF2D8001B6B70 /* TextBlur */,
 				0B0E5A0F22DEC37000288056 /* DC */,
@@ -808,7 +821,6 @@
 				3EC9085570E85F9907A57DB9 /* Pods-test.debug.xcconfig */,
 				0C884F4B4194A1841B6744D4 /* Pods-test.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -1006,6 +1018,7 @@
 				267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				0BFD8B51228A8EA60038E8E1 /* NContentTableViewCell.m in Sources */,
 				268A73EE1DDFEF21002DE53E /* KVOCat.m in Sources */,
+				0BD7DA9A239E3DD4009F884E /* CocoaPodsTestViewController.m in Sources */,
 				0B727C801DEAB6D8006CE15E /* NSNotificationCenter+remove.m in Sources */,
 				267A47C11DDC854900C95939 /* FMDatabasePool.m in Sources */,
 				267A47A71DDC4ECD00C95939 /* MASConstraintMaker.m in Sources */,
