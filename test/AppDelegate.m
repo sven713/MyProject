@@ -41,7 +41,7 @@
     
     UITabBarController *tab = [[UITabBarController alloc]init];
     self.window.rootViewController = tab;
-    tab.viewControllers = @[nav1, nav2];
+    tab.viewControllers = @[nav2, nav1];
     
     [self.window makeKeyAndVisible];
     
