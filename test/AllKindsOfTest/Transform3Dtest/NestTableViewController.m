@@ -62,6 +62,20 @@
     UIImageView *headIv = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 100)];
     headIv.image = [UIImage imageNamed:@"fastGameRaceTrackBackground"];
     self.tableView.tableHeaderView = headIv;
+    
+    [self addBackBtn];
+}
+
+- (void)addBackBtn {
+    UIButton *back = [[UIButton alloc] initWithFrame:CGRectMake(50, 300, 100, 50)];
+    [self.view addSubview:back];
+    back.backgroundColor = [UIColor orangeColor];
+    [back setTitle:@"back" forState:UIControlStateNormal];
+    [back addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)backAction {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 
