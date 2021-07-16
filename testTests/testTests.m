@@ -28,15 +28,15 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    TextBlurViewController *vc = [TextBlurViewController new];
-    
-    // Given
-    NSInteger number1 = 1; NSInteger number2 = 2;
-    // when
-    NSInteger result = [vc addNumber:number1 number2:number2];
-    
-    // Then
-    XCTAssertEqual(result, 3);
+//    TextBlurViewController *vc = [TextBlurViewController new];
+//    
+//    // Given
+//    NSInteger number1 = 1; NSInteger number2 = 2;
+//    // when
+//    NSInteger result = [vc addNumber:number1 number2:number2];
+//    
+//    // Then
+//    XCTAssertEqual(result, 3);
 }
 
 - (void)testPerformanceExample {
