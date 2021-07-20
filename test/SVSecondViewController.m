@@ -43,7 +43,8 @@
                         @"模糊文字",
                         @"内存泄漏测试",
                         @"cocoaPods测试",
-                        @"镂空测试"
+                        @"镂空测试",
+                        @"Copy MutableCopy"
                         ];
 }
 
@@ -201,6 +202,13 @@
                 [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
+        case 12:
+        {
+            UIViewController *vc = [NSClassFromString(@"CopyTestViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
         default:
             break;
     }
