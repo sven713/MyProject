@@ -45,7 +45,8 @@
                         @"cocoaPods测试",
                         @"镂空测试",
                         @"Copy MutableCopy",
-                        @"动画,线程"
+                        @"动画,线程",
+                        @"block测试"
                         ];
 }
 
@@ -105,21 +106,7 @@
     }
     NSString *title = self.dataSource[indexPath.row];
     cell.textLabel.text = title;
-//    if (indexPath.row == 0) {
-//        cell.textLabel.text = @"GCD调度组";
-//    }else if(indexPath.row == 1){
-//        cell.textLabel.text = @"OC对象的内存结构";
-//    }else if (indexPath.row == 2){
-//        cell.textLabel.text = @"AFN测试";
-//    }else if (indexPath.row == 3){
-//        cell.textLabel.text = @"NSOperation下载Cell图片";
-//    }else if (indexPath.row == 4){
-//        cell.textLabel.text = @"位移动画";
-//    }else if (indexPath.row == 5){
-//        cell.textLabel.text = @"关于3D旋转";
-//    }else if (indexPath.row == 6){
-//        cell.textLabel.text = @"tableView嵌套";
-//    }
+
     return cell;
 }
 
@@ -213,6 +200,13 @@
         case 13:
         {
             UIViewController *vc = [NSClassFromString(@"AnimateTestViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 14:
+        {
+            UIViewController *vc = [NSClassFromString(@"BlockTestViewController") new];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
