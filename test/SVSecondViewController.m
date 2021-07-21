@@ -44,7 +44,8 @@
                         @"内存泄漏测试",
                         @"cocoaPods测试",
                         @"镂空测试",
-                        @"Copy MutableCopy"
+                        @"Copy MutableCopy",
+                        @"动画,线程"
                         ];
 }
 
@@ -205,6 +206,13 @@
         case 12:
         {
             UIViewController *vc = [NSClassFromString(@"CopyTestViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 13:
+        {
+            UIViewController *vc = [NSClassFromString(@"AnimateTestViewController") new];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }

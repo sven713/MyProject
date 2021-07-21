@@ -10,6 +10,7 @@
 		0948956378AEEAF77AC462E9 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA062903BFBDD44817A3A281 /* libPods-test.a */; };
 		0B0E5A1222DEC38800288056 /* DiGuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E5A1122DEC38800288056 /* DiGuiViewController.m */; };
 		0B1EB67326A6718B00647BF3 /* CopyTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EB67226A6718B00647BF3 /* CopyTestViewController.m */; };
+		0B1EB67A26A67CB300647BF3 /* AnimateTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EB67926A67CB300647BF3 /* AnimateTestViewController.m */; };
 		0B229C9E247CB89500B6473A /* MyArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B229C9D247CB89500B6473A /* MyArray.m */; };
 		0B2CFEBB239764AF004F098B /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CFEBA239764AF004F098B /* YYWeakProxy.m */; };
 		0B3203EC237CF2EF001B6B70 /* TextBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */; };
@@ -125,6 +126,8 @@
 		0B0E5A1122DEC38800288056 /* DiGuiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiGuiViewController.m; sourceTree = "<group>"; };
 		0B1EB67126A6718B00647BF3 /* CopyTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyTestViewController.h; sourceTree = "<group>"; };
 		0B1EB67226A6718B00647BF3 /* CopyTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyTestViewController.m; sourceTree = "<group>"; };
+		0B1EB67826A67CB300647BF3 /* AnimateTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimateTestViewController.h; sourceTree = "<group>"; };
+		0B1EB67926A67CB300647BF3 /* AnimateTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimateTestViewController.m; sourceTree = "<group>"; };
 		0B229C9C247CB89500B6473A /* MyArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyArray.h; sourceTree = "<group>"; };
 		0B229C9D247CB89500B6473A /* MyArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyArray.m; sourceTree = "<group>"; };
 		0B2CFEB9239764AF004F098B /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
@@ -362,6 +365,15 @@
 				0B1EB67226A6718B00647BF3 /* CopyTestViewController.m */,
 			);
 			name = CopyMutableCopy;
+			sourceTree = "<group>";
+		};
+		0B1EB67726A67C9C00647BF3 /* AnimateTestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B1EB67826A67CB300647BF3 /* AnimateTestViewController.h */,
+				0B1EB67926A67CB300647BF3 /* AnimateTestViewController.m */,
+			);
+			path = AnimateTestViewController;
 			sourceTree = "<group>";
 		};
 		0B229C9B247CB88800B6473A /* 数据结构与算法 */ = {
@@ -635,6 +647,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B1EB67726A67C9C00647BF3 /* AnimateTestViewController */,
 				0B1EB67026A670E800647BF3 /* CopyMutableCopy */,
 				0B229C9B247CB88800B6473A /* 数据结构与算法 */,
 				0BFC033623A76A1800244730 /* maskTest */,
@@ -1113,6 +1126,7 @@
 				0B69B56A247F5E82005F29D5 /* ListNode.m in Sources */,
 				0B229C9E247CB89500B6473A /* MyArray.m in Sources */,
 				0B727C831DEAE0F7006CE15E /* ObjRemoveObserveTestViewController.m in Sources */,
+				0B1EB67A26A67CB300647BF3 /* AnimateTestViewController.m in Sources */,
 				267A47C31DDC854900C95939 /* FMResultSet.m in Sources */,
 				26E45F861DDDC5F9005A4092 /* TouchEventTestViewController.m in Sources */,
 				268A73F21DE02BB2002DE53E /* CoreGraphicTestViewController.m in Sources */,
