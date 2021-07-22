@@ -30,6 +30,7 @@
 		0B825B4822420BE8005FD9CE /* MoveTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B825B4722420BE8005FD9CE /* MoveTestViewController.m */; };
 		0B8387C626A8218800D6D655 /* BlockTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8387C526A8218700D6D655 /* BlockTestViewController.m */; };
 		0B8387CF26A8240000D6D655 /* BlockTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8387CE26A8240000D6D655 /* BlockTestView.m */; };
+		0B8387D526A82EE200D6D655 /* CopyStrongTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8387D426A82EE200D6D655 /* CopyStrongTestViewController.m */; };
 		0B8FA6772397BF2500C42F16 /* SVWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */; };
 		0BAFBD9E1EB32206000E8014 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */; };
 		0BAFBD9F1EB32206000E8014 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD951EB32206000E8014 /* AFNetworkReachabilityManager.m */; };
@@ -166,6 +167,8 @@
 		0B8387C526A8218700D6D655 /* BlockTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTestViewController.m; sourceTree = "<group>"; };
 		0B8387CD26A8240000D6D655 /* BlockTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTestView.h; sourceTree = "<group>"; };
 		0B8387CE26A8240000D6D655 /* BlockTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTestView.m; sourceTree = "<group>"; };
+		0B8387D326A82EE200D6D655 /* CopyStrongTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyStrongTestViewController.h; sourceTree = "<group>"; };
+		0B8387D426A82EE200D6D655 /* CopyStrongTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyStrongTestViewController.m; sourceTree = "<group>"; };
 		0B8FA6752397BF2500C42F16 /* SVWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWeakProxy.h; sourceTree = "<group>"; };
 		0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWeakProxy.m; sourceTree = "<group>"; };
 		0BAFBD911EB32206000E8014 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
@@ -476,6 +479,15 @@
 			path = BlockTest;
 			sourceTree = "<group>";
 		};
+		0B8387D926A82F0500D6D655 /* CopyStrong */ = {
+			isa = PBXGroup;
+			children = (
+				0B8387D326A82EE200D6D655 /* CopyStrongTestViewController.h */,
+				0B8387D426A82EE200D6D655 /* CopyStrongTestViewController.m */,
+			);
+			path = CopyStrong;
+			sourceTree = "<group>";
+		};
 		0BAFBD901EB32206000E8014 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -664,6 +676,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B8387D926A82F0500D6D655 /* CopyStrong */,
 				0B8387C326A8215F00D6D655 /* BlockTest */,
 				0B1EB67726A67C9C00647BF3 /* AnimateTestViewController */,
 				0B1EB67026A670E800647BF3 /* CopyMutableCopy */,
@@ -1123,6 +1136,7 @@
 				0B795E881E2F15940011FA32 /* Child.m in Sources */,
 				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
 				0BFD8B58228A94510038E8E1 /* NFirestViewController.m in Sources */,
+				0B8387D526A82EE200D6D655 /* CopyStrongTestViewController.m in Sources */,
 				0BFACECD2399F82700C7B859 /* UIViewController+Leaks.m in Sources */,
 				0B69B567247F5E58005F29D5 /* SingleLinkList.m in Sources */,
 				268A73E61DDFE527002DE53E /* SVThirdNavTestVC.m in Sources */,

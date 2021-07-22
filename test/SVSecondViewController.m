@@ -46,7 +46,8 @@
                         @"镂空测试",
                         @"Copy MutableCopy",
                         @"动画,线程",
-                        @"block测试"
+                        @"block测试",
+                        @"copy strong"
                         ];
 }
 
@@ -207,6 +208,14 @@
         case 14:
         {
             UIViewController *vc = [NSClassFromString(@"BlockTestViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
+        case 15:
+        {
+            UIViewController *vc = [NSClassFromString(@"CopyStrongTestViewController") new];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
