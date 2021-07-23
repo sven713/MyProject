@@ -14,6 +14,11 @@ typedef void (^blockName)(NSInteger num);
 
 @interface BlockTestView : UIView
 @property (nonatomic, copy) blockName block;
+
+-(void(^)(NSInteger parm))blockNameName;
+
+-(void)blocktest_asParm:(void(^)(NSString * parm))blockName;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -33,6 +33,14 @@
     self.blockView.block = ^ (NSInteger num) {
         NSLog(@"点击啥了--%ld",(long)num);
     };
+    
+    
+    self.blockView.blockNameName(333); //内部实现,外部调用,外部传递参数,更新视图
+    
+    
+    [self.blockView blocktest_asParm:^(NSString * _Nonnull parm) { //网络请求; 内部实现,外部调用,外部获取参数
+        NSLog(@"控制器获得了数据%@",parm);
+    }];
 }
 
 /*

@@ -37,4 +37,22 @@
 - (void)clickTestView {
     self.block(222);
 }
+
+-(void(^)(NSInteger parm))blockNameName {
+    void (^nameBlock)(NSInteger par) = ^(NSInteger par) {
+        NSLog(@"内部-%ld",(long)par);
+    };
+    
+    return nameBlock;
+}
+
+
+-(void)blocktest_asParm:(void(^)(NSString * parm))blockName {
+    //block外部定义
+    
+    if(blockName){
+        blockName(@"实现内部的参数");
+    }
+}
+
 @end
