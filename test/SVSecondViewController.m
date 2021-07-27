@@ -47,7 +47,8 @@
                         @"Copy MutableCopy",
                         @"动画,线程",
                         @"block测试",
-                        @"copy strong"
+                        @"copy strong",
+                        @"分类Runtime测试"
                         ];
 }
 
@@ -220,6 +221,14 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
+        case 16:
+        {
+            UIViewController *vc = [NSClassFromString(@"CategoryTestViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
         default:
             break;
     }

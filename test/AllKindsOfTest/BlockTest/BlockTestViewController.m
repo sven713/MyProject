@@ -53,4 +53,8 @@
 }
 */
 
+// copy strong  有可变版本的属性,建议使用copy 这样如果被可变版本赋值,外部变化了,使用copy的变量可以保持不变,如果strong的话就变了
+
+// copy mCopy:  使用mCopy都是神拷贝, M + copy深拷贝, 非m + copy浅拷贝; 集合对象深拷贝,会对每个元素copy,生成新的集合
+
 @end

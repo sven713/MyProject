@@ -43,6 +43,9 @@
 		0BD1B4BC2399020E00A608FE /* SVLeakTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B4BB2399020E00A608FE /* SVLeakTestViewController.m */; };
 		0BD1B4BF239908BE00A608FE /* NSObject+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B4BE239908BE00A608FE /* NSObject+Leaks.m */; };
 		0BD7DA9A239E3DD4009F884E /* CocoaPodsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7DA99239E3DD4009F884E /* CocoaPodsTestViewController.m */; };
+		0BFA823F26AE9E2300B61B67 /* Person+add1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA823E26AE9E2300B61B67 /* Person+add1.m */; };
+		0BFA824626AE9F7200B61B67 /* CategoryTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA824526AE9F7200B61B67 /* CategoryTestViewController.m */; };
+		0BFA824C26AEA03400B61B67 /* Person+add0.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA824B26AEA03400B61B67 /* Person+add0.m */; };
 		0BFACECD2399F82700C7B859 /* UIViewController+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFACECC2399F82700C7B859 /* UIViewController+Leaks.m */; };
 		0BFACED0239A2B3900C7B859 /* UINavigationController+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFACECF239A2B3900C7B859 /* UINavigationController+Leaks.m */; };
 		0BFC033923A76A2E00244730 /* MaskTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC033823A76A2E00244730 /* MaskTestViewController.m */; };
@@ -195,6 +198,11 @@
 		0BD1B4BE239908BE00A608FE /* NSObject+Leaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Leaks.m"; sourceTree = "<group>"; };
 		0BD7DA98239E3DD4009F884E /* CocoaPodsTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaPodsTestViewController.h; sourceTree = "<group>"; };
 		0BD7DA99239E3DD4009F884E /* CocoaPodsTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodsTestViewController.m; sourceTree = "<group>"; };
+		0BFA823D26AE9E2300B61B67 /* Person+add1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+add1.h"; sourceTree = "<group>"; };
+		0BFA823E26AE9E2300B61B67 /* Person+add1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+add1.m"; sourceTree = "<group>"; };
+		0BFA824426AE9F7200B61B67 /* CategoryTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryTestViewController.h; sourceTree = "<group>"; };
+		0BFA824A26AEA03400B61B67 /* Person+add0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+add0.h"; sourceTree = "<group>"; };
+		0BFA824B26AEA03400B61B67 /* Person+add0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+add0.m"; sourceTree = "<group>"; };
 		0BFACECB2399F82700C7B859 /* UIViewController+Leaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Leaks.h"; sourceTree = "<group>"; };
 		0BFACECC2399F82700C7B859 /* UIViewController+Leaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Leaks.m"; sourceTree = "<group>"; };
 		0BFACECE239A2B3900C7B859 /* UINavigationController+Leaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Leaks.h"; sourceTree = "<group>"; };
@@ -541,6 +549,15 @@
 			path = CocoaPodsTest;
 			sourceTree = "<group>";
 		};
+		0BFA824326AE9F4500B61B67 /* CategoryTest */ = {
+			isa = PBXGroup;
+			children = (
+				0BFA824426AE9F7200B61B67 /* CategoryTestViewController.h */,
+				0BFA824526AE9F7200B61B67 /* CategoryTestViewController.m */,
+			);
+			path = CategoryTest;
+			sourceTree = "<group>";
+		};
 		0BFC033623A76A1800244730 /* maskTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -676,6 +693,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0BFA824326AE9F4500B61B67 /* CategoryTest */,
 				0B8387D926A82F0500D6D655 /* CopyStrong */,
 				0B8387C326A8215F00D6D655 /* BlockTest */,
 				0B1EB67726A67C9C00647BF3 /* AnimateTestViewController */,
@@ -770,6 +788,10 @@
 				267285541DE1C6440040163D /* OXView.m */,
 				2672854D1DE1BBC10040163D /* Person.h */,
 				2672854E1DE1BBC10040163D /* Person.m */,
+				0BFA823D26AE9E2300B61B67 /* Person+add1.h */,
+				0BFA823E26AE9E2300B61B67 /* Person+add1.m */,
+				0BFA824A26AEA03400B61B67 /* Person+add0.h */,
+				0BFA824B26AEA03400B61B67 /* Person+add0.m */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -1080,6 +1102,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BFA824C26AEA03400B61B67 /* Person+add0.m in Sources */,
+				0BFA823F26AE9E2300B61B67 /* Person+add1.m in Sources */,
 				2672854F1DE1BBC10040163D /* Person.m in Sources */,
 				264D91AA1DF86B5C00FCA172 /* GCDGroupTestViewController.m in Sources */,
 				267A47B01DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m in Sources */,
@@ -1118,6 +1142,7 @@
 				0BFD8B51228A8EA60038E8E1 /* NContentTableViewCell.m in Sources */,
 				268A73EE1DDFEF21002DE53E /* KVOCat.m in Sources */,
 				0BD7DA9A239E3DD4009F884E /* CocoaPodsTestViewController.m in Sources */,
+				0BFA824626AE9F7200B61B67 /* CategoryTestViewController.m in Sources */,
 				0B727C801DEAB6D8006CE15E /* NSNotificationCenter+remove.m in Sources */,
 				267A47C11DDC854900C95939 /* FMDatabasePool.m in Sources */,
 				267A47A71DDC4ECD00C95939 /* MASConstraintMaker.m in Sources */,

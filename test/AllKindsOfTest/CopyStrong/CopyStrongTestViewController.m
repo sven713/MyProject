@@ -35,6 +35,13 @@
     [mStr appendString:@"b"];
     
     NSLog(@"cStr:%@--strong:%@",self.cStr, self.strongStr); // cStr是a, strongStr是ab
+    
+    //HTTP VS HTTPS
+    //11:36-41   超文本传输协议, s是安全版本
+    //端口   443   80
+    // SSL  包含身份认证, ;  简单链接,无状态
+    // 加密传输;  明文传输
+    // 证书收费,免费
 }
 
 /*
