@@ -201,6 +201,7 @@
 		0BFA823D26AE9E2300B61B67 /* Person+add1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+add1.h"; sourceTree = "<group>"; };
 		0BFA823E26AE9E2300B61B67 /* Person+add1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+add1.m"; sourceTree = "<group>"; };
 		0BFA824426AE9F7200B61B67 /* CategoryTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryTestViewController.h; sourceTree = "<group>"; };
+		0BFA824526AE9F7200B61B67 /* CategoryTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryTestViewController.m; sourceTree = "<group>"; };
 		0BFA824A26AEA03400B61B67 /* Person+add0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+add0.h"; sourceTree = "<group>"; };
 		0BFA824B26AEA03400B61B67 /* Person+add0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+add0.m"; sourceTree = "<group>"; };
 		0BFACECB2399F82700C7B859 /* UIViewController+Leaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Leaks.h"; sourceTree = "<group>"; };
