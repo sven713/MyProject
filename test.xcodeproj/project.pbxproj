@@ -12,6 +12,7 @@
 		0B1EB67326A6718B00647BF3 /* CopyTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EB67226A6718B00647BF3 /* CopyTestViewController.m */; };
 		0B1EB67A26A67CB300647BF3 /* AnimateTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EB67926A67CB300647BF3 /* AnimateTestViewController.m */; };
 		0B229C9E247CB89500B6473A /* MyArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B229C9D247CB89500B6473A /* MyArray.m */; };
+		0B29D61B26AFD62D00C210DA /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B29D61A26AFD62D00C210DA /* AutoLayoutViewController.m */; };
 		0B2CFEBB239764AF004F098B /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CFEBA239764AF004F098B /* YYWeakProxy.m */; };
 		0B3203EC237CF2EF001B6B70 /* TextBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */; };
 		0B6421F61DEBB4E5008AC788 /* NotificationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6421F51DEBB4E5008AC788 /* NotificationTest.m */; };
@@ -136,6 +137,8 @@
 		0B1EB67926A67CB300647BF3 /* AnimateTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimateTestViewController.m; sourceTree = "<group>"; };
 		0B229C9C247CB89500B6473A /* MyArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyArray.h; sourceTree = "<group>"; };
 		0B229C9D247CB89500B6473A /* MyArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyArray.m; sourceTree = "<group>"; };
+		0B29D61926AFD62D00C210DA /* AutoLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		0B29D61A26AFD62D00C210DA /* AutoLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
 		0B2CFEB9239764AF004F098B /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		0B2CFEBA239764AF004F098B /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		0B3203EA237CF2EF001B6B70 /* TextBlurViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBlurViewController.h; sourceTree = "<group>"; };
@@ -406,6 +409,15 @@
 				0B69B569247F5E82005F29D5 /* ListNode.m */,
 			);
 			path = "数据结构与算法";
+			sourceTree = "<group>";
+		};
+		0B29D61826AFD60D00C210DA /* AutoLayoutTest */ = {
+			isa = PBXGroup;
+			children = (
+				0B29D61926AFD62D00C210DA /* AutoLayoutViewController.h */,
+				0B29D61A26AFD62D00C210DA /* AutoLayoutViewController.m */,
+			);
+			path = AutoLayoutTest;
 			sourceTree = "<group>";
 		};
 		0B3203E9237CF2D8001B6B70 /* TextBlur */ = {
@@ -694,6 +706,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B29D61826AFD60D00C210DA /* AutoLayoutTest */,
 				0BFA824326AE9F4500B61B67 /* CategoryTest */,
 				0B8387D926A82F0500D6D655 /* CopyStrong */,
 				0B8387C326A8215F00D6D655 /* BlockTest */,
@@ -1162,6 +1175,7 @@
 				0B795E881E2F15940011FA32 /* Child.m in Sources */,
 				2617E8D01DD2E4740063C161 /* SVBaseViewController.m in Sources */,
 				0BFD8B58228A94510038E8E1 /* NFirestViewController.m in Sources */,
+				0B29D61B26AFD62D00C210DA /* AutoLayoutViewController.m in Sources */,
 				0B8387D526A82EE200D6D655 /* CopyStrongTestViewController.m in Sources */,
 				0BFACECD2399F82700C7B859 /* UIViewController+Leaks.m in Sources */,
 				0B69B567247F5E58005F29D5 /* SingleLinkList.m in Sources */,

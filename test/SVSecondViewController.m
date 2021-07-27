@@ -48,7 +48,8 @@
                         @"动画,线程",
                         @"block测试",
                         @"copy strong",
-                        @"分类Runtime测试"
+                        @"分类Runtime测试",
+                        @"自动布局"
                         ];
 }
 
@@ -224,6 +225,13 @@
         case 16:
         {
             UIViewController *vc = [NSClassFromString(@"CategoryTestViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 17:
+        {
+            UIViewController *vc = [NSClassFromString(@"AutoLayoutViewController") new];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
