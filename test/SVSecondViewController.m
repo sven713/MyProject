@@ -50,7 +50,8 @@
                         @"copy strong[keep]",
                         @"分类Runtime测试[TT]",
                         @"自动布局[TT]",
-                        @"CALayer动画[TT]"
+                        @"CALayer动画[TT]",
+                        @"锚点[TT]"
                         ];
 }
 
@@ -240,6 +241,13 @@
         case 18:
         {
             UIViewController *vc = [NSClassFromString(@"CoreAnimationViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 19:
+        {
+            UIViewController *vc = [NSClassFromString(@"AnchoPointViewController") new];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }

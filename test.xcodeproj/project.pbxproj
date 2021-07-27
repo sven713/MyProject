@@ -14,6 +14,7 @@
 		0B229C9E247CB89500B6473A /* MyArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B229C9D247CB89500B6473A /* MyArray.m */; };
 		0B29D61B26AFD62D00C210DA /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B29D61A26AFD62D00C210DA /* AutoLayoutViewController.m */; };
 		0B29D62626AFE09E00C210DA /* CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B29D62526AFE09E00C210DA /* CoreAnimationViewController.m */; };
+		0B29D63026B006CB00C210DA /* AnchoPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B29D62F26B006CB00C210DA /* AnchoPointViewController.m */; };
 		0B2CFEBB239764AF004F098B /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CFEBA239764AF004F098B /* YYWeakProxy.m */; };
 		0B3203EC237CF2EF001B6B70 /* TextBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */; };
 		0B6421F61DEBB4E5008AC788 /* NotificationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6421F51DEBB4E5008AC788 /* NotificationTest.m */; };
@@ -142,6 +143,8 @@
 		0B29D61A26AFD62D00C210DA /* AutoLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
 		0B29D62426AFE09E00C210DA /* CoreAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAnimationViewController.h; sourceTree = "<group>"; };
 		0B29D62526AFE09E00C210DA /* CoreAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationViewController.m; sourceTree = "<group>"; };
+		0B29D62E26B006CB00C210DA /* AnchoPointViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnchoPointViewController.h; sourceTree = "<group>"; };
+		0B29D62F26B006CB00C210DA /* AnchoPointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnchoPointViewController.m; sourceTree = "<group>"; };
 		0B2CFEB9239764AF004F098B /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		0B2CFEBA239764AF004F098B /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		0B3203EA237CF2EF001B6B70 /* TextBlurViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBlurViewController.h; sourceTree = "<group>"; };
@@ -432,6 +435,15 @@
 			path = CoreAnimation;
 			sourceTree = "<group>";
 		};
+		0B29D62D26B006BA00C210DA /* 锚点 */ = {
+			isa = PBXGroup;
+			children = (
+				0B29D62E26B006CB00C210DA /* AnchoPointViewController.h */,
+				0B29D62F26B006CB00C210DA /* AnchoPointViewController.m */,
+			);
+			path = "锚点";
+			sourceTree = "<group>";
+		};
 		0B3203E9237CF2D8001B6B70 /* TextBlur */ = {
 			isa = PBXGroup;
 			children = (
@@ -718,6 +730,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B29D62D26B006BA00C210DA /* 锚点 */,
 				0B29D62326AFE08E00C210DA /* CoreAnimation */,
 				0B29D61826AFD60D00C210DA /* AutoLayoutTest */,
 				0BFA824326AE9F4500B61B67 /* CategoryTest */,
@@ -1196,6 +1209,7 @@
 				26C30C891EED328000F5AFC5 /* DownloadWebImgTableViewController.m in Sources */,
 				0BAFBDA81EB32E66000E8014 /* SVAFNTestViewController.m in Sources */,
 				0BD1B4BF239908BE00A608FE /* NSObject+Leaks.m in Sources */,
+				0B29D63026B006CB00C210DA /* AnchoPointViewController.m in Sources */,
 				26FC303A1DC02398006688E5 /* SVProtocalView.m in Sources */,
 				0B1EB67326A6718B00647BF3 /* CopyTestViewController.m in Sources */,
 				267A47AD1DDC4ECD00C95939 /* View+MASAdditions.m in Sources */,
