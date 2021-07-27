@@ -13,6 +13,7 @@
 		0B1EB67A26A67CB300647BF3 /* AnimateTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EB67926A67CB300647BF3 /* AnimateTestViewController.m */; };
 		0B229C9E247CB89500B6473A /* MyArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B229C9D247CB89500B6473A /* MyArray.m */; };
 		0B29D61B26AFD62D00C210DA /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B29D61A26AFD62D00C210DA /* AutoLayoutViewController.m */; };
+		0B29D62626AFE09E00C210DA /* CoreAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B29D62526AFE09E00C210DA /* CoreAnimationViewController.m */; };
 		0B2CFEBB239764AF004F098B /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CFEBA239764AF004F098B /* YYWeakProxy.m */; };
 		0B3203EC237CF2EF001B6B70 /* TextBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */; };
 		0B6421F61DEBB4E5008AC788 /* NotificationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6421F51DEBB4E5008AC788 /* NotificationTest.m */; };
@@ -139,6 +140,8 @@
 		0B229C9D247CB89500B6473A /* MyArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyArray.m; sourceTree = "<group>"; };
 		0B29D61926AFD62D00C210DA /* AutoLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
 		0B29D61A26AFD62D00C210DA /* AutoLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
+		0B29D62426AFE09E00C210DA /* CoreAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreAnimationViewController.h; sourceTree = "<group>"; };
+		0B29D62526AFE09E00C210DA /* CoreAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationViewController.m; sourceTree = "<group>"; };
 		0B2CFEB9239764AF004F098B /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		0B2CFEBA239764AF004F098B /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		0B3203EA237CF2EF001B6B70 /* TextBlurViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBlurViewController.h; sourceTree = "<group>"; };
@@ -418,6 +421,15 @@
 				0B29D61A26AFD62D00C210DA /* AutoLayoutViewController.m */,
 			);
 			path = AutoLayoutTest;
+			sourceTree = "<group>";
+		};
+		0B29D62326AFE08E00C210DA /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0B29D62426AFE09E00C210DA /* CoreAnimationViewController.h */,
+				0B29D62526AFE09E00C210DA /* CoreAnimationViewController.m */,
+			);
+			path = CoreAnimation;
 			sourceTree = "<group>";
 		};
 		0B3203E9237CF2D8001B6B70 /* TextBlur */ = {
@@ -706,6 +718,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B29D62326AFE08E00C210DA /* CoreAnimation */,
 				0B29D61826AFD60D00C210DA /* AutoLayoutTest */,
 				0BFA824326AE9F4500B61B67 /* CategoryTest */,
 				0B8387D926A82F0500D6D655 /* CopyStrong */,
@@ -1189,6 +1202,7 @@
 				267A47631DDC4ABB00C95939 /* SVAutoHeightCell.m in Sources */,
 				260D4A9F1DD31FB600841DEC /* SVSecondViewController.m in Sources */,
 				267A47C21DDC854900C95939 /* FMDatabaseQueue.m in Sources */,
+				0B29D62626AFE09E00C210DA /* CoreAnimationViewController.m in Sources */,
 				260D4AA81DD32D6100841DEC /* UIControl+UIControl_SVTouchEventInterval.m in Sources */,
 				0BBF21EC1F14D448007D6FB2 /* DownloadImgOperation.m in Sources */,
 				0BFD8B4B228A721D0038E8E1 /* NestTableViewController.m in Sources */,

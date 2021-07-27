@@ -44,12 +44,13 @@
                         @"内存泄漏测试",
                         @"cocoaPods测试",
                         @"镂空测试",
-                        @"Copy MutableCopy",
-                        @"动画,线程",
+                        @"Copy MutableCopy[keep]",
+                        @"动画,线程[keep]",
                         @"block测试",
-                        @"copy strong",
-                        @"分类Runtime测试",
-                        @"自动布局"
+                        @"copy strong[keep]",
+                        @"分类Runtime测试[TT]",
+                        @"自动布局[TT]",
+                        @"CALayer动画[TT]"
                         ];
 }
 
@@ -232,6 +233,13 @@
         case 17:
         {
             UIViewController *vc = [NSClassFromString(@"AutoLayoutViewController") new];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 18:
+        {
+            UIViewController *vc = [NSClassFromString(@"CoreAnimationViewController") new];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }
