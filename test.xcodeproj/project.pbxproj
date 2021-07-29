@@ -1142,8 +1142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BFA824C26AEA03400B61B67 /* Person+add0.m in Sources */,
 				0BFA823F26AE9E2300B61B67 /* Person+add1.m in Sources */,
+				0BFA824C26AEA03400B61B67 /* Person+add0.m in Sources */,
 				2672854F1DE1BBC10040163D /* Person.m in Sources */,
 				264D91AA1DF86B5C00FCA172 /* GCDGroupTestViewController.m in Sources */,
 				267A47B01DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m in Sources */,

@@ -18,6 +18,14 @@
 
 @property (nonatomic, strong) NSString *strongStr;
 
+
+
+@property (nonatomic, copy) NSDictionary *dicCopy;
+
+@property (nonatomic, strong) NSDictionary *strongDic;
+
+@property (nonatomic, copy) NSMutableDictionary *mutaDic;
+
 @end
 
 @implementation CopyStrongTestViewController
@@ -42,16 +50,34 @@
     // SSL  包含身份认证, ;  简单链接,无状态
     // 加密传输;  明文传输
     // 证书收费,免费
+    
+    
+    [self dicTest];
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)dicTest { // 2:00
+    
+//    @property (copy) NSDictionary *dicCopy; // 外部变化,不会变
+
+//    @property (strong) NSDictionary *strongDic; // 外部变化,会变
+    
+//    @property (copy) NSMutableDictionary *mutaDic; // 外部变化, 不会变
+    
+    NSLog(@"-------------------------------");
+    NSDictionary *dic = @{
+        @"key1":@"1",
+        @"key2":@"2",
+    };
+    NSMutableDictionary *mDic = [NSMutableDictionary dictionaryWithDictionary:dic];
+    
+    self.dicCopy = mDic;
+    self.strongDic = mDic;
+    self.mutaDic = mDic;
+    
+    [mDic setValue:@"99" forKey:@"key1"];
+    
+    NSLog(@"copyDic:%@--strongDic:%@--mutDic:%@",self.dicCopy, self.strongDic,self.mutaDic);
 }
-*/
 
 @end
