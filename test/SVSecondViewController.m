@@ -15,6 +15,7 @@
 #import "OCMemoryStructTestViewController.h"
 #import "SVAFNTestViewController.h"
 #import "DownloadWebImgTableViewController.h"
+#import "UIButton+Spring.h"
 
 @interface SVSecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UIButton *showTableVeiw;
@@ -68,6 +69,7 @@
     self.showTableVeiw = [[UIButton alloc]initWithFrame:CGRectMake(10, 150, 200, 50)];
     self.showTableVeiw.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:self.showTableVeiw];
+//    self.showTableVeiw.isSpring = false;
     [self.showTableVeiw setTitle:@"自动计算cell高度" forState:UIControlStateNormal];
     self.showTableVeiw.titleLabel.font = [UIFont systemFontOfSize:14];
     [self.showTableVeiw addTarget:self action:@selector(showTableView) forControlEvents:UIControlEventTouchUpInside];

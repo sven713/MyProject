@@ -35,6 +35,7 @@
 		0B8387CF26A8240000D6D655 /* BlockTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8387CE26A8240000D6D655 /* BlockTestView.m */; };
 		0B8387D526A82EE200D6D655 /* CopyStrongTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8387D426A82EE200D6D655 /* CopyStrongTestViewController.m */; };
 		0B8FA6772397BF2500C42F16 /* SVWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */; };
+		0BA166F926B3A9BD00026AB1 /* UIButton+Spring.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA166F826B3A9BD00026AB1 /* UIButton+Spring.m */; };
 		0BAFBD9E1EB32206000E8014 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */; };
 		0BAFBD9F1EB32206000E8014 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD951EB32206000E8014 /* AFNetworkReachabilityManager.m */; };
 		0BAFBDA01EB32206000E8014 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD971EB32206000E8014 /* AFSecurityPolicy.m */; };
@@ -183,6 +184,8 @@
 		0B8387D426A82EE200D6D655 /* CopyStrongTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyStrongTestViewController.m; sourceTree = "<group>"; };
 		0B8FA6752397BF2500C42F16 /* SVWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWeakProxy.h; sourceTree = "<group>"; };
 		0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWeakProxy.m; sourceTree = "<group>"; };
+		0BA166F726B3A9BD00026AB1 /* UIButton+Spring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Spring.h"; sourceTree = "<group>"; };
+		0BA166F826B3A9BD00026AB1 /* UIButton+Spring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Spring.m"; sourceTree = "<group>"; };
 		0BAFBD911EB32206000E8014 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		0BAFBD931EB32206000E8014 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -628,6 +631,8 @@
 				0BFD8B53228A90800038E8E1 /* UIView+SVAdd.m */,
 				0BFD8B61228AA1D50038E8E1 /* UIColor+SVAdd.h */,
 				0BFD8B60228AA1D40038E8E1 /* UIColor+SVAdd.m */,
+				0BA166F726B3A9BD00026AB1 /* UIButton+Spring.h */,
+				0BA166F826B3A9BD00026AB1 /* UIButton+Spring.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1186,6 +1191,7 @@
 				0B727C801DEAB6D8006CE15E /* NSNotificationCenter+remove.m in Sources */,
 				267A47C11DDC854900C95939 /* FMDatabasePool.m in Sources */,
 				267A47A71DDC4ECD00C95939 /* MASConstraintMaker.m in Sources */,
+				0BA166F926B3A9BD00026AB1 /* UIButton+Spring.m in Sources */,
 				268A73EA1DDFE5C1002DE53E /* KVOTestViewController.m in Sources */,
 				26FC30061DC021B8006688E5 /* main.m in Sources */,
 				267A47A81DDC4ECD00C95939 /* MASLayoutConstraint.m in Sources */,

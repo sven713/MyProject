@@ -24,7 +24,7 @@
     UIButton *pushBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
     pushBtn.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:pushBtn];
-    [pushBtn addTarget:self action:@selector(pushAction) forControlEvents:UIControlEventTouchUpInside];
+//    [pushBtn addTarget:self action:@selector(pushAction) forControlEvents:UIControlEventTouchUpInside];
     
     // 内存泄漏
 //    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerAction) userInfo:nil repeats:YES];
