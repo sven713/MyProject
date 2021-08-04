@@ -16,6 +16,7 @@
 #import "SVAFNTestViewController.h"
 #import "DownloadWebImgTableViewController.h"
 #import "UIButton+Spring.h"
+#import "UIButton+SVEnlargeEdge.h"
 
 @interface SVSecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UIButton *showTableVeiw;
@@ -73,6 +74,7 @@
     [self.showTableVeiw setTitle:@"自动计算cell高度" forState:UIControlStateNormal];
     self.showTableVeiw.titleLabel.font = [UIFont systemFontOfSize:14];
     [self.showTableVeiw addTarget:self action:@selector(showTableView) forControlEvents:UIControlEventTouchUpInside];
+    [self.showTableVeiw setLargeLeft:20 top:20 right:20 bottom:20];
     
     self.tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
     [self.view addSubview:self.tableView];

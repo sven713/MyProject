@@ -36,6 +36,7 @@
 		0B8387D526A82EE200D6D655 /* CopyStrongTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8387D426A82EE200D6D655 /* CopyStrongTestViewController.m */; };
 		0B8FA6772397BF2500C42F16 /* SVWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */; };
 		0BA166F926B3A9BD00026AB1 /* UIButton+Spring.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA166F826B3A9BD00026AB1 /* UIButton+Spring.m */; };
+		0BA166FF26B3DFF000026AB1 /* UIButton+SVEnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA166FE26B3DFF000026AB1 /* UIButton+SVEnlargeEdge.m */; };
 		0BAFBD9E1EB32206000E8014 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */; };
 		0BAFBD9F1EB32206000E8014 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD951EB32206000E8014 /* AFNetworkReachabilityManager.m */; };
 		0BAFBDA01EB32206000E8014 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD971EB32206000E8014 /* AFSecurityPolicy.m */; };
@@ -186,6 +187,8 @@
 		0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWeakProxy.m; sourceTree = "<group>"; };
 		0BA166F726B3A9BD00026AB1 /* UIButton+Spring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Spring.h"; sourceTree = "<group>"; };
 		0BA166F826B3A9BD00026AB1 /* UIButton+Spring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Spring.m"; sourceTree = "<group>"; };
+		0BA166FD26B3DFF000026AB1 /* UIButton+SVEnlargeEdge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SVEnlargeEdge.h"; sourceTree = "<group>"; };
+		0BA166FE26B3DFF000026AB1 /* UIButton+SVEnlargeEdge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SVEnlargeEdge.m"; sourceTree = "<group>"; };
 		0BAFBD911EB32206000E8014 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		0BAFBD921EB32206000E8014 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		0BAFBD931EB32206000E8014 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -633,6 +636,8 @@
 				0BFD8B60228AA1D40038E8E1 /* UIColor+SVAdd.m */,
 				0BA166F726B3A9BD00026AB1 /* UIButton+Spring.h */,
 				0BA166F826B3A9BD00026AB1 /* UIButton+Spring.m */,
+				0BA166FD26B3DFF000026AB1 /* UIButton+SVEnlargeEdge.h */,
+				0BA166FE26B3DFF000026AB1 /* UIButton+SVEnlargeEdge.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1231,6 +1236,7 @@
 				26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */,
 				0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */,
 				26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */,
+				0BA166FF26B3DFF000026AB1 /* UIButton+SVEnlargeEdge.m in Sources */,
 				0B69B56A247F5E82005F29D5 /* ListNode.m in Sources */,
 				0B229C9E247CB89500B6473A /* MyArray.m in Sources */,
 				0B727C831DEAE0F7006CE15E /* ObjRemoveObserveTestViewController.m in Sources */,

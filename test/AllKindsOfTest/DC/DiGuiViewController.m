@@ -30,6 +30,8 @@
     
     NSInteger count = [self sumArrLength:source];
     NSLog(@"数组长度:%zd",count);
+    
+    [self testQuickSort];
 }
 
 // 递归求和
@@ -69,6 +71,48 @@
         return 1 + [self sumArrLength:mArr];
     }
     
+}
+
+- (void)testQuickSort {
+    NSArray *arr = @[@(3),@(2),@(6),@(8),@(4),@(1)];
+    
+    NSMutableArray *mArr = [arr mutableCopy];//[NSMutableArray arrayWithArray:arr];
+    [self quickSortArr:mArr left:0 rigth:mArr.count - 1];
+    
+    NSLog(@"数组%@",mArr);
+#warning 快速排序,卡了半天,因为忘记了NSMutableArray只能放对象, 并且NSumber比较需要转换成int
+}
+
+
+- (NSMutableArray *)quickSortArr:(NSMutableArray <NSNumber *>*)arr left:(NSInteger)left rigth:(NSInteger)right {
+    if(left < right) {
+        NSInteger povIdx = [self partionArr:arr left:left right:right];
+        [self quickSortArr:arr left:left rigth:(povIdx - 1 < left ? left : povIdx - 1)];
+        [self quickSortArr:arr left:(povIdx + 1 > right ? right : povIdx + 1) rigth:right];
+    }
+    return  arr;
+}
+
+- (NSInteger)partionArr:(NSMutableArray <NSNumber *>*)arr left:(NSInteger)left right:(NSInteger)right {
+    NSInteger povIdx = right;
+    NSInteger startIdx = left;
+    for(NSInteger i = left; i < right; i++) {
+        if(arr[i].integerValue < arr[povIdx].integerValue) {
+//            [arr exchangeObjectAtIndex:i withObjectAtIndex:startIdx];
+            [self swap:arr i:i j:startIdx];
+            startIdx++;
+        }
+    }
+//    [arr exchangeObjectAtIndex:startIdx withObjectAtIndex:povIdx];
+    
+    [self swap:arr i:startIdx j:povIdx];
+    return startIdx;
+}
+
+- (void)swap:(NSMutableArray *)arr i:(NSInteger)i j:(NSInteger)j {
+    id temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
 }
 
 @end
