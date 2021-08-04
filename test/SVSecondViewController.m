@@ -53,7 +53,8 @@
                         @"分类Runtime测试[TT]",
                         @"自动布局[TT]",
                         @"CALayer动画[TT]",
-                        @"锚点[TT]"
+                        @"锚点[TT]",
+                        @"warmUpTable"
                         ];
 }
 
@@ -256,6 +257,12 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
+            
+        case 20:{
+            UIViewController *vc = [NSClassFromString(@"warmUpTableViewController") new];
+            vc.hidesBottomBarWhenPushed = true;
+            [self.navigationController pushViewController:vc animated:true];
+        }
             
         default:
             break;

@@ -48,6 +48,8 @@
 		0BD1B4BC2399020E00A608FE /* SVLeakTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B4BB2399020E00A608FE /* SVLeakTestViewController.m */; };
 		0BD1B4BF239908BE00A608FE /* NSObject+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B4BE239908BE00A608FE /* NSObject+Leaks.m */; };
 		0BD7DA9A239E3DD4009F884E /* CocoaPodsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7DA99239E3DD4009F884E /* CocoaPodsTestViewController.m */; };
+		0BE9BA0B26BA951A00F14CC0 /* warmUpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9BA0A26BA951A00F14CC0 /* warmUpTableViewController.m */; };
+		0BE9BA1126BA979000F14CC0 /* WuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9BA1026BA979000F14CC0 /* WuTableViewCell.m */; };
 		0BFA823F26AE9E2300B61B67 /* Person+add1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA823E26AE9E2300B61B67 /* Person+add1.m */; };
 		0BFA824626AE9F7200B61B67 /* CategoryTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA824526AE9F7200B61B67 /* CategoryTestViewController.m */; };
 		0BFA824C26AEA03400B61B67 /* Person+add0.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA824B26AEA03400B61B67 /* Person+add0.m */; };
@@ -213,6 +215,10 @@
 		0BD1B4BE239908BE00A608FE /* NSObject+Leaks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Leaks.m"; sourceTree = "<group>"; };
 		0BD7DA98239E3DD4009F884E /* CocoaPodsTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaPodsTestViewController.h; sourceTree = "<group>"; };
 		0BD7DA99239E3DD4009F884E /* CocoaPodsTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodsTestViewController.m; sourceTree = "<group>"; };
+		0BE9BA0926BA951A00F14CC0 /* warmUpTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = warmUpTableViewController.h; sourceTree = "<group>"; };
+		0BE9BA0A26BA951A00F14CC0 /* warmUpTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = warmUpTableViewController.m; sourceTree = "<group>"; };
+		0BE9BA0F26BA979000F14CC0 /* WuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WuTableViewCell.h; sourceTree = "<group>"; };
+		0BE9BA1026BA979000F14CC0 /* WuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WuTableViewCell.m; sourceTree = "<group>"; };
 		0BFA823D26AE9E2300B61B67 /* Person+add1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+add1.h"; sourceTree = "<group>"; };
 		0BFA823E26AE9E2300B61B67 /* Person+add1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+add1.m"; sourceTree = "<group>"; };
 		0BFA824426AE9F7200B61B67 /* CategoryTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryTestViewController.h; sourceTree = "<group>"; };
@@ -592,6 +598,17 @@
 			path = CocoaPodsTest;
 			sourceTree = "<group>";
 		};
+		0BE9BA0826BA94FF00F14CC0 /* warmUpTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BE9BA0926BA951A00F14CC0 /* warmUpTableViewController.h */,
+				0BE9BA0A26BA951A00F14CC0 /* warmUpTableViewController.m */,
+				0BE9BA0F26BA979000F14CC0 /* WuTableViewCell.h */,
+				0BE9BA1026BA979000F14CC0 /* WuTableViewCell.m */,
+			);
+			path = warmUpTableViewController;
+			sourceTree = "<group>";
+		};
 		0BFA824326AE9F4500B61B67 /* CategoryTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -740,6 +757,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0BE9BA0826BA94FF00F14CC0 /* warmUpTableViewController */,
 				0B29D62D26B006BA00C210DA /* 锚点 */,
 				0B29D62326AFE08E00C210DA /* CoreAnimation */,
 				0B29D61826AFD60D00C210DA /* AutoLayoutTest */,
@@ -1167,6 +1185,7 @@
 				26FC300C1DC021BC006688E5 /* ViewController.m in Sources */,
 				0B6421F61DEBB4E5008AC788 /* NotificationTest.m in Sources */,
 				267A47A51DDC4ECD00C95939 /* MASCompositeConstraint.m in Sources */,
+				0BE9BA0B26BA951A00F14CC0 /* warmUpTableViewController.m in Sources */,
 				0BAFBDA01EB32206000E8014 /* AFSecurityPolicy.m in Sources */,
 				0BFC033923A76A2E00244730 /* MaskTestViewController.m in Sources */,
 				267A47A91DDC4ECD00C95939 /* MASViewAttribute.m in Sources */,
@@ -1202,6 +1221,7 @@
 				267A47A81DDC4ECD00C95939 /* MASLayoutConstraint.m in Sources */,
 				267285551DE1C6440040163D /* OXView.m in Sources */,
 				0B727C7D1DE988B6006CE15E /* NSNotificatinoTestViewController.m in Sources */,
+				0BE9BA1126BA979000F14CC0 /* WuTableViewCell.m in Sources */,
 				0B795E851E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m in Sources */,
 				267A475F1DDC489100C95939 /* SVTableViewCellHeightAutoTestVC.m in Sources */,
 				26C30C8D1EED33DF00F5AFC5 /* AppInfoModel.m in Sources */,
