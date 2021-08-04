@@ -8,9 +8,11 @@
 
 #import "warmUpTableViewController.h"
 #import "WuTableViewCell.h"
+#import "protocolView.h"
 
-@interface warmUpTableViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface warmUpTableViewController ()<UITableViewDelegate, UITableViewDataSource, pViewClickDelegate>
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) protocolView *pView;
 @end
 
 @implementation warmUpTableViewController
@@ -29,6 +31,20 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.tableView registerClass:[WuTableViewCell class] forCellReuseIdentifier:@"cell"];
+    
+    
+    self.pView = [[protocolView alloc] initWithFrame:CGRectMake(200, 200, 100, 100)];
+    [self.view addSubview:self.pView];
+    self.pView.delegate = self;
+    
+    
+    self.pView.clickBlock = ^(NSString * parm){
+        NSLog(@"block点击了:%@",parm);
+    };
+}
+
+-(void)pViewClickView:(protocolView *)view parm:(NSString *)parm {
+    NSLog(@"代理点击?%@",parm);
 }
 
 //tableview

@@ -50,6 +50,7 @@
 		0BD7DA9A239E3DD4009F884E /* CocoaPodsTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7DA99239E3DD4009F884E /* CocoaPodsTestViewController.m */; };
 		0BE9BA0B26BA951A00F14CC0 /* warmUpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9BA0A26BA951A00F14CC0 /* warmUpTableViewController.m */; };
 		0BE9BA1126BA979000F14CC0 /* WuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9BA1026BA979000F14CC0 /* WuTableViewCell.m */; };
+		0BE9BA1726BA9DE500F14CC0 /* protocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9BA1626BA9DE500F14CC0 /* protocolView.m */; };
 		0BFA823F26AE9E2300B61B67 /* Person+add1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA823E26AE9E2300B61B67 /* Person+add1.m */; };
 		0BFA824626AE9F7200B61B67 /* CategoryTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA824526AE9F7200B61B67 /* CategoryTestViewController.m */; };
 		0BFA824C26AEA03400B61B67 /* Person+add0.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA824B26AEA03400B61B67 /* Person+add0.m */; };
@@ -219,6 +220,8 @@
 		0BE9BA0A26BA951A00F14CC0 /* warmUpTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = warmUpTableViewController.m; sourceTree = "<group>"; };
 		0BE9BA0F26BA979000F14CC0 /* WuTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WuTableViewCell.h; sourceTree = "<group>"; };
 		0BE9BA1026BA979000F14CC0 /* WuTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WuTableViewCell.m; sourceTree = "<group>"; };
+		0BE9BA1526BA9DE500F14CC0 /* protocolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = protocolView.h; sourceTree = "<group>"; };
+		0BE9BA1626BA9DE500F14CC0 /* protocolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = protocolView.m; sourceTree = "<group>"; };
 		0BFA823D26AE9E2300B61B67 /* Person+add1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+add1.h"; sourceTree = "<group>"; };
 		0BFA823E26AE9E2300B61B67 /* Person+add1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+add1.m"; sourceTree = "<group>"; };
 		0BFA824426AE9F7200B61B67 /* CategoryTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryTestViewController.h; sourceTree = "<group>"; };
@@ -605,6 +608,8 @@
 				0BE9BA0A26BA951A00F14CC0 /* warmUpTableViewController.m */,
 				0BE9BA0F26BA979000F14CC0 /* WuTableViewCell.h */,
 				0BE9BA1026BA979000F14CC0 /* WuTableViewCell.m */,
+				0BE9BA1526BA9DE500F14CC0 /* protocolView.h */,
+				0BE9BA1626BA9DE500F14CC0 /* protocolView.m */,
 			);
 			path = warmUpTableViewController;
 			sourceTree = "<group>";
@@ -1196,6 +1201,7 @@
 				0B8FA6772397BF2500C42F16 /* SVWeakProxy.m in Sources */,
 				268A73F61DE1562C002DE53E /* CoreGraphicView.m in Sources */,
 				0B8387CF26A8240000D6D655 /* BlockTestView.m in Sources */,
+				0BE9BA1726BA9DE500F14CC0 /* protocolView.m in Sources */,
 				268A73E51DDFE527002DE53E /* SVSecondNavTestVC.m in Sources */,
 				267A47A61DDC4ECD00C95939 /* MASConstraint.m in Sources */,
 				0B8387C626A8218800D6D655 /* BlockTestViewController.m in Sources */,
