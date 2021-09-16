@@ -24,6 +24,7 @@
 }
 
 - (void)demo1 {
+    NSLog(@"---");
     dispatch_queue_t queue = dispatch_queue_create("svenaaa", DISPATCH_QUEUE_CONCURRENT);
     
     for (NSInteger i = 0; i < 10; i++) {
