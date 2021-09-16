@@ -9,7 +9,7 @@
 #import "GCDGroupTestViewController.h"
 
 @interface GCDGroupTestViewController ()
-
+@property (nonatomic, strong) NSMutableArray *dataArr;
 @end
 
 @implementation GCDGroupTestViewController
@@ -23,10 +23,53 @@
     self.title = @"GCD调度组";
 }
 
+- (void)demo1 {
+    dispatch_queue_t queue = dispatch_queue_create("svenaaa", DISPATCH_QUEUE_CONCURRENT);
+    
+    for (NSInteger i = 0; i < 10; i++) {
+        NSURL *url = [NSURL URLWithString:@"https://resource.gximg.cn/a8cac0_1628142249245.png"];
+        
+        dispatch_async(queue, ^{
+            NSData *data = [NSData dataWithContentsOfURL:url];
+            UIImage *img = [UIImage imageWithData:data];
+            [self.dataArr addObject:img];
+        });
+        
+        if(i == 5){
+            NSLog(@"数组个数%zd",self.dataArr.count);
+        }
+    }
+}
+
+- (void)GCDApply {
+    dispatch_apply(10, dispatch_get_global_queue(0, 0), ^(size_t index) {
+        NSLog(@"%zu",index);
+    });
+    NSLog(@"done");
+    
+}
+
+- (void)meituanIntervier {
+    __block NSInteger a = 0; //从栈到堆   栈:临时变量; 堆: 可持续的变量
+    
+    while (a < 10) {
+        dispatch_async(dispatch_get_global_queue(0, 0), ^{
+            a ++;
+//            NSLog(@"线程%@---值%zd",[NSThread currentThread], a);
+        });
+    }
+    
+    NSLog(@"外面-->%zd",a);
+}
+
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 //    [self dispatchGroup];
-    [self normalDispatchGroupEnterLeave];
+//    [self normalDispatchGroupEnterLeave];
 //    [self normalUser];
+//    [self GCDApply];
+    
+//    [self meituanIntervier];
+    [self demo1];
 }
 
 - (void)dispatchGroup { // 参考汇桔代码  LYTypeId_14_prodectCtl.h
@@ -127,6 +170,13 @@
     });
     
     NSLog(@"到这里了--没有 enter leave");
+}
+
+-(NSMutableArray *)dataArr {
+    if (!_dataArr) {
+        _dataArr = [NSMutableArray new];
+    }
+    return _dataArr;
 }
 
 @end
