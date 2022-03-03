@@ -28,8 +28,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
             endingLineNumber = "51"
-            landmarkName = "-pointInside:withEvent:"
-            landmarkType = "7">
+            landmarkName = "UIButton(SVEnlargeEdge)"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -44,8 +44,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
             endingLineNumber = "50"
-            landmarkName = "-pointInside:withEvent:"
-            landmarkType = "7">
+            landmarkName = "UIButton(SVEnlargeEdge)"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -54,7 +54,8 @@
                         @"自动布局[TT]",
                         @"CALayer动画[TT]",
                         @"锚点[TT]",
-                        @"warmUpTable"
+                        @"warmUpTable",
+                        @"多代理测试"
                         ];
 }
 
@@ -260,6 +261,12 @@
             
         case 20:{
             UIViewController *vc = [NSClassFromString(@"warmUpTableViewController") new];
+            vc.hidesBottomBarWhenPushed = true;
+            [self.navigationController pushViewController:vc animated:true];
+        }
+            
+        case 21:{
+            UIViewController *vc = [NSClassFromString(@"MutipleDelegateTestViewController") new];
             vc.hidesBottomBarWhenPushed = true;
             [self.navigationController pushViewController:vc animated:true];
         }

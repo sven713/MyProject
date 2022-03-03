@@ -17,6 +17,10 @@
 		0B29D63026B006CB00C210DA /* AnchoPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B29D62F26B006CB00C210DA /* AnchoPointViewController.m */; };
 		0B2CFEBB239764AF004F098B /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CFEBA239764AF004F098B /* YYWeakProxy.m */; };
 		0B3203EC237CF2EF001B6B70 /* TextBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */; };
+		0B52443027D058A300FB76D3 /* MutipleDelegateTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52442F27D058A300FB76D3 /* MutipleDelegateTestViewController.m */; };
+		0B52443327D05A3500FB76D3 /* HandleDelegateObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52443227D05A3500FB76D3 /* HandleDelegateObj.m */; };
+		0B52443627D05BEA00FB76D3 /* MutipleDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52443527D05BEA00FB76D3 /* MutipleDelegateHelper.m */; };
+		0B52443927D05F6C00FB76D3 /* NSObject+Delegates.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52443827D05F6C00FB76D3 /* NSObject+Delegates.m */; };
 		0B6421F61DEBB4E5008AC788 /* NotificationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6421F51DEBB4E5008AC788 /* NotificationTest.m */; };
 		0B69B564247F5D60005F29D5 /* LinkListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B69B563247F5D60005F29D5 /* LinkListTest.m */; };
 		0B69B567247F5E58005F29D5 /* SingleLinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B69B566247F5E58005F29D5 /* SingleLinkList.m */; };
@@ -154,6 +158,14 @@
 		0B2CFEBA239764AF004F098B /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		0B3203EA237CF2EF001B6B70 /* TextBlurViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBlurViewController.h; sourceTree = "<group>"; };
 		0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextBlurViewController.m; sourceTree = "<group>"; };
+		0B52442E27D058A300FB76D3 /* MutipleDelegateTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutipleDelegateTestViewController.h; sourceTree = "<group>"; };
+		0B52442F27D058A300FB76D3 /* MutipleDelegateTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutipleDelegateTestViewController.m; sourceTree = "<group>"; };
+		0B52443127D05A3500FB76D3 /* HandleDelegateObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandleDelegateObj.h; sourceTree = "<group>"; };
+		0B52443227D05A3500FB76D3 /* HandleDelegateObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandleDelegateObj.m; sourceTree = "<group>"; };
+		0B52443427D05BEA00FB76D3 /* MutipleDelegateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutipleDelegateHelper.h; sourceTree = "<group>"; };
+		0B52443527D05BEA00FB76D3 /* MutipleDelegateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutipleDelegateHelper.m; sourceTree = "<group>"; };
+		0B52443727D05F6C00FB76D3 /* NSObject+Delegates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Delegates.h"; sourceTree = "<group>"; };
+		0B52443827D05F6C00FB76D3 /* NSObject+Delegates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Delegates.m"; sourceTree = "<group>"; };
 		0B6421F41DEBB4E5008AC788 /* NotificationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationTest.h; sourceTree = "<group>"; };
 		0B6421F51DEBB4E5008AC788 /* NotificationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationTest.m; sourceTree = "<group>"; };
 		0B69B563247F5D60005F29D5 /* LinkListTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkListTest.m; sourceTree = "<group>"; };
@@ -472,6 +484,21 @@
 			path = TextBlur;
 			sourceTree = "<group>";
 		};
+		0B52442D27D0585800FB76D3 /* MutipleDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0B52442E27D058A300FB76D3 /* MutipleDelegateTestViewController.h */,
+				0B52442F27D058A300FB76D3 /* MutipleDelegateTestViewController.m */,
+				0B52443127D05A3500FB76D3 /* HandleDelegateObj.h */,
+				0B52443227D05A3500FB76D3 /* HandleDelegateObj.m */,
+				0B52443427D05BEA00FB76D3 /* MutipleDelegateHelper.h */,
+				0B52443527D05BEA00FB76D3 /* MutipleDelegateHelper.m */,
+				0B52443727D05F6C00FB76D3 /* NSObject+Delegates.h */,
+				0B52443827D05F6C00FB76D3 /* NSObject+Delegates.m */,
+			);
+			name = MutipleDelegate;
+			sourceTree = "<group>";
+		};
 		0B727C7A1DE98899006CE15E /* NSNotificationTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -762,6 +789,7 @@
 		268A73DC1DDFE459002DE53E /* AllKindsOfTest */ = {
 			isa = PBXGroup;
 			children = (
+				0B52442D27D0585800FB76D3 /* MutipleDelegate */,
 				0BE9BA0826BA94FF00F14CC0 /* warmUpTableViewController */,
 				0B29D62D26B006BA00C210DA /* 锚点 */,
 				0B29D62326AFE08E00C210DA /* CoreAnimation */,
@@ -1188,6 +1216,7 @@
 				26AA4BC51DD88C2F006C9C3A /* SVPopView.m in Sources */,
 				0BAFBDA11EB32206000E8014 /* AFURLRequestSerialization.m in Sources */,
 				26FC300C1DC021BC006688E5 /* ViewController.m in Sources */,
+				0B52443627D05BEA00FB76D3 /* MutipleDelegateHelper.m in Sources */,
 				0B6421F61DEBB4E5008AC788 /* NotificationTest.m in Sources */,
 				267A47A51DDC4ECD00C95939 /* MASCompositeConstraint.m in Sources */,
 				0BE9BA0B26BA951A00F14CC0 /* warmUpTableViewController.m in Sources */,
@@ -1212,6 +1241,7 @@
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
 				0BFACED0239A2B3900C7B859 /* UINavigationController+Leaks.m in Sources */,
 				0B2CFEBB239764AF004F098B /* YYWeakProxy.m in Sources */,
+				0B52443327D05A3500FB76D3 /* HandleDelegateObj.m in Sources */,
 				260D4AAB1DD3464200841DEC /* SVThirdViewController.m in Sources */,
 				267A47AC1DDC4ECD00C95939 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				0BFD8B51228A8EA60038E8E1 /* NContentTableViewCell.m in Sources */,
@@ -1222,7 +1252,9 @@
 				267A47C11DDC854900C95939 /* FMDatabasePool.m in Sources */,
 				267A47A71DDC4ECD00C95939 /* MASConstraintMaker.m in Sources */,
 				0BA166F926B3A9BD00026AB1 /* UIButton+Spring.m in Sources */,
+				0B52443927D05F6C00FB76D3 /* NSObject+Delegates.m in Sources */,
 				268A73EA1DDFE5C1002DE53E /* KVOTestViewController.m in Sources */,
+				0B52443027D058A300FB76D3 /* MutipleDelegateTestViewController.m in Sources */,
 				26FC30061DC021B8006688E5 /* main.m in Sources */,
 				267A47A81DDC4ECD00C95939 /* MASLayoutConstraint.m in Sources */,
 				267285551DE1C6440040163D /* OXView.m in Sources */,
