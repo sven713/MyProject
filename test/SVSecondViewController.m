@@ -55,7 +55,8 @@
                         @"CALayer动画[TT]",
                         @"锚点[TT]",
                         @"warmUpTable",
-                        @"多代理测试"
+                        @"多代理测试",
+                        @"多代理2022_3_4"
                         ];
 }
 
@@ -267,6 +268,12 @@
             
         case 21:{
             UIViewController *vc = [NSClassFromString(@"MutipleDelegateTestViewController") new];
+            vc.hidesBottomBarWhenPushed = true;
+            [self.navigationController pushViewController:vc animated:true];
+        }
+            
+        case 22:{
+            UIViewController *vc = [NSClassFromString(@"MDViewController2022_3_4") new];
             vc.hidesBottomBarWhenPushed = true;
             [self.navigationController pushViewController:vc animated:true];
         }

@@ -17,6 +17,8 @@
 		0B29D63026B006CB00C210DA /* AnchoPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B29D62F26B006CB00C210DA /* AnchoPointViewController.m */; };
 		0B2CFEBB239764AF004F098B /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2CFEBA239764AF004F098B /* YYWeakProxy.m */; };
 		0B3203EC237CF2EF001B6B70 /* TextBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */; };
+		0B40A85427D1A5A900172191 /* MutipleDelegate3_4_2022.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B40A85327D1A5A900172191 /* MutipleDelegate3_4_2022.m */; };
+		0B40A85727D1A7D400172191 /* MDViewController2022_3_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B40A85627D1A7D400172191 /* MDViewController2022_3_4.m */; };
 		0B52443027D058A300FB76D3 /* MutipleDelegateTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52442F27D058A300FB76D3 /* MutipleDelegateTestViewController.m */; };
 		0B52443327D05A3500FB76D3 /* HandleDelegateObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52443227D05A3500FB76D3 /* HandleDelegateObj.m */; };
 		0B52443627D05BEA00FB76D3 /* MutipleDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52443527D05BEA00FB76D3 /* MutipleDelegateHelper.m */; };
@@ -158,6 +160,10 @@
 		0B2CFEBA239764AF004F098B /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		0B3203EA237CF2EF001B6B70 /* TextBlurViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBlurViewController.h; sourceTree = "<group>"; };
 		0B3203EB237CF2EF001B6B70 /* TextBlurViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextBlurViewController.m; sourceTree = "<group>"; };
+		0B40A85227D1A5A900172191 /* MutipleDelegate3_4_2022.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutipleDelegate3_4_2022.h; sourceTree = "<group>"; };
+		0B40A85327D1A5A900172191 /* MutipleDelegate3_4_2022.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutipleDelegate3_4_2022.m; sourceTree = "<group>"; };
+		0B40A85527D1A7D400172191 /* MDViewController2022_3_4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewController2022_3_4.h; sourceTree = "<group>"; };
+		0B40A85627D1A7D400172191 /* MDViewController2022_3_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewController2022_3_4.m; sourceTree = "<group>"; };
 		0B52442E27D058A300FB76D3 /* MutipleDelegateTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutipleDelegateTestViewController.h; sourceTree = "<group>"; };
 		0B52442F27D058A300FB76D3 /* MutipleDelegateTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutipleDelegateTestViewController.m; sourceTree = "<group>"; };
 		0B52443127D05A3500FB76D3 /* HandleDelegateObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandleDelegateObj.h; sourceTree = "<group>"; };
@@ -491,6 +497,10 @@
 				0B52442F27D058A300FB76D3 /* MutipleDelegateTestViewController.m */,
 				0B52443127D05A3500FB76D3 /* HandleDelegateObj.h */,
 				0B52443227D05A3500FB76D3 /* HandleDelegateObj.m */,
+				0B40A85227D1A5A900172191 /* MutipleDelegate3_4_2022.h */,
+				0B40A85327D1A5A900172191 /* MutipleDelegate3_4_2022.m */,
+				0B40A85527D1A7D400172191 /* MDViewController2022_3_4.h */,
+				0B40A85627D1A7D400172191 /* MDViewController2022_3_4.m */,
 				0B52443427D05BEA00FB76D3 /* MutipleDelegateHelper.h */,
 				0B52443527D05BEA00FB76D3 /* MutipleDelegateHelper.m */,
 				0B52443727D05F6C00FB76D3 /* NSObject+Delegates.h */,
@@ -1203,6 +1213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B40A85727D1A7D400172191 /* MDViewController2022_3_4.m in Sources */,
 				0BFA823F26AE9E2300B61B67 /* Person+add1.m in Sources */,
 				0BFA824C26AEA03400B61B67 /* Person+add0.m in Sources */,
 				2672854F1DE1BBC10040163D /* Person.m in Sources */,
@@ -1293,6 +1304,7 @@
 				0BFD8B62228AA1D50038E8E1 /* UIColor+SVAdd.m in Sources */,
 				26AA4BC21DD86C9F006C9C3A /* SVPopViewController.m in Sources */,
 				0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */,
+				0B40A85427D1A5A900172191 /* MutipleDelegate3_4_2022.m in Sources */,
 				26A4F7D51DDAFA770025EBC5 /* SVFirstViewController.m in Sources */,
 				0BA166FF26B3DFF000026AB1 /* UIButton+SVEnlargeEdge.m in Sources */,
 				0B69B56A247F5E82005F29D5 /* ListNode.m in Sources */,
