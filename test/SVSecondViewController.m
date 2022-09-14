@@ -56,7 +56,8 @@
                         @"锚点[TT]",
                         @"warmUpTable",
                         @"多代理测试",
-                        @"多代理2022_3_4"
+                        @"多代理2022_3_4",
+                        @"线程保活2022_9_14",
                         ];
 }
 
@@ -274,6 +275,11 @@
             
         case 22:{
             UIViewController *vc = [NSClassFromString(@"MDViewController2022_3_4") new];
+            vc.hidesBottomBarWhenPushed = true;
+            [self.navigationController pushViewController:vc animated:true];
+        }
+        case 23:{
+            UIViewController *vc = [NSClassFromString(@"KT_firstViewController") new];
             vc.hidesBottomBarWhenPushed = true;
             [self.navigationController pushViewController:vc animated:true];
         }
