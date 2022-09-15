@@ -58,6 +58,7 @@
                         @"多代理测试",
                         @"多代理2022_3_4",
                         @"线程保活2022_9_14",
+                        @"线程保活2022_9_15",
                         ];
 }
 
@@ -280,6 +281,11 @@
         }
         case 23:{
             UIViewController *vc = [NSClassFromString(@"KT_firstViewController") new];
+            vc.hidesBottomBarWhenPushed = true;
+            [self.navigationController pushViewController:vc animated:true];
+        }
+        case 24:{
+            UIViewController *vc = [NSClassFromString(@"KT_secondViewController") new];
             vc.hidesBottomBarWhenPushed = true;
             [self.navigationController pushViewController:vc animated:true];
         }

@@ -52,6 +52,7 @@
 		0BAFBDA21EB32206000E8014 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD9B1EB32206000E8014 /* AFURLResponseSerialization.m */; };
 		0BAFBDA31EB32206000E8014 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBD9D1EB32206000E8014 /* AFURLSessionManager.m */; };
 		0BAFBDA81EB32E66000E8014 /* SVAFNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */; };
+		0BAFBDFB28D2A2070060EBA7 /* KT_secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFBDFA28D2A2070060EBA7 /* KT_secondViewController.m */; };
 		0BBF21EC1F14D448007D6FB2 /* DownloadImgOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBF21EB1F14D448007D6FB2 /* DownloadImgOperation.m */; };
 		0BD1B4BC2399020E00A608FE /* SVLeakTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B4BB2399020E00A608FE /* SVLeakTestViewController.m */; };
 		0BD1B4BF239908BE00A608FE /* NSObject+Leaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1B4BE239908BE00A608FE /* NSObject+Leaks.m */; };
@@ -232,6 +233,8 @@
 		0BAFBDA41EB3270C000E8014 /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
 		0BAFBDA61EB32E66000E8014 /* SVAFNTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVAFNTestViewController.h; sourceTree = "<group>"; };
 		0BAFBDA71EB32E66000E8014 /* SVAFNTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAFNTestViewController.m; sourceTree = "<group>"; };
+		0BAFBDF928D2A2070060EBA7 /* KT_secondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KT_secondViewController.h; sourceTree = "<group>"; };
+		0BAFBDFA28D2A2070060EBA7 /* KT_secondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KT_secondViewController.m; sourceTree = "<group>"; };
 		0BBF21EA1F14D448007D6FB2 /* DownloadImgOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImgOperation.h; sourceTree = "<group>"; };
 		0BBF21EB1F14D448007D6FB2 /* DownloadImgOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImgOperation.m; sourceTree = "<group>"; };
 		0BD1B4BA2399020E00A608FE /* SVLeakTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVLeakTestViewController.h; sourceTree = "<group>"; };
@@ -604,6 +607,8 @@
 			children = (
 				0B8DA5BB28D15342006700C7 /* KT_firstViewController.h */,
 				0B8DA5BC28D15342006700C7 /* KT_firstViewController.m */,
+				0BAFBDF928D2A2070060EBA7 /* KT_secondViewController.h */,
+				0BAFBDFA28D2A2070060EBA7 /* KT_secondViewController.m */,
 				0B8DA5BE28D15436006700C7 /* TestTheread.h */,
 				0B8DA5BF28D15436006700C7 /* TestTheread.m */,
 			);
@@ -1344,6 +1349,7 @@
 				268A73F21DE02BB2002DE53E /* CoreGraphicTestViewController.m in Sources */,
 				267A47C01DDC854900C95939 /* FMDatabaseAdditions.m in Sources */,
 				0BAFBDA21EB32206000E8014 /* AFURLResponseSerialization.m in Sources */,
+				0BAFBDFB28D2A2070060EBA7 /* KT_secondViewController.m in Sources */,
 				0BAFBD9E1EB32206000E8014 /* AFHTTPSessionManager.m in Sources */,
 				0BFD8B54228A90800038E8E1 /* UIView+SVAdd.m in Sources */,
 			);

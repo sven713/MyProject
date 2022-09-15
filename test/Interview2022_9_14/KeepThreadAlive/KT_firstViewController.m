@@ -41,8 +41,10 @@
 //
 //Demo1 知识点：
 //1. 子线程执行完任务会自动销毁，调用了dealloc ✅
-//2. 主线程的number是1
+//2. 主线程的number是1 ✅
 //3. 线程的组成
+
+//runloop为啥会自动销毁? 使用 RunLoop 的目的是让你的线程在有工作的时候忙于工作,而没工作的时候处于休眠状态。 runloop 的设计是为了减少 cpu 无谓的空转。 
 //https://www.bilibili.com/video/BV11P4y177ZN?spm_id_from=333.337.search-card.all.click&vd_source=b081b7071b78c55c9a6ff92cc7e1af38
 
 
