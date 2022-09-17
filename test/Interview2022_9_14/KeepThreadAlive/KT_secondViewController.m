@@ -67,7 +67,11 @@
 //            NSLog(@"111111");
 //        }] forMode:NSRunLoopCommonModes];
         NSLog(@"检查runloop%@",runloop);
+        [runloop runUntilDate:<#(nonnull NSDate *)#>];
         [runloop run];
+        [runloop runMode:<#(nonnull NSRunLoopMode)#> beforeDate:<#(nonnull NSDate *)#>];
+        NSDate *data = [NSDate da];
+        [runloop runMode:NSRunLoopCommonModes beforeDate:<#(nonnull NSDate *)#>];
         
 
         // 添加了machport, 就不会走这里,线程保活了
@@ -96,5 +100,16 @@
 // source0: 用户触发,数据结构:数组
 // source1: 系统内核,数据结构:key(machport)-value(source1) ; 线程,runloop=> key-value
 
-// TODO: 主线程要保活么
+// 主线程要保活么? 不需要,看源码isEmpty; 主线程return false;  子线程,sources, timers 有return false
+// 子线程创建后,不会默认启动,创建直接启动浪费资源,任务结束,线程销毁,节省资源, 线程保活,避免频繁创建销毁线程,节省资源
+// Q:子线程任务结束, runloop应该销毁-线程销毁? 如何销毁runloop? 不能销毁的问题出在启动方式
+// 直接Start的runloop不会销毁, 只有用runMode可以, 别的方法底层都是while循环
+
+
+//- (void)run;
+//- (void)runUntilDate:(NSDate *)limitDate;
+//- (BOOL)runMode:(NSRunLoopMode)mode beforeDate:(NSDate *)limitDate;
+//底层源码可见(https://github.com/apple/swift-corelibs-foundation/blob/main/Sources/Foundation/RunLoop.swift),前两个方法都是在使用while循环调用第三个方法
+
+// Q:CF VS NS  CF线程安全, NS线程不安全, ns面向对象.  线程不安全是啥意思? 多个线程对同一个数据的写操作,可能造成数据不一致
 @end
