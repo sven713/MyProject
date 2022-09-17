@@ -57,7 +57,7 @@
         NSLog(@"线程%@",[NSThread currentThread]);
         
         NSRunLoop *runloop = [NSRunLoop currentRunLoop];
-        // 添加一个port 保活
+        // 添加一个port 保活; 不加就死了,子线程任务不会执行
         [runloop addPort:[NSMachPort port] forMode:NSRunLoopCommonModes]; //加上这个,后面都不走了
          //  source1:基于port内核事件,主动唤醒.  数据结构? key(machport)-value(source1)
         // source0用户的,主动出发的触摸  数据结构? 数组
@@ -67,11 +67,11 @@
 //            NSLog(@"111111");
 //        }] forMode:NSRunLoopCommonModes];
         NSLog(@"检查runloop%@",runloop);
-        [runloop runUntilDate:<#(nonnull NSDate *)#>];
+//        [runloop runUntilDate:<#(nonnull NSDate *)#>];
         [runloop run];
-        [runloop runMode:<#(nonnull NSRunLoopMode)#> beforeDate:<#(nonnull NSDate *)#>];
-        NSDate *data = [NSDate da];
-        [runloop runMode:NSRunLoopCommonModes beforeDate:<#(nonnull NSDate *)#>];
+//        [runloop runMode:<#(nonnull NSRunLoopMode)#> beforeDate:<#(nonnull NSDate *)#>];
+//        NSDate *data = [NSDate da];
+//        [runloop runMode:NSRunLoopCommonModes beforeDate:<#(nonnull NSDate *)#>];
         
 
         // 添加了machport, 就不会走这里,线程保活了
@@ -91,7 +91,7 @@
 - (void)addSubThreadAction {
     NSLog(@"子线程操作%@",[NSThread currentThread]);
     // 没有调用这里,是因为runloop休眠了; 为啥休眠了?
-    // 因为runloop组成: mode包含sources/ timer/ observer; 如果没有sources timer就休眠,省cup
+    // 因为runloop组成: modes包含sources/ timer/ observer; 如果没有sources timer就休眠,省cup
 }
 
 // [Demo2 知识点：]

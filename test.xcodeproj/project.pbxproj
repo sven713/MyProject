@@ -31,6 +31,7 @@
 		0B727C801DEAB6D8006CE15E /* NSNotificationCenter+remove.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C7F1DEAB6D8006CE15E /* NSNotificationCenter+remove.m */; };
 		0B727C831DEAE0F7006CE15E /* ObjRemoveObserveTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C821DEAE0F7006CE15E /* ObjRemoveObserveTestViewController.m */; };
 		0B727C861DEAFA43006CE15E /* MRCNotificationTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B727C851DEAFA43006CE15E /* MRCNotificationTestViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0B74505C28D59A1B000975FE /* KT_thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B74505B28D59A1B000975FE /* KT_thirdViewController.m */; };
 		0B795E851E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E841E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m */; };
 		0B795E881E2F15940011FA32 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E871E2F15940011FA32 /* Child.m */; };
 		0B795E8B1E2F16DD0011FA32 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B795E8A1E2F16DD0011FA32 /* Father.m */; };
@@ -190,6 +191,8 @@
 		0B727C821DEAE0F7006CE15E /* ObjRemoveObserveTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjRemoveObserveTestViewController.m; sourceTree = "<group>"; };
 		0B727C841DEAFA43006CE15E /* MRCNotificationTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCNotificationTestViewController.h; sourceTree = "<group>"; };
 		0B727C851DEAFA43006CE15E /* MRCNotificationTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCNotificationTestViewController.m; sourceTree = "<group>"; };
+		0B74505A28D59A1B000975FE /* KT_thirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KT_thirdViewController.h; sourceTree = "<group>"; };
+		0B74505B28D59A1B000975FE /* KT_thirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KT_thirdViewController.m; sourceTree = "<group>"; };
 		0B795E831E2F0AEB0011FA32 /* OCMemoryStructTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMemoryStructTestViewController.h; sourceTree = "<group>"; };
 		0B795E841E2F0AEB0011FA32 /* OCMemoryStructTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMemoryStructTestViewController.m; sourceTree = "<group>"; };
 		0B795E861E2F15940011FA32 /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
@@ -609,6 +612,8 @@
 				0B8DA5BC28D15342006700C7 /* KT_firstViewController.m */,
 				0BAFBDF928D2A2070060EBA7 /* KT_secondViewController.h */,
 				0BAFBDFA28D2A2070060EBA7 /* KT_secondViewController.m */,
+				0B74505A28D59A1B000975FE /* KT_thirdViewController.h */,
+				0B74505B28D59A1B000975FE /* KT_thirdViewController.m */,
 				0B8DA5BE28D15436006700C7 /* TestTheread.h */,
 				0B8DA5BF28D15436006700C7 /* TestTheread.m */,
 			);
@@ -1278,6 +1283,7 @@
 				0B8387C626A8218800D6D655 /* BlockTestViewController.m in Sources */,
 				0B795E8B1E2F16DD0011FA32 /* Father.m in Sources */,
 				0BFD8B5F228AA1020038E8E1 /* SVNContentCollectionViewCell.m in Sources */,
+				0B74505C28D59A1B000975FE /* KT_thirdViewController.m in Sources */,
 				26AA4BD21DD9CBD4006C9C3A /* UIAlertView+SVBlockAlertView.m in Sources */,
 				0B825B4822420BE8005FD9CE /* MoveTestViewController.m in Sources */,
 				26FC30091DC021BC006688E5 /* AppDelegate.m in Sources */,
