@@ -60,7 +60,7 @@
                         @"线程保活2022_9_14",
                         @"线程保活2022_9_15",
                         @"线程保活2022_9_17",
-                        ];
+                        @"GCD_死锁2022_9_24"];
 }
 
 
@@ -295,6 +295,14 @@
             vc.hidesBottomBarWhenPushed = true;
             [self.navigationController pushViewController:vc animated:true];
         }
+            
+        case 26:{
+            UIViewController *vc = [NSClassFromString(@"DeadlockViewController") new];
+            vc.hidesBottomBarWhenPushed = true;
+            [self.navigationController pushViewController:vc animated:true];
+        }
+            
+            
             
         default:
             break;

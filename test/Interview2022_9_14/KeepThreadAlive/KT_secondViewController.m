@@ -66,7 +66,7 @@
 //        [runloop addTimer:[NSTimer timerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
 //            NSLog(@"111111");
 //        }] forMode:NSRunLoopCommonModes];
-        NSLog(@"检查runloop%@",runloop);
+//        NSLog(@"检查runloop%@",runloop);
 //        [runloop runUntilDate:<#(nonnull NSDate *)#>];
         [runloop run];
 //        [runloop runMode:<#(nonnull NSRunLoopMode)#> beforeDate:<#(nonnull NSDate *)#>];
@@ -103,7 +103,7 @@
 // 主线程要保活么? 不需要,看源码isEmpty; 主线程return false;  子线程,sources, timers 有return false
 // 子线程创建后,不会默认启动,创建直接启动浪费资源,任务结束,线程销毁,节省资源, 线程保活,避免频繁创建销毁线程,节省资源
 // Q:子线程任务结束, runloop应该销毁-线程销毁? 如何销毁runloop? 不能销毁的问题出在启动方式
-// 直接Start的runloop不会销毁, 只有用runMode可以, 别的方法底层都是while循环
+// 直接run的runloop不会销毁, 只有用runMode可以, 别的方法底层都是while循环
 
 
 //- (void)run;

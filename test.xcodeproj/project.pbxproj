@@ -43,6 +43,7 @@
 		0B8387D526A82EE200D6D655 /* CopyStrongTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8387D426A82EE200D6D655 /* CopyStrongTestViewController.m */; };
 		0B8DA5BD28D15342006700C7 /* KT_firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8DA5BC28D15342006700C7 /* KT_firstViewController.m */; };
 		0B8DA5C028D15436006700C7 /* TestTheread.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8DA5BF28D15436006700C7 /* TestTheread.m */; };
+		0B8F4FC528DED0ED00EACBEE /* DeadlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8F4FC428DED0ED00EACBEE /* DeadlockViewController.m */; };
 		0B8FA6772397BF2500C42F16 /* SVWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */; };
 		0BA166F926B3A9BD00026AB1 /* UIButton+Spring.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA166F826B3A9BD00026AB1 /* UIButton+Spring.m */; };
 		0BA166FF26B3DFF000026AB1 /* UIButton+SVEnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA166FE26B3DFF000026AB1 /* UIButton+SVEnlargeEdge.m */; };
@@ -214,6 +215,8 @@
 		0B8DA5BC28D15342006700C7 /* KT_firstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KT_firstViewController.m; sourceTree = "<group>"; };
 		0B8DA5BE28D15436006700C7 /* TestTheread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTheread.h; sourceTree = "<group>"; };
 		0B8DA5BF28D15436006700C7 /* TestTheread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTheread.m; sourceTree = "<group>"; };
+		0B8F4FC328DED0ED00EACBEE /* DeadlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeadlockViewController.h; sourceTree = "<group>"; };
+		0B8F4FC428DED0ED00EACBEE /* DeadlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadlockViewController.m; sourceTree = "<group>"; };
 		0B8FA6752397BF2500C42F16 /* SVWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVWeakProxy.h; sourceTree = "<group>"; };
 		0B8FA6762397BF2500C42F16 /* SVWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVWeakProxy.m; sourceTree = "<group>"; };
 		0BA166F726B3A9BD00026AB1 /* UIButton+Spring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Spring.h"; sourceTree = "<group>"; };
@@ -600,6 +603,7 @@
 		0B8DA5B928D152BD006700C7 /* Interview2022_9_14 */ = {
 			isa = PBXGroup;
 			children = (
+				0B8F4FC228DED0BE00EACBEE /* DeadLock */,
 				0B8DA5BA28D152F1006700C7 /* KeepThreadAlive */,
 			);
 			path = Interview2022_9_14;
@@ -618,6 +622,15 @@
 				0B8DA5BF28D15436006700C7 /* TestTheread.m */,
 			);
 			path = KeepThreadAlive;
+			sourceTree = "<group>";
+		};
+		0B8F4FC228DED0BE00EACBEE /* DeadLock */ = {
+			isa = PBXGroup;
+			children = (
+				0B8F4FC328DED0ED00EACBEE /* DeadlockViewController.h */,
+				0B8F4FC428DED0ED00EACBEE /* DeadlockViewController.m */,
+			);
+			path = DeadLock;
 			sourceTree = "<group>";
 		};
 		0BAFBD901EB32206000E8014 /* AFNetworking */ = {
@@ -1252,6 +1265,7 @@
 				0B40A85727D1A7D400172191 /* MDViewController2022_3_4.m in Sources */,
 				0BFA823F26AE9E2300B61B67 /* Person+add1.m in Sources */,
 				0BFA824C26AEA03400B61B67 /* Person+add0.m in Sources */,
+				0B8F4FC528DED0ED00EACBEE /* DeadlockViewController.m in Sources */,
 				2672854F1DE1BBC10040163D /* Person.m in Sources */,
 				264D91AA1DF86B5C00FCA172 /* GCDGroupTestViewController.m in Sources */,
 				267A47B01DDC5A2B00C95939 /* UITableViewCell+SVAutoCalcuCellHeight.m in Sources */,
