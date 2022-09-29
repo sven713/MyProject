@@ -5,7 +5,8 @@
 //  Created by 宋锡铭 on 2022/9/24.
 //  Copyright © 2022 sven. All rights reserved.
 //
-
+#warning 终于搞定死锁了
+#warning 死锁条件: 同步 + 串行队列, 并且同步所在的队列(dispatch_sync外的队列)跟串行队列不是同一个队列
 #import "DeadlockViewController.h"
 
 @interface DeadlockViewController ()
@@ -26,6 +27,24 @@
 //        [self testDemo3];
 //    }
     [self addView];
+    
+    // 同步 + 主线程 一定堵塞? 不一定, 同步所在的线程如果不是主线程就不会死锁
+    
+//    dispatch_sync(dispatch_get_main_queue(), ^{
+//
+//    });
+    
+    dispatch_queue_t queue = dispatch_queue_create(@"svQueue", DISPATCH_QUEUE_SERIAL);
+    
+    dispatch_async(queue, ^{
+        // dispatch_get_main_queue 不死锁
+        // queue死锁
+//        dispatch_sync(queue, ^{
+//
+//        });
+    });
+    
+    [self testDemo1];
 }
 
 - (void)addView {
@@ -41,11 +60,13 @@
 //        NSLog(@"1");
 //    }); // 同步+ 串行不一定死锁: 主线程,同步+非主队列的串行队列,不会死锁/ 主队列+主线程会死锁
         
-        // why?不明白?????? 问王宇? 京东同事
     
+    dispatch_queue_t queue1 = dispatch_queue_create("ss", DISPATCH_QUEUE_SERIAL);
     dispatch_async(queue, ^{
         NSLog(@"2");
-        dispatch_sync(queue, ^{
+        // queue死锁
+        // queue1 不会死锁
+        dispatch_sync(queue1, ^{
 
         });
     });
